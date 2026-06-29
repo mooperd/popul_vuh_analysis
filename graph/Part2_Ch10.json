@@ -1,0 +1,242 @@
+{
+  "chapter": "Part2_Ch10",
+  "chapter_file": "chapters/Part2_Ch10.txt",
+  "title": "The Houses of Cold, Jaguars, and Fire, and the Decapitation of Hunahpú in the House of Bats",
+  "summary": "The Hero Twins survive three more torture houses of Xibalba—the House of Cold, the House of Jaguars, and the House of Fire—each time emerging healthy and confounding the lords. In the House of Bats they sleep inside their blowguns, but when Hunahpú peers out to check for dawn, the bat-monster Camazotz cuts off his head. The lords hang Hunahpú's severed head in the ball-court to be used in play, echoing the earlier beheading of his father and setting up his miraculous restoration.",
+  "nodes": [
+    {
+      "id": "house-of-cold",
+      "label": "The House of Cold",
+      "type": "place",
+      "chapter": "Part2_Ch10",
+      "description": "A torture house of Xibalba filled with hail and unbearable cold, meant to freeze intruders to death. The Twins survive by kindling a fire of old logs to drive the cold away, emerging alive at dawn."
+    },
+    {
+      "id": "jaguar-house",
+      "label": "The House of Jaguars",
+      "type": "place",
+      "chapter": "Part2_Ch10",
+      "description": "A torture house of Xibalba packed with jaguars meant to devour intruders. The Twins pacify the beasts by throwing them bones to gnaw, and pass through unharmed while the guards wrongly assume they have been eaten."
+    },
+    {
+      "id": "fire-house",
+      "label": "The House of Fire",
+      "type": "place",
+      "chapter": "Part2_Ch10",
+      "description": "A torture house of Xibalba whose interior is nothing but fire, meant to burn intruders alive. The Twins are unharmed—only the coals and wood burn—and they emerge well at dawn, disheartening the lords."
+    },
+    {
+      "id": "bat-house",
+      "label": "The House of Bats",
+      "type": "place",
+      "chapter": "Part2_Ch10",
+      "description": "A torture house of Xibalba full of bats, the mansion of Camazotz. The Twins shelter inside their blowguns through the night, but it is here that Hunahpú is decapitated when he looks out to check for the dawn."
+    },
+    {
+      "id": "camazotz",
+      "label": "Camazotz (the Death Bat)",
+      "type": "creature",
+      "chapter": "Part2_Ch10",
+      "description": "A large bat-monster of Xibalba whose killing weapon is like a dry, sharp point, slaying any creature that comes before it. A second Camazotz descends from the sky and cuts off Hunahpú's head when he peers out of his blowgun to check for dawn."
+    },
+    {
+      "id": "decapitation-of-hunahpu",
+      "label": "The Decapitation of Hunahpú",
+      "type": "event",
+      "chapter": "Part2_Ch10",
+      "description": "In the House of Bats, Hunahpú looks out of his blowgun to see if dawn has come and Camazotz instantly cuts off his head. By order of Hun-Camé and Vucub-Camé the severed head is hung in the ball-court, and all Xibalba rejoices."
+    },
+    {
+      "id": "head-of-hunahpu-as-ball",
+      "label": "The Head of Hunahpú (Used as the Ball)",
+      "type": "object",
+      "chapter": "Part2_Ch10",
+      "description": "Hunahpú's severed head, hung in the ball-court by order of the lords of Xibalba to be used in the ballgame. It parallels the calabash made from Hun-Hunahpú's head and becomes central to the Twins' coming trick of restoration."
+    }
+  ],
+  "edges": [
+    {
+      "source": "hero-twins",
+      "target": "house-of-cold",
+      "relation": "defeats",
+      "description": "The Twins survive the House of Cold by kindling a fire of old logs to dispel the hail and freezing cold, emerging alive and healthy at dawn.",
+      "directed": true,
+      "weight": 3,
+      "evidence": "with [a fire of] old logs the boys made the cold disappear... they were still full of health"
+    },
+    {
+      "source": "house-of-cold",
+      "target": "houses-of-punishment",
+      "relation": "part of",
+      "description": "The House of Cold is one of the named torture houses making up the houses of punishment of Xibalba.",
+      "directed": true,
+      "weight": 3
+    },
+    {
+      "source": "house-of-cold",
+      "target": "xibalba",
+      "relation": "located in",
+      "description": "The House of Cold is situated within the underworld realm of Xibalba.",
+      "directed": true,
+      "weight": 2
+    },
+    {
+      "source": "hero-twins",
+      "target": "jaguar-house",
+      "relation": "defeats",
+      "description": "The Twins pass through the House of Jaguars by throwing the jaguars bones to gnaw, so the beasts leave them untouched and they come out well and healthy.",
+      "directed": true,
+      "weight": 3,
+      "evidence": "they threw some bones to the animals, which pounced upon the bones... they came out of the House of Jaguars"
+    },
+    {
+      "source": "jaguar-house",
+      "target": "houses-of-punishment",
+      "relation": "part of",
+      "description": "The House of Jaguars is one of the named torture houses making up the houses of punishment of Xibalba.",
+      "directed": true,
+      "weight": 3
+    },
+    {
+      "source": "jaguar-house",
+      "target": "xibalba",
+      "relation": "located in",
+      "description": "The House of Jaguars is situated within the underworld realm of Xibalba.",
+      "directed": true,
+      "weight": 2
+    },
+    {
+      "source": "hero-twins",
+      "target": "fire-house",
+      "relation": "defeats",
+      "description": "The Twins endure the House of Fire unharmed—only the coals and wood burn—and emerge well at dawn, disheartening the lords of Xibalba.",
+      "directed": true,
+      "weight": 3,
+      "evidence": "inside which there was only fire; but they were not burned. Only the coals and the wood burned."
+    },
+    {
+      "source": "fire-house",
+      "target": "houses-of-punishment",
+      "relation": "part of",
+      "description": "The House of Fire is one of the named torture houses making up the houses of punishment of Xibalba.",
+      "directed": true,
+      "weight": 3
+    },
+    {
+      "source": "fire-house",
+      "target": "xibalba",
+      "relation": "located in",
+      "description": "The House of Fire is situated within the underworld realm of Xibalba.",
+      "directed": true,
+      "weight": 2
+    },
+    {
+      "source": "bat-house",
+      "target": "houses-of-punishment",
+      "relation": "part of",
+      "description": "The House of Bats is one of the named torture houses making up the houses of punishment of Xibalba; it is the mansion of Camazotz.",
+      "directed": true,
+      "weight": 3
+    },
+    {
+      "source": "bat-house",
+      "target": "xibalba",
+      "relation": "located in",
+      "description": "The House of Bats is situated within the underworld realm of Xibalba.",
+      "directed": true,
+      "weight": 2
+    },
+    {
+      "source": "camazotz",
+      "target": "bat-house",
+      "relation": "located in",
+      "description": "Camazotz is the killing bat-monster who dwells in and presides over the House of Bats.",
+      "directed": true,
+      "weight": 3
+    },
+    {
+      "source": "hero-twins",
+      "target": "blowgun",
+      "relation": "seeks",
+      "description": "In the House of Bats the Twins shelter by sleeping inside their blowguns to avoid being bitten by the bats; the blowguns serve as their refuge through the night.",
+      "directed": true,
+      "weight": 2,
+      "evidence": "they slept inside their blowguns. And they were not bitten by those who were in the house."
+    },
+    {
+      "source": "camazotz",
+      "target": "decapitation-of-hunahpu",
+      "relation": "leads to",
+      "description": "When Hunahpú looks out of his blowgun to check for dawn, Camazotz instantly cuts off his head, causing his decapitation.",
+      "directed": true,
+      "weight": 5,
+      "evidence": "instantly Camazotz cut off his head and the body of Hunahpú was decapitated"
+    },
+    {
+      "source": "camazotz",
+      "target": "hunahpu",
+      "relation": "sacrifices",
+      "description": "Camazotz beheads Hunahpú in the House of Bats, the only blow in the trials of Xibalba to bring down one of the Twins.",
+      "directed": true,
+      "weight": 5,
+      "evidence": "Camazotz cut off his head and the body of Hunahpú was decapitated"
+    },
+    {
+      "source": "decapitation-of-hunahpu",
+      "target": "bat-house",
+      "relation": "located in",
+      "description": "Hunahpú's decapitation takes place inside the House of Bats during the night-long trial there.",
+      "directed": true,
+      "weight": 3
+    },
+    {
+      "source": "decapitation-of-hunahpu",
+      "target": "head-of-hunahpu-as-ball",
+      "relation": "leads to",
+      "description": "The beheading produces Hunahpú's severed head, which the lords then take to hang in the ball-court.",
+      "directed": true,
+      "weight": 4
+    },
+    {
+      "source": "hun-came",
+      "target": "head-of-hunahpu-as-ball",
+      "relation": "seeks",
+      "description": "By special order of Hun-Camé and Vucub-Camé, Hunahpú's head is hung in the ball-court to be used in play, and all Xibalba rejoices.",
+      "directed": true,
+      "weight": 3,
+      "evidence": "to hang the head [of Hunahpú] in the ball-court by special order of Hun-Camé and Vucub-Camé"
+    },
+    {
+      "source": "head-of-hunahpu-as-ball",
+      "target": "ball-court",
+      "relation": "located in",
+      "description": "The severed head of Hunahpú is hung in the ball-court of Xibalba to serve as the ball for the coming game.",
+      "directed": true,
+      "weight": 3
+    },
+    {
+      "source": "decapitation-of-hunahpu",
+      "target": "sacrifice-of-the-fathers",
+      "relation": "parallels",
+      "description": "Hunahpú's beheading mirrors the earlier sacrifice and decapitation of his father Hun-Hunahpú in Xibalba, repeating the pattern of a head severed by the lords across generations.",
+      "directed": false,
+      "weight": 4
+    },
+    {
+      "source": "head-of-hunahpu-as-ball",
+      "target": "calabash-tree",
+      "relation": "parallels",
+      "description": "Hunahpú's severed head, hung and displayed by the lords, parallels the head of his father Hun-Hunahpú placed in the calabash tree—both heads of the Hunahpú line exhibited in Xibalba.",
+      "directed": false,
+      "weight": 4
+    },
+    {
+      "source": "decapitation-of-hunahpu",
+      "target": "sacrifice-and-rebirth-theme",
+      "relation": "exemplifies",
+      "description": "Hunahpú's death by beheading enacts the recurring theme of sacrifice followed by rebirth; his head will be restored, turning apparent defeat into renewed life.",
+      "directed": true,
+      "weight": 4
+    }
+  ]
+}

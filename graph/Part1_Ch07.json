@@ -1,0 +1,171 @@
+{
+  "chapter": "Part1_Ch07",
+  "chapter_file": "chapters/Part1_Ch07.txt",
+  "title": "The Deeds of Zipacná: The Killing of the Four Hundred Boys",
+  "summary": "This chapter turns to the deeds of Zipacná, the proud elder son of Vucub-Caquix, who calls himself the maker of the mountains. When four hundred youths struggling to drag a log try to murder him by crushing him in a pit, Zipacná outwits them: he digs a side-tunnel to safety, tricks them with cut hair and gnawed-off fingernails into believing the ants have eaten his corpse, and then waits until they are drunk on chicha and collapses their house upon them, killing all four hundred. The slain youths are said to become the star-cluster called Motz (the Pleiades). The episode continues the family of vainglorious giants whom the Hero Twins have resolved to destroy, deepening Zipacná's arrogance before his own downfall in the chapter to come.",
+  "nodes": [
+    {
+      "id": "four-hundred-boys",
+      "label": "The Four Hundred Boys",
+      "type": "character",
+      "chapter": "Part1_Ch07",
+      "description": "A band of four hundred youths who, after Zipacná effortlessly carries the great log for the ridge-pole of their house, plot to kill him out of fear and resentment of his strength. They dig a pit to crush him, are deceived into thinking him dead, and are then slain en masse when the drunken company is buried under their own collapsing house."
+    },
+    {
+      "id": "great-log",
+      "label": "The Great Log (Ridge-Pole)",
+      "type": "object",
+      "chapter": "Part1_Ch07",
+      "description": "The large tree the four hundred youths cut down for the ridge-pole of their house but cannot lift. Zipacná carries it alone, displaying the strength that provokes the youths' plot; the same log is then hurled into the pit in their failed attempt to crush him."
+    },
+    {
+      "id": "pit-trap",
+      "label": "The Pit Trap",
+      "type": "event",
+      "chapter": "Part1_Ch07",
+      "description": "The deep pit the four hundred boys dig and lure Zipacná into, intending to drop the great log on him and bury him alive. Zipacná foils the trap by secretly digging a side-hole to safety and feigning his death, turning the murder attempt against its makers."
+    },
+    {
+      "id": "zipacna-feigns-death",
+      "label": "Zipacná's Feigned Death and Vengeance",
+      "type": "event",
+      "chapter": "Part1_Ch07",
+      "description": "Hidden in his side-tunnel, Zipacná cuts his hair and gnaws off his fingernails so the ants carry them up, convincing the four hundred boys he has rotted and died. Once they grow careless and drink themselves senseless on chicha, he topples their house onto their heads and kills every one of them — a deception-and-retribution that mirrors the wider pattern of the abused or threatened destroying their attackers."
+    },
+    {
+      "id": "motz-stars",
+      "label": "Motz (the Pleiades)",
+      "type": "place",
+      "chapter": "Part1_Ch07",
+      "description": "The cluster of stars said to have been formed from the four hundred slain youths, called Motz (the Pleiades) — 'though it may not be true.' A celestial transformation that gives an origin-myth for the star group out of the boys' deaths."
+    }
+  ],
+  "edges": [
+    {
+      "source": "vucub-caquix",
+      "target": "zipacna",
+      "relation": "is parent of",
+      "description": "The chapter reaffirms Zipacná as the elder son of Vucub-Caquix as it turns to recount his own deeds.",
+      "directed": true,
+      "weight": 3,
+      "evidence": "Here now are the deeds of Zipacná the elder son of Vucub-Caquix"
+    },
+    {
+      "source": "zipacna",
+      "target": "pride-and-vainglory-theme",
+      "relation": "exemplifies",
+      "description": "Zipacná opens the chapter repeating his boast to be the maker of the mountains, again enacting the vainglorious self-exaltation that marks the whole family of Vucub-Caquix.",
+      "directed": true,
+      "weight": 4,
+      "evidence": "I am the creator of the mountains, said Zipacná"
+    },
+    {
+      "source": "four-hundred-boys",
+      "target": "great-log",
+      "relation": "seeks",
+      "description": "The four hundred youths cut down a large tree and struggle to drag it as the ridge-pole for their house, but cannot lift it onto their shoulders.",
+      "directed": true,
+      "weight": 2,
+      "evidence": "four hundred youths passed dragging a log to support their house ... which we cannot lift and carry on our shoulders"
+    },
+    {
+      "source": "zipacna",
+      "target": "great-log",
+      "relation": "seeks",
+      "description": "Zipacná single-handedly lifts the great log the four hundred could not move and carries it to their house, a feat of strength that provokes the youths' murderous envy.",
+      "directed": true,
+      "weight": 3,
+      "evidence": "lifting it up, he put it on his shoulders and carried it to the entrance of the house of the four hundred boys"
+    },
+    {
+      "source": "four-hundred-boys",
+      "target": "pit-trap",
+      "relation": "creates",
+      "description": "Fearing what Zipacná's strength means for them, the four hundred boys dig a deep pit and lure him into it, planning to drop the great log on him and kill him.",
+      "directed": true,
+      "weight": 4,
+      "evidence": "Let us make a big hole and push him so that he will fall into it ... then they dug a large, very deep pit"
+    },
+    {
+      "source": "four-hundred-boys",
+      "target": "zipacna",
+      "relation": "opposes",
+      "description": "The four hundred youths turn against Zipacná, conspiring to murder him because they judge his lone feat of strength a threat to them.",
+      "directed": true,
+      "weight": 4,
+      "evidence": "How shall we kill this boy? Because it is not good what he has done lifting the log alone"
+    },
+    {
+      "source": "pit-trap",
+      "target": "zipacna",
+      "relation": "deceives",
+      "description": "The pit and falling-log scheme is meant to bury Zipacná alive, but he secretly digs a second hole to one side and escapes, so the trap fails to harm him.",
+      "directed": true,
+      "weight": 3,
+      "evidence": "the pit which he was making was to save him from danger ... he made a second hole at one side in order to free himself"
+    },
+    {
+      "source": "zipacna",
+      "target": "four-hundred-boys",
+      "relation": "deceives",
+      "description": "From his side-tunnel Zipacná tricks the four hundred boys into believing him dead, giving the ants his cut hair and gnawed-off fingernails so they think his corpse is rotting.",
+      "directed": true,
+      "weight": 4,
+      "evidence": "Zipacná was very much alive. He had cut his hair and gnawed off his fingernails to give them to the ants"
+    },
+    {
+      "source": "zipacna",
+      "target": "zipacna-feigns-death",
+      "relation": "leads to",
+      "description": "Zipacná's feigned death lulls the four hundred boys into a drunken celebration, setting up his vengeance.",
+      "directed": true,
+      "weight": 4,
+      "evidence": "the four hundred boys believed that he was dead, and on the third day they began the orgy and all of the boys got drunk"
+    },
+    {
+      "source": "zipacna-feigns-death",
+      "target": "four-hundred-boys",
+      "relation": "destroys",
+      "description": "Once the four hundred are insensible with chicha, Zipacná lets their own house fall on their heads and kills every one of them, not even one or two escaping.",
+      "directed": true,
+      "weight": 5,
+      "evidence": "Zipacná let the house fall on their heads and killed all of them. Not even one or two among the four hundred were saved"
+    },
+    {
+      "source": "zipacna",
+      "target": "four-hundred-boys",
+      "relation": "defeats",
+      "description": "Zipacná overcomes the four hundred youths who plotted his death, turning their own trap and their own house against them and annihilating them.",
+      "directed": true,
+      "weight": 4,
+      "evidence": "they were killed by Zipacná, son of Vucub-Caquix"
+    },
+    {
+      "source": "four-hundred-boys",
+      "target": "motz-stars",
+      "relation": "transforms into",
+      "description": "After their deaths the four hundred boys are said to become the star-cluster called Motz (the Pleiades), an origin-myth for the group of stars — though the text adds it may not be true.",
+      "directed": true,
+      "weight": 3,
+      "evidence": "they became the group of stars which because of them are called Motz, but it may not be true"
+    },
+    {
+      "source": "zipacna-feigns-death",
+      "target": "cosmic-retribution-theme",
+      "relation": "exemplifies",
+      "description": "Those who plotted Zipacná's murder are themselves destroyed by their own trap and dwelling, echoing the corpus's theme that aggression and abuse rebound fatally upon the aggressor.",
+      "directed": true,
+      "weight": 3,
+      "evidence": "if, unfortunately, he had continued ... we would have been lost ... And then Zipacná let the house fall on their heads"
+    },
+    {
+      "source": "zipacna",
+      "target": "decision-to-destroy-vucub-caquix",
+      "relation": "prefigures",
+      "description": "Zipacná's prideful, lethal deeds here deepen the menace of the boastful giants the Hero Twins resolved in Part1_Ch05 to destroy, setting the stage for his own downfall at their hands in the following chapter.",
+      "directed": true,
+      "weight": 4,
+      "evidence": "Here now are the deeds of Zipacná the elder son of Vucub-Caquix ... the deaths of Vucub-Caquix and his sons ... was decided upon by the youths"
+    }
+  ]
+}

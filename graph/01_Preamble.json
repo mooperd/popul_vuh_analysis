@@ -1,0 +1,234 @@
+{
+  "chapter": "01_Preamble",
+  "chapter_file": "chapters/01_Preamble.txt",
+  "title": "Preamble: The Re-telling of the Hidden Book",
+  "summary": "The Preamble opens the Popol Vuh by declaring its purpose: to reveal and re-narrate the ancient hidden origins of the Quiché nation. It names the divine creators and the diviner grandparents who brought the world into being, and frames the work as a Christian-era re-writing of a lost original book in which the formation of sky and earth and the coming 'from the other side of the sea' could once be clearly seen.",
+  "nodes": [
+    {
+      "id": "popol-vuh",
+      "label": "Popol Vuh",
+      "type": "object",
+      "chapter": "01_Preamble",
+      "description": "The sacred book of the Quiché whose origins and traditions this text re-tells. By the time of writing its original 'sight is hidden,' so the present account is composed to bring its content back to light under Christianity."
+    },
+    {
+      "id": "original-hidden-book",
+      "label": "The Original Hidden Book",
+      "type": "object",
+      "chapter": "01_Preamble",
+      "description": "The ancient book 'written long ago' in which the formation of sky and earth and 'the coming from the other side of the sea' was clearly seen. Its sight is now hidden to searcher and thinker, motivating this re-telling."
+    },
+    {
+      "id": "quiche-nation",
+      "label": "The Quiché Nation",
+      "type": "lineage",
+      "chapter": "01_Preamble",
+      "description": "The people, tribes, and town of the Quiché whose origin and 'old traditions' the book records. The whole narrative is framed as the story of all that was done by the tribes of the Quiché."
+    },
+    {
+      "id": "tzacol-bitol",
+      "label": "Tzacol and Bitol (the Creator and the Maker)",
+      "type": "deity",
+      "chapter": "01_Preamble",
+      "description": "The Creator (Tzacol) and the Maker (Bitol), the paired forming deities responsible for the revelation. They are the 'Creator and the Maker' who shaped and divided sky and earth."
+    },
+    {
+      "id": "alom-qaholom",
+      "label": "Alom and Qaholom (the Forefathers / Mother and Father of Life)",
+      "type": "deity",
+      "chapter": "01_Preamble",
+      "description": "Alom (she who gives birth to children) and Qaholom (he who gives breath and thought), the maternal-paternal creator pair invoked as the 'Mother and the Father of Life, of all created things.'"
+    },
+    {
+      "id": "tepeu",
+      "label": "Tepeu",
+      "type": "deity",
+      "chapter": "01_Preamble",
+      "description": "One of the named divine creators invoked in the Preamble's roll-call of the gods who reveal the origins, frequently paired with Gucumatz as a sovereign creator power."
+    },
+    {
+      "id": "gucumatz",
+      "label": "Gucumatz",
+      "type": "deity",
+      "chapter": "01_Preamble",
+      "description": "The Sovereign Plumed Serpent, one of the principal divine creators named in the Preamble, invoked among the powers who declare and narrate the formation of the world."
+    },
+    {
+      "id": "xpiyacoc",
+      "label": "Xpiyacoc",
+      "type": "deity",
+      "chapter": "01_Preamble",
+      "description": "The Grandfather, 'twice grandfather,' divine diviner named as a helper and protector in the creation. With Xmucané he is the ancestral creator-couple of Quiché tradition."
+    },
+    {
+      "id": "xmucane",
+      "label": "Xmucané",
+      "type": "deity",
+      "chapter": "01_Preamble",
+      "description": "The Grandmother, 'twice grandmother,' divine diviner named as a helper and protector in the creation. With Xpiyacoc she forms the ancestral grandparent pair invoked at the work's opening."
+    },
+    {
+      "id": "formation-of-sky-and-earth",
+      "label": "The Formation of Sky and Earth",
+      "type": "event",
+      "chapter": "01_Preamble",
+      "description": "The primordial creation recalled in the Preamble: how sky and earth were formed, divided into four parts, and measured with a cord stretched across the four corners by the Creator and the Maker."
+    },
+    {
+      "id": "four-corners",
+      "label": "The Four Corners of the World",
+      "type": "place",
+      "chapter": "01_Preamble",
+      "description": "The cosmos partitioned into four parts, its angles and corners measured out with the measuring-cord stretched over sky and earth. The fourfold division is the spatial frame of the created world."
+    },
+    {
+      "id": "light-from-beside-the-sea",
+      "label": "The Light That Came from Beside the Sea",
+      "type": "theme",
+      "chapter": "01_Preamble",
+      "description": "The recurring motif of 'the coming from the other side of the sea' — the dawning of light, knowledge, and the people's origins — once clearly seen in the original book and now recovered through this re-telling."
+    },
+    {
+      "id": "creation-theme",
+      "label": "Creation",
+      "type": "theme",
+      "chapter": "01_Preamble",
+      "description": "The central organizing theme of the work: the bringing-into-being of sky, earth, and life by divine word and act. The Preamble announces creation as the subject the whole book will narrate."
+    },
+    {
+      "id": "hidden-original-theme",
+      "label": "The Hidden / Lost Original",
+      "type": "theme",
+      "chapter": "01_Preamble",
+      "description": "The theme of a true account now obscured — 'its sight is hidden to the searcher and to the thinker.' This loss is the explicit motive for writing the present text and frames the book as an act of recovery."
+    }
+  ],
+  "edges": [
+    {
+      "source": "popol-vuh",
+      "target": "quiche-nation",
+      "relation": "part of",
+      "description": "The Popol Vuh records and belongs to the traditions of the Quiché nation, preserving the origin and history of its tribes.",
+      "directed": true,
+      "weight": 4,
+      "evidence": "the old stories, the beginning and the origin of all that was done in the town of the Quiché, by the tribes of the Quiché nation"
+    },
+    {
+      "source": "popol-vuh",
+      "target": "original-hidden-book",
+      "relation": "parallels",
+      "description": "The present Popol Vuh is the re-telling, under Christianity, of the original hidden book whose sight can no longer be seen; the two are versions of the same account across time.",
+      "directed": true,
+      "weight": 5,
+      "evidence": "now the Popol Vuh, as it is called, cannot be seen any more ... The original book, written long ago, existed, but its sight is hidden"
+    },
+    {
+      "source": "original-hidden-book",
+      "target": "hidden-original-theme",
+      "relation": "exemplifies",
+      "description": "The lost original book is the concrete embodiment of the theme of a true account now hidden from searcher and thinker.",
+      "directed": true,
+      "weight": 4,
+      "evidence": "its sight is hidden to the searcher and to the thinker"
+    },
+    {
+      "source": "original-hidden-book",
+      "target": "light-from-beside-the-sea",
+      "relation": "is instance of",
+      "description": "In the original book the 'coming from the other side of the sea' and the narration of the people's obscurity were once clearly seen, making it the source-witness of the Light motif.",
+      "directed": true,
+      "weight": 3,
+      "evidence": "in which was dearly seen the coming from the other side of the sea and the narration of our obscurity"
+    },
+    {
+      "source": "tzacol-bitol",
+      "target": "formation-of-sky-and-earth",
+      "relation": "creates",
+      "description": "The Creator and the Maker form, divide, and measure out sky and earth, bringing the ordered world into being.",
+      "directed": true,
+      "weight": 5,
+      "evidence": "how all the sky and earth were formed ... as was told by the Creator and the Maker"
+    },
+    {
+      "source": "alom-qaholom",
+      "target": "formation-of-sky-and-earth",
+      "relation": "creates",
+      "description": "Alom and Qaholom, the Mother and Father of Life, give birth and breath to all created things in the formation of the world.",
+      "directed": true,
+      "weight": 4,
+      "evidence": "the Mother and the Father of Life, of all created things, he who gives breath and thought, she who gives birth to the children"
+    },
+    {
+      "source": "formation-of-sky-and-earth",
+      "target": "four-corners",
+      "relation": "creates",
+      "description": "The act of formation divides the cosmos into four parts and stretches the measuring-cord across the four angles and corners, producing the world's fourfold spatial order.",
+      "directed": true,
+      "weight": 4,
+      "evidence": "how it was formed and divided into four parts ... the measuring-cord was brought, and it was stretched ... on the four corners"
+    },
+    {
+      "source": "formation-of-sky-and-earth",
+      "target": "creation-theme",
+      "relation": "exemplifies",
+      "description": "The forming and dividing of sky and earth is the founding enactment of the book's central theme of creation.",
+      "directed": true,
+      "weight": 5,
+      "evidence": "Great were the descriptions and the account of how all the sky and earth were formed"
+    },
+    {
+      "source": "tepeu",
+      "target": "creation-theme",
+      "relation": "exemplifies",
+      "description": "Tepeu is invoked among the divine creator powers whose declaration and narration enact the work's theme of creation.",
+      "directed": true,
+      "weight": 3,
+      "evidence": "the revelation by Tzacol, Bitol, Alom, Qaholom ... Tepeu, Gucumatz"
+    },
+    {
+      "source": "gucumatz",
+      "target": "creation-theme",
+      "relation": "exemplifies",
+      "description": "Gucumatz, the Plumed Serpent, is named among the creator deities whose revelation enacts the theme of creation that the book narrates.",
+      "directed": true,
+      "weight": 3,
+      "evidence": "the revelation by Tzacol, Bitol, Alom, Qaholom ... Tepeu, Gucumatz"
+    },
+    {
+      "source": "xpiyacoc",
+      "target": "xmucane",
+      "relation": "is sibling of",
+      "description": "Xpiyacoc and Xmucané form the symmetric ancestral grandparent pair — 'twice grandfather, twice grandmother' — invoked together as the diviner couple. Modeled as a symmetric pairing because the text presents them as an inseparable creator-couple rather than parent-and-child.",
+      "directed": false,
+      "weight": 3,
+      "evidence": "the Grandmother and the Grandfather, whose names are Xpiyacoc, and Xmucané, helpers and protectors, twice grandmother, twice grandfather"
+    },
+    {
+      "source": "xpiyacoc",
+      "target": "creation-theme",
+      "relation": "exemplifies",
+      "description": "Xpiyacoc, the Grandfather diviner and 'helper and protector,' takes part in the creative revelation that the book recounts.",
+      "directed": true,
+      "weight": 2,
+      "evidence": "the combined narration of the Grandmother and the Grandfather ... helpers and protectors"
+    },
+    {
+      "source": "xmucane",
+      "target": "creation-theme",
+      "relation": "exemplifies",
+      "description": "Xmucané, the Grandmother diviner and 'helper and protector,' takes part in the creative revelation that the book recounts.",
+      "directed": true,
+      "weight": 2,
+      "evidence": "the combined narration of the Grandmother and the Grandfather ... helpers and protectors"
+    },
+    {
+      "source": "popol-vuh",
+      "target": "creation-theme",
+      "relation": "is instance of",
+      "description": "The book exists to set forth the revelation and narration of creation — 'all that was done in the light of existence' — making creation the matter the Popol Vuh is composed to teach.",
+      "directed": true,
+      "weight": 4,
+      "evidence": "here we shall set forth the revelation, the declaration, and the narration of all that was hidden"
+    }
+  ]
+}

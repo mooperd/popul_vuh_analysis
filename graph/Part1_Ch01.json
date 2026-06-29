@@ -1,0 +1,310 @@
+{
+  "chapter": "Part1_Ch01",
+  "chapter_file": "chapters/Part1_Ch01.txt",
+  "title": "The Primordial Void and the Creation of the Earth",
+  "summary": "Before anything existed there was only silence, darkness, and the calm sea under an empty sky; only the creator deities lay hidden in the water surrounded by light. Tepeu and Gucumatz, joined by the Heart of Heaven (Huracán), come together, speak 'the word,' and deliberate the creation of the world and of humankind. By their word the waters recede and the earth, mountains, valleys, and rivers instantly appear — yet they declare that creation will have no glory until the human being is made.",
+  "nodes": [
+    {
+      "id": "primordial-void",
+      "label": "The Primordial Void",
+      "type": "place",
+      "chapter": "Part1_Ch01",
+      "description": "The state before creation: all in suspense, silent, motionless, in darkness and night, with only the calm sea and the empty expanse of sky. Nothing existed — no man, animal, plant, or land — making this the cosmic blank from which creation begins."
+    },
+    {
+      "id": "the-word",
+      "label": "The Word",
+      "type": "object",
+      "chapter": "Part1_Ch01",
+      "description": "The divine speech through which creation occurs. 'Then came the word'; Tepeu and Gucumatz unite their words and thoughts, and by speaking ('Earth!') they bring things instantly into being. The Word is the symbolic instrument of creation-by-speech."
+    },
+    {
+      "id": "heart-of-heaven",
+      "label": "Heart of Heaven (Huracán)",
+      "type": "deity",
+      "chapter": "Part1_Ch01",
+      "description": "The presiding divine power also called Huracán and the 'name of God,' through whom the creation is arranged in the darkness. A triune deity composed of three lightning-aspects, he joins Tepeu and Gucumatz in willing the world into being."
+    },
+    {
+      "id": "caculha-huracan",
+      "label": "Caculhá Huracán",
+      "type": "deity",
+      "chapter": "Part1_Ch01",
+      "description": "The first of the three manifestations that together are the Heart of Heaven (Huracán), associated with the thunderbolt/lightning. One of the triune aspects invoked at the moment of creation."
+    },
+    {
+      "id": "chipi-caculha",
+      "label": "Chipi-Caculhá",
+      "type": "deity",
+      "chapter": "Part1_Ch01",
+      "description": "The second of the three manifestations of the Heart of Heaven, a lightning-aspect of Huracán named when the deities rejoice at the appearance of the earth."
+    },
+    {
+      "id": "raxa-caculha",
+      "label": "Raxa-Caculhá",
+      "type": "deity",
+      "chapter": "Part1_Ch01",
+      "description": "The third of the three manifestations of the Heart of Heaven, a lightning-aspect of Huracán. With Caculhá Huracán and Chipi-Caculhá, the three together 'are the Heart of Heaven.'"
+    },
+    {
+      "id": "heart-of-earth",
+      "label": "Heart of Earth",
+      "type": "deity",
+      "chapter": "Part1_Ch01",
+      "description": "The earthly counterpart-name of the creating power; the earth is created 'by the Heart of Heaven, the Heart of Earth,' the pair who first made it fruitful. The title marks the divine power's reach over the newly formed land."
+    },
+    {
+      "id": "creation-of-earth",
+      "label": "The Creation of the Earth",
+      "type": "event",
+      "chapter": "Part1_Ch01",
+      "description": "The first concrete act of making: at the gods' word the water recedes, the earth appears and becomes solid, and instantly mountains, valleys, rivers, cypresses, and pines spring forth. It is creation accomplished 'only by a miracle, only by magic art.'"
+    },
+    {
+      "id": "deliberation-of-the-gods",
+      "label": "The Deliberation of Tepeu and Gucumatz",
+      "type": "event",
+      "chapter": "Part1_Ch01",
+      "description": "Tepeu and Gucumatz come together in the night, talk, discuss, and unite their words and thoughts, planning the creation of the world and the eventual making of man. The creative council that precedes and authorizes the act of creation."
+    },
+    {
+      "id": "creation-by-word",
+      "label": "Creation by the Word",
+      "type": "theme",
+      "chapter": "Part1_Ch01",
+      "description": "The recurring idea that the world is brought into being through divine speech and agreement of minds: 'Earth!' they said, and instantly it was made. Naming and speaking are the very mechanism of creation."
+    },
+    {
+      "id": "humanity-as-goal-of-creation",
+      "label": "Humankind as the Goal of Creation",
+      "type": "theme",
+      "chapter": "Part1_Ch01",
+      "description": "The gods declare that creation has no glory or grandeur 'until the human being is made.' Humanity is established from the first as the telos toward which all the creative acts are aimed — a thread that drives the failed creations to come."
+    },
+    {
+      "id": "dawn-and-light-theme",
+      "label": "Dawn and Light",
+      "type": "theme",
+      "chapter": "Part1_Ch01",
+      "description": "The gods deliberate 'about life and light' and decree 'Let there be light, let there be dawn in the sky and on the earth.' The longing for dawn out of the primordial darkness becomes a guiding aspiration of the whole work."
+    }
+  ],
+  "edges": [
+    {
+      "source": "tepeu",
+      "target": "primordial-void",
+      "relation": "located in",
+      "description": "Before creation only the creator deities — the Maker, Tepeu, Gucumatz, the Forefathers — existed, lying in the water surrounded with light amid the silent, dark void.",
+      "directed": true,
+      "weight": 3,
+      "evidence": "Only the creator, the Maker, Tepeu, Gucumatz, the Forefathers, were in the water surrounded with light"
+    },
+    {
+      "source": "gucumatz",
+      "target": "primordial-void",
+      "relation": "located in",
+      "description": "Gucumatz, hidden under green and blue feathers, abides in the calm waters of the void before anything has been made.",
+      "directed": true,
+      "weight": 3,
+      "evidence": "They were hidden under green and blue feathers, and were therefore called Gucumatz"
+    },
+    {
+      "source": "caculha-huracan",
+      "target": "heart-of-heaven",
+      "relation": "part of",
+      "description": "Caculhá Huracán is the first of the three lightning-aspects that together constitute the Heart of Heaven.",
+      "directed": true,
+      "weight": 4,
+      "evidence": "The first is called Caculhá Huracán ... And these three are the Heart of Heaven"
+    },
+    {
+      "source": "chipi-caculha",
+      "target": "heart-of-heaven",
+      "relation": "part of",
+      "description": "Chipi-Caculhá is the second of the three aspects that together constitute the Heart of Heaven.",
+      "directed": true,
+      "weight": 4,
+      "evidence": "The second is Chipi-Caculhá ... And these three are the Heart of Heaven"
+    },
+    {
+      "source": "raxa-caculha",
+      "target": "heart-of-heaven",
+      "relation": "part of",
+      "description": "Raxa-Caculhá is the third of the three aspects that together constitute the Heart of Heaven.",
+      "directed": true,
+      "weight": 4,
+      "evidence": "The third is Raxa-Caculhá. And these three are the Heart of Heaven"
+    },
+    {
+      "source": "heart-of-earth",
+      "target": "heart-of-heaven",
+      "relation": "parallels",
+      "description": "Heart of Earth is the earthly twin-title of Heart of Heaven; the two names are paired as the single creating power that makes the earth fruitful.",
+      "directed": false,
+      "weight": 3,
+      "evidence": "when it was formed by the Heart of Heaven, the Heart of Earth, as they are called who first made it fruitful"
+    },
+    {
+      "source": "tepeu",
+      "target": "deliberation-of-the-gods",
+      "relation": "part of",
+      "description": "Tepeu is one of the two deities whose joining, talking, and agreement constitutes the creative council that plans the world.",
+      "directed": true,
+      "weight": 4,
+      "evidence": "Tepeu and Gucumatz came together in the darkness ... they united their words and their thoughts"
+    },
+    {
+      "source": "gucumatz",
+      "target": "deliberation-of-the-gods",
+      "relation": "part of",
+      "description": "Gucumatz is one of the two deities whose conferring and meditation makes up the council that decides on creation and on the making of man.",
+      "directed": true,
+      "weight": 4,
+      "evidence": "Tepeu and Gucumatz talked together ... discussing and deliberating; they agreed"
+    },
+    {
+      "source": "deliberation-of-the-gods",
+      "target": "the-word",
+      "relation": "leads to",
+      "description": "Out of the gods' meeting and union of thought comes 'the word' — the uttered agreement through which they will speak the world into being.",
+      "directed": true,
+      "weight": 4,
+      "evidence": "Then came the word. Tepeu and Gucumatz came together in the darkness ... they united their words and their thoughts"
+    },
+    {
+      "source": "heart-of-heaven",
+      "target": "deliberation-of-the-gods",
+      "relation": "part of",
+      "description": "The arranging of creation in the darkness is carried out 'by the Heart of Heaven who is called Huracán,' who presides over the council of Tepeu and Gucumatz.",
+      "directed": true,
+      "weight": 4,
+      "evidence": "Thus it was arranged in the darkness and in the night by the Heart of Heaven who is called Huracán"
+    },
+    {
+      "source": "the-word",
+      "target": "creation-of-earth",
+      "relation": "leads to",
+      "description": "The spoken word is the instrument that brings the earth into being: at the command 'Earth!' the land instantly forms and the mountains grow.",
+      "directed": true,
+      "weight": 5,
+      "evidence": "Earth! they said, and instantly it was made"
+    },
+    {
+      "source": "the-word",
+      "target": "creation-by-word",
+      "relation": "exemplifies",
+      "description": "The Word that speaks the earth into existence is the concrete enactment of the theme that creation happens through divine speech and naming.",
+      "directed": true,
+      "weight": 4,
+      "evidence": "Earth! they said, and instantly it was made"
+    },
+    {
+      "source": "heart-of-heaven",
+      "target": "creation-of-earth",
+      "relation": "creates",
+      "description": "The earth is formed by the Heart of Heaven and Heart of Earth, who first made it fruitful, separating the waters so the high mountains could appear.",
+      "directed": true,
+      "weight": 5,
+      "evidence": "Thus was the earth created, when it was formed by the Heart of Heaven, the Heart of Earth"
+    },
+    {
+      "source": "tepeu",
+      "target": "creation-of-earth",
+      "relation": "creates",
+      "description": "Tepeu, joined with Gucumatz, wills and speaks the earth into being so that it appears and becomes solid out of the water.",
+      "directed": true,
+      "weight": 5,
+      "evidence": "Then the earth was created by them. So it was, in truth, that they created the earth"
+    },
+    {
+      "source": "gucumatz",
+      "target": "creation-of-earth",
+      "relation": "creates",
+      "description": "Gucumatz shares in creating the earth and rejoices when the mountains appear, praising the Heart of Heaven and the lightning-aspects.",
+      "directed": true,
+      "weight": 5,
+      "evidence": "thus Gucumatz was filled with joy, and exclaimed: 'Your coming has been fruitful, Heart of Heaven'"
+    },
+    {
+      "source": "creation-of-earth",
+      "target": "creation-theme",
+      "relation": "exemplifies",
+      "description": "The instant making of earth, mountains, valleys, and rivers is the first concrete enactment of the book's central theme of creation.",
+      "directed": true,
+      "weight": 4,
+      "evidence": "So it was that they made perfect the work, when they did it after thinking and meditating upon it"
+    },
+    {
+      "source": "creation-of-earth",
+      "target": "formation-of-sky-and-earth",
+      "relation": "pays off in",
+      "description": "The earth-making narrated here is the fulfillment of the formation of sky and earth that the Preamble announced in the abstract; the promised cosmogony is now actually carried out.",
+      "directed": true,
+      "weight": 4,
+      "evidence": "First the earth was formed, the mountains and the valleys"
+    },
+    {
+      "source": "tepeu",
+      "target": "creation-theme",
+      "relation": "exemplifies",
+      "description": "Tepeu, named in the Preamble among the creator powers, now actively enacts creation by deliberating and speaking the world into being — the Preamble's invocation realized.",
+      "directed": true,
+      "weight": 3,
+      "evidence": "Tepeu and Gucumatz ... planned the creation"
+    },
+    {
+      "source": "gucumatz",
+      "target": "creation-theme",
+      "relation": "exemplifies",
+      "description": "Gucumatz, invoked in the Preamble as a creator deity, now concretely performs creation, rejoicing as the earth takes form — the Preamble's roll-call enacted.",
+      "directed": true,
+      "weight": 3,
+      "evidence": "Gucumatz was filled with joy ... 'Our work, our creation shall be finished'"
+    },
+    {
+      "source": "humanity-as-goal-of-creation",
+      "target": "creation-theme",
+      "relation": "is instance of",
+      "description": "The decree that creation lacks glory 'until the human being is made' frames the making of man as the defining purpose of the whole creative theme.",
+      "directed": true,
+      "weight": 4,
+      "evidence": "There shall be neither glory nor grandeur in our creation and formation until the human being is made"
+    },
+    {
+      "source": "deliberation-of-the-gods",
+      "target": "humanity-as-goal-of-creation",
+      "relation": "prefigures",
+      "description": "The gods' resolution that 'man must appear' when dawn breaks sets up the central quest of Part I — the repeated, failing attempts to create humankind that follow.",
+      "directed": true,
+      "weight": 5,
+      "evidence": "it became clear to them that when dawn would break, man must appear"
+    },
+    {
+      "source": "deliberation-of-the-gods",
+      "target": "dawn-and-light-theme",
+      "relation": "exemplifies",
+      "description": "The gods confer 'about life and light' and decree the coming of dawn, enacting the theme of light emerging from the primordial darkness.",
+      "directed": true,
+      "weight": 3,
+      "evidence": "Let there be light, let there be dawn in the sky and on the earth!"
+    },
+    {
+      "source": "dawn-and-light-theme",
+      "target": "light-from-beside-the-sea",
+      "relation": "parallels",
+      "description": "The longing for dawn and light decreed at creation mirrors the Preamble's motif of the dawning light and knowledge once seen in the original book.",
+      "directed": false,
+      "weight": 2,
+      "evidence": "they conferred about life and light ... so that there would be light and dawn"
+    },
+    {
+      "source": "creation-of-earth",
+      "target": "primordial-void",
+      "relation": "inverts",
+      "description": "The filling of the emptiness, the receding of the water, and the rising of solid land structurally reverse the silent, watery void in which nothing existed.",
+      "directed": true,
+      "weight": 3,
+      "evidence": "Let the emptiness be filled! Let the water recede and make a void, let the earth appear and become solid"
+    }
+  ]
+}

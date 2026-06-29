@@ -1,0 +1,449 @@
+{
+  "chapter": "Part2_Ch02",
+  "chapter_file": "chapters/Part2_Ch02.txt",
+  "title": "The Descent of Hun-Hunahpú and Vucub-Hunahpú and Their Defeat in Xibalba",
+  "summary": "Summoned by owl messengers, the brothers Hun-Hunahpú and Vucub-Hunahpú take leave of their mother Xmucané and descend the treacherous road to Xibalba, where they are overcome at a crossroads, mocked by wooden effigies of the lords, and burned on a hot-stone bench. Failing the trial of the House of Gloom—where they consume the lighted pine torches and cigars they were ordered to return whole—they are sacrificed and buried in the Pucbal-Chah. The severed head of Hun-Hunahpú is hung in a barren calabash tree, which instantly bears fruit and conceals his head among the gourds, setting the stage for the conception of the Hero Twins.",
+  "nodes": [
+    {
+      "id": "owl-messengers",
+      "label": "The Owl Messengers (Ahpop-Achih)",
+      "type": "creature",
+      "chapter": "Part2_Ch02",
+      "description": "The four owls who serve as messengers of Xibalba, holding the rank of Ahpop-Achih: Chabi-Tucur, Huracán-Tucur, Caquix-Tucur, and Holom-Tucur. They fly up from the underworld to deliver the lords' summons to the ball-court, the agents who lure the brothers to their doom."
+    },
+    {
+      "id": "chabi-tucur",
+      "label": "Chabi-Tucur",
+      "type": "creature",
+      "chapter": "Part2_Ch02",
+      "description": "One of the four owl messengers of Xibalba, swift as an arrow. He bears the rank of Ahpop-Achih and helps deliver the fatal summons."
+    },
+    {
+      "id": "huracan-tucur",
+      "label": "Huracán-Tucur",
+      "type": "creature",
+      "chapter": "Part2_Ch02",
+      "description": "One of the four owl messengers of Xibalba, having only one leg. He bears the rank of Ahpop-Achih (not to be confused with the sky-god Huracán / Heart of Heaven)."
+    },
+    {
+      "id": "caquix-tucur",
+      "label": "Caquix-Tucur",
+      "type": "creature",
+      "chapter": "Part2_Ch02",
+      "description": "One of the four owl messengers of Xibalba, distinguished by a red back. He bears the rank of Ahpop-Achih and carries the lords' summons to the ball-court."
+    },
+    {
+      "id": "holom-tucur",
+      "label": "Holom-Tucur",
+      "type": "creature",
+      "chapter": "Part2_Ch02",
+      "description": "One of the four owl messengers of Xibalba, having only a head and wings but no legs. He bears the rank of Ahpop-Achih."
+    },
+    {
+      "id": "nim-xob-carchah",
+      "label": "Nim-Xob-Carchah",
+      "type": "place",
+      "chapter": "Part2_Ch02",
+      "description": "The ball-court on earth where Hun-Hunahpú and Vucub-Hunahpú were playing when the owl messengers found them and delivered the summons of Xibalba."
+    },
+    {
+      "id": "road-to-xibalba",
+      "label": "The Road to Xibalba",
+      "type": "place",
+      "chapter": "Part2_Ch02",
+      "description": "The descending route into the underworld: very steep stairs, the rivers of the ravines Nuziván cul and Cuziván, a river among thorny calabash trees, and a river of blood—obstacles the brothers safely pass before reaching the fatal crossroads."
+    },
+    {
+      "id": "four-roads-crossroads",
+      "label": "The Crossroads of Four Roads",
+      "type": "place",
+      "chapter": "Part2_Ch02",
+      "description": "The junction of four colored roads—red, black, white, and yellow—where the brothers are overcome. The black road deceives them by claiming to be the way of the Lord; choosing it seals their defeat before they even reach the lords' council."
+    },
+    {
+      "id": "wooden-men-deception",
+      "label": "The Deception of the Wooden Men",
+      "type": "event",
+      "chapter": "Part2_Ch02",
+      "description": "The first trick of Xibalba: wooden effigies seated in the council room are mistaken by the brothers for the lords Hun-Camé and Vucub-Camé and greeted aloud, provoking the lords' mocking laughter. A test of recognition the brothers fail."
+    },
+    {
+      "id": "hot-stone-bench",
+      "label": "The Hot-Stone Bench",
+      "type": "object",
+      "chapter": "Part2_Ch02",
+      "description": "A burning seat of hot stone offered to the brothers as a place of honor; when they sit they are scorched and squirm, again exposing them to the lords' ridicule. A second deceptive trial of Xibalba."
+    },
+    {
+      "id": "house-of-gloom",
+      "label": "The House of Gloom (Quequma-há)",
+      "type": "place",
+      "chapter": "Part2_Ch02",
+      "description": "The first house of punishment in Xibalba, full of total darkness. Here the brothers are tested with the torch-and-cigar trial and, failing it, are condemned to death."
+    },
+    {
+      "id": "houses-of-punishment",
+      "label": "The Houses of Punishment of Xibalba",
+      "type": "place",
+      "chapter": "Part2_Ch02",
+      "description": "The named places of torture in Xibalba: the House of Gloom (Quequma-há), the cold house Xuxulim-há, the House of Jaguars (Balami-há), the House of Bats (Zotzi-há), and the House of Knives (Chayim-há). The fathers enter only the House of Gloom; the others are named here and become trials their sons will later face."
+    },
+    {
+      "id": "torch-and-cigar-trial",
+      "label": "The Trial of the Torches and Cigars",
+      "type": "event",
+      "chapter": "Part2_Ch02",
+      "description": "In the House of Gloom the brothers are given lighted pine torches and cigars and ordered to return them whole at dawn. They burn them up, an impossible test by design, and so are defeated and marked for sacrifice."
+    },
+    {
+      "id": "sacrifice-of-the-fathers",
+      "label": "The Sacrifice of Hun-Hunahpú and Vucub-Hunahpú",
+      "type": "event",
+      "chapter": "Part2_Ch02",
+      "description": "Having failed the trial, the brothers are sacrificed by Hun-Camé and Vucub-Camé and buried together in the Pucbal-Chah, with Hun-Hunahpú's head cut off and set apart. This death of the fathers is the wrong the Hero Twins will later avenge."
+    },
+    {
+      "id": "pucbal-chah",
+      "label": "Pucbal-Chah",
+      "type": "place",
+      "chapter": "Part2_Ch02",
+      "description": "The place in Xibalba where the sacrificed brothers Hun-Hunahpú and Vucub-Hunahpú are buried together."
+    },
+    {
+      "id": "calabash-tree",
+      "label": "The Calabash Tree (Head of Hun-Hunahpú)",
+      "type": "object",
+      "chapter": "Part2_Ch02",
+      "description": "The barren gourd tree by the road in which the severed head of Hun-Hunahpú is placed; it instantly bears fruit, hiding his head indistinguishable among the calabashes. The lords forbid anyone to approach it, but a girl, Xquic, will hear of its wonder—linking the father's death to the conception of the Hero Twins."
+    },
+    {
+      "id": "sacrifice-and-rebirth-theme",
+      "label": "Sacrifice and Rebirth",
+      "type": "theme",
+      "chapter": "Part2_Ch02",
+      "description": "The recurring pattern in which death is not an end but a generative passage: Hun-Hunahpú's sacrifice and the miraculous fruiting of the calabash tree from his severed head turn his death into the seed of new life, prefiguring the resurrection-and-renewal motif that culminates in the Hero Twins and the creation of humankind from maize."
+    }
+  ],
+  "edges": [
+    {
+      "source": "chabi-tucur",
+      "target": "owl-messengers",
+      "relation": "part of",
+      "description": "Chabi-Tucur is one of the four owls comprising the messenger corps of Xibalba.",
+      "directed": true,
+      "weight": 1
+    },
+    {
+      "source": "huracan-tucur",
+      "target": "owl-messengers",
+      "relation": "part of",
+      "description": "Huracán-Tucur is one of the four owls comprising the messenger corps of Xibalba.",
+      "directed": true,
+      "weight": 1
+    },
+    {
+      "source": "caquix-tucur",
+      "target": "owl-messengers",
+      "relation": "part of",
+      "description": "Caquix-Tucur is one of the four owls comprising the messenger corps of Xibalba.",
+      "directed": true,
+      "weight": 1
+    },
+    {
+      "source": "holom-tucur",
+      "target": "owl-messengers",
+      "relation": "part of",
+      "description": "Holom-Tucur is one of the four owls comprising the messenger corps of Xibalba.",
+      "directed": true,
+      "weight": 1
+    },
+    {
+      "source": "owl-messengers",
+      "target": "xibalba",
+      "relation": "located in",
+      "description": "The owl messengers belong to Xibalba, dispatched from the underworld to carry the lords' summons up to earth.",
+      "directed": true,
+      "evidence": "These were the names of the messengers of Xibalba.",
+      "weight": 2
+    },
+    {
+      "source": "hun-came",
+      "target": "owl-messengers",
+      "relation": "creates",
+      "description": "Hun-Camé and Vucub-Camé dispatch the owl messengers, commanding them to summon the brothers; the owls act on the lords' authority.",
+      "directed": true,
+      "evidence": "Go, Ahpop Achih! Go and call Hun-Hunahpú and Vucub-Hunahpú.",
+      "weight": 2
+    },
+    {
+      "source": "owl-messengers",
+      "target": "summons-to-xibalba",
+      "relation": "part of",
+      "description": "The owls' delivery of the lords' message to the ball-court is the execution of the summons conceived in the previous chapter.",
+      "directed": true,
+      "evidence": "the owl messengers went directly to the ball-court and delivered their message exactly as it was given to them",
+      "weight": 3
+    },
+    {
+      "source": "hun-hunahpu",
+      "target": "ballgame",
+      "relation": "seeks",
+      "description": "The owls find the brothers at play; Hun-Hunahpú leaves his ball hanging under the rooftree as a pledge to return and play again.",
+      "directed": true,
+      "evidence": "We shall leave our ball here in pledge.",
+      "weight": 2
+    },
+    {
+      "source": "hun-hunahpu",
+      "target": "nim-xob-carchah",
+      "relation": "located in",
+      "description": "Hun-Hunahpú and Vucub-Hunahpú are playing ball at the court Nim-Xob-Carchah when the messengers arrive.",
+      "directed": true,
+      "evidence": "the ball-court which was called Nim-Xob-Carchah",
+      "weight": 2
+    },
+    {
+      "source": "hun-hunahpu",
+      "target": "hunbatz",
+      "relation": "leads to",
+      "description": "Before departing, Hun-Hunahpú charges his artisan sons Hunbatz and Hunchouén to keep playing, singing, painting, and carving and to comfort their grandmother—entrusting the household to them.",
+      "directed": true,
+      "evidence": "Keep on playing the flute and singing, painting, and carving; warm our house and warm the heart of your grandmother.",
+      "weight": 1
+    },
+    {
+      "source": "xmucane",
+      "target": "hun-hunahpu",
+      "relation": "is parent of",
+      "description": "Taking leave, the brothers bid farewell to their mother Xmucané, who weeps; the chapter dramatizes the grandmother's grief at sending her sons to Xibalba.",
+      "directed": true,
+      "evidence": "When they took leave of their mother, Xmucané was moved and burst into tears.",
+      "weight": 2
+    },
+    {
+      "source": "hun-hunahpu",
+      "target": "road-to-xibalba",
+      "relation": "located in",
+      "description": "Led by the owls, the brothers descend the steep stairs and pass the rivers of the road to Xibalba, surviving its hazards until the crossroads.",
+      "directed": true,
+      "evidence": "Thus they were descending the road to Xibalba, by some very steep stairs.",
+      "weight": 2
+    },
+    {
+      "source": "road-to-xibalba",
+      "target": "four-roads-crossroads",
+      "relation": "leads to",
+      "description": "The descending road brings the brothers to the junction of four roads where they are finally overcome.",
+      "directed": true,
+      "evidence": "They went on until they came to where four roads joined, and there at the crossroads they were overcome.",
+      "weight": 2
+    },
+    {
+      "source": "four-roads-crossroads",
+      "target": "hun-hunahpu",
+      "relation": "deceives",
+      "description": "The black road lies that it is the way of the Lord; the brothers take it and from that point are already overcome—the first decisive trick of Xibalba.",
+      "directed": true,
+      "evidence": "the black road said to them: 'I am the one you must take because I am the way of the Lord.'",
+      "weight": 3
+    },
+    {
+      "source": "wooden-men-deception",
+      "target": "hun-hunahpu",
+      "relation": "deceives",
+      "description": "Wooden effigies of the lords trick the brothers into greeting them, exposing them to the lords' scornful laughter.",
+      "directed": true,
+      "evidence": "the first ones who were seated there were only figures of wood... 'How are you, Hun-Camé?' they said to the wooden man.",
+      "weight": 3
+    },
+    {
+      "source": "hun-came",
+      "target": "wooden-men-deception",
+      "relation": "creates",
+      "description": "The men of Xibalba arrange the wooden figures to humiliate the visitors, a contrivance of the lords.",
+      "directed": true,
+      "evidence": "only figures of wood, arranged by the men of Xibalba",
+      "weight": 2
+    },
+    {
+      "source": "hot-stone-bench",
+      "target": "hun-hunahpu",
+      "relation": "deceives",
+      "description": "The bench offered as honor is burning stone; sitting on it scorches the brothers and again earns the lords' mockery—a further deceptive trial.",
+      "directed": true,
+      "evidence": "the bench which they offered them was of hot stone, and when they sat down they were burned",
+      "weight": 2
+    },
+    {
+      "source": "house-of-gloom",
+      "target": "houses-of-punishment",
+      "relation": "part of",
+      "description": "The House of Gloom (Quequma-há) is the first of the named houses of punishment in Xibalba.",
+      "directed": true,
+      "weight": 2
+    },
+    {
+      "source": "houses-of-punishment",
+      "target": "xibalba",
+      "relation": "located in",
+      "description": "The houses of torture—Quequma-há, Xuxulim-há, Balami-há, Zotzi-há, and Chayim-há—are the instruments of punishment within Xibalba.",
+      "directed": true,
+      "evidence": "There were many punishments in Xibalba; the punishments were of many kinds.",
+      "weight": 2
+    },
+    {
+      "source": "hun-hunahpu",
+      "target": "house-of-gloom",
+      "relation": "located in",
+      "description": "Hun-Hunahpú and Vucub-Hunahpú are sent into the House of Gloom, the only house of punishment they enter, where they face the torch-and-cigar trial.",
+      "directed": true,
+      "evidence": "Immediately they arrived at the House of Gloom. There was only darkness within the house.",
+      "weight": 2
+    },
+    {
+      "source": "torch-and-cigar-trial",
+      "target": "house-of-gloom",
+      "relation": "located in",
+      "description": "The trial of returning the lighted torches and cigars whole takes place within the dark House of Gloom.",
+      "directed": true,
+      "weight": 2
+    },
+    {
+      "source": "torch-and-cigar-trial",
+      "target": "hun-hunahpu",
+      "relation": "deceives",
+      "description": "The brothers are ordered to keep their torches and cigars burning yet return them whole—an impossible demand; consuming them seals their defeat.",
+      "directed": true,
+      "evidence": "you must not burn them up, but you must return them whole... So they were defeated. They burned up the pine sticks.",
+      "weight": 3
+    },
+    {
+      "source": "torch-and-cigar-trial",
+      "target": "sacrifice-of-the-fathers",
+      "relation": "leads to",
+      "description": "Failing to return the torches and cigars whole condemns the brothers; the lords pronounce that their days are ended.",
+      "directed": true,
+      "evidence": "Today shall be the end of your days. Now you shall die... You shall be sacrificed.",
+      "weight": 3
+    },
+    {
+      "source": "hun-came",
+      "target": "sacrifice-of-the-fathers",
+      "relation": "sacrifices",
+      "description": "Hun-Camé and Vucub-Camé sacrifice the defeated brothers and bury them in the Pucbal-Chah.",
+      "directed": true,
+      "evidence": "They sacrificed them immediately and buried them in the Pucbal-Chah.",
+      "weight": 4
+    },
+    {
+      "source": "hun-came",
+      "target": "hun-hunahpu",
+      "relation": "destroys",
+      "description": "The lords of Xibalba kill Hun-Hunahpú, cut off his head, and bury his body with his brother's—the death of the father generation.",
+      "directed": true,
+      "evidence": "they cut off the head of Hun-Hunahpú and buried the older brother together with the younger brother",
+      "weight": 4
+    },
+    {
+      "source": "hun-came",
+      "target": "vucub-hunahpu",
+      "relation": "destroys",
+      "description": "Vucub-Hunahpú is sacrificed alongside his brother and buried with him in the Pucbal-Chah.",
+      "directed": true,
+      "weight": 3
+    },
+    {
+      "source": "sacrifice-of-the-fathers",
+      "target": "pucbal-chah",
+      "relation": "located in",
+      "description": "The sacrificed brothers are buried together in the Pucbal-Chah within Xibalba.",
+      "directed": true,
+      "evidence": "buried them in the Pucbal-Chah, as it was called",
+      "weight": 2
+    },
+    {
+      "source": "hun-hunahpu",
+      "target": "calabash-tree",
+      "relation": "transforms into",
+      "description": "Hun-Hunahpú's severed head is placed in the barren calabash tree, which instantly fruits; his head becomes one and the same as the gourds, so that he is reborn as the tree's fruit.",
+      "directed": true,
+      "evidence": "the tree... was covered with fruit... The head of Hun-Hunahpú did not appear again because it had become one and the same as the fruit of the gourd tree.",
+      "weight": 4
+    },
+    {
+      "source": "calabash-tree",
+      "target": "road-to-xibalba",
+      "relation": "located in",
+      "description": "The calabash tree stands by the road where Hun-Hunahpú's head is set; the lords forbid anyone to pick its fruit or sit beneath it.",
+      "directed": true,
+      "evidence": "Take the head and put it in that tree which is planted on the road.",
+      "weight": 1
+    },
+    {
+      "source": "sacrifice-of-the-fathers",
+      "target": "calabash-tree",
+      "relation": "leads to",
+      "description": "The sacrifice and beheading of Hun-Hunahpú directly produces the miracle of the fruiting calabash tree, the lasting sign of his death.",
+      "directed": true,
+      "weight": 3
+    },
+    {
+      "source": "sacrifice-of-the-fathers",
+      "target": "sacrifice-and-rebirth-theme",
+      "relation": "exemplifies",
+      "description": "The fathers' death issuing in the miraculous fruiting of the calabash tree is a concrete enactment of the sacrifice-and-rebirth theme: death as the seed of new life.",
+      "directed": true,
+      "weight": 3
+    },
+    {
+      "source": "calabash-tree",
+      "target": "sacrifice-and-rebirth-theme",
+      "relation": "is instance of",
+      "description": "The barren tree bursting into fruit from a severed head embodies the theme of death generating life.",
+      "directed": true,
+      "weight": 2
+    },
+    {
+      "source": "sacrifice-of-the-fathers",
+      "target": "vengeance-across-generations-theme",
+      "relation": "exemplifies",
+      "description": "The killing of Hun-Hunahpú and Vucub-Hunahpú is the precise wrong that their sons, the Hero Twins, will later avenge—the enactment of cross-generational vengeance.",
+      "directed": true,
+      "weight": 3
+    },
+    {
+      "source": "calabash-tree",
+      "target": "hunahpu",
+      "relation": "prefigures",
+      "description": "The hidden head in the fruiting tree, which a girl will hear of, sets up the conception of Hunahpú and Xbalanqué; the father's rebirth as fruit foreshadows the sons who will return to Xibalba and triumph.",
+      "directed": true,
+      "evidence": "a girl heard the wonderful story. Now we shall tell about her arrival.",
+      "weight": 4
+    },
+    {
+      "source": "sacrifice-of-the-fathers",
+      "target": "decision-to-destroy-vucub-caquix",
+      "relation": "inverts",
+      "description": "Here the underworld lords defeat and sacrifice the visiting brothers, the structural reverse of Part I, where the Hero Twins were the ones who plotted and accomplished the destruction of an arrogant adversary.",
+      "directed": true,
+      "weight": 2
+    },
+    {
+      "source": "torch-and-cigar-trial",
+      "target": "hunahpu",
+      "relation": "prefigures",
+      "description": "The impossible torch-and-cigar trial that defeats the fathers foreshadows the same Xibalban tests that the Hero Twins will later survive by cunning, paying off the contrast between the generations.",
+      "directed": true,
+      "weight": 3
+    },
+    {
+      "source": "houses-of-punishment",
+      "target": "hunahpu",
+      "relation": "prefigures",
+      "description": "The houses of punishment named but not entered by the fathers (cold, jaguars, bats, knives) are catalogued here as the trials the Hero Twins will later face and overcome.",
+      "directed": true,
+      "evidence": "Hun-Hunahpú and Vucub-Hunahpú did not enter them. We only mention the names of these houses of punishment.",
+      "weight": 3
+    }
+  ]
+}

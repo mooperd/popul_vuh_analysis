@@ -1,0 +1,295 @@
+{
+  "chapter": "Part2_Ch09",
+  "chapter_file": "chapters/Part2_Ch09.txt",
+  "title": "The First Tests of Xibalba: The House of Gloom, the Ballgame, and the House of Knives",
+  "summary": "Hunahpú and Xbalanqué enter the House of Gloom and survive the torch-and-cigar trial by faking the burning of their pine sticks with macaw feathers and fireflies, the trial that doomed their father. They then play ball with the Lords of Xibalba, refuse to be killed by the flint-knife trick, and defeat the lords; sent to gather four gourds of flowers, they pass the night unharmed in the House of Knives and have cutting ants rob the lords' own gardens. Repeatedly outwitting Hun-Camé and Vucub-Camé, the boys invert their father's failure and begin the long undoing of Xibalba.",
+  "nodes": [
+    {
+      "id": "first-test-of-xibalba",
+      "label": "The First Test of Xibalba (House of Gloom)",
+      "type": "event",
+      "chapter": "Part2_Ch09",
+      "description": "The opening trial in the House of Gloom: the boys are given lighted pine sticks and cigars and ordered to return them whole at dawn. Where their father failed and was sacrificed, the twins survive by deceit, marking the beginning of Xibalba's downfall."
+    },
+    {
+      "id": "macaw-feather-firefly-trick",
+      "label": "The Macaw-Feather and Firefly Deception",
+      "type": "event",
+      "chapter": "Part2_Ch09",
+      "description": "Instead of burning their torches the boys substitute red macaw tail-feathers, and they fix fireflies to the ends of the cigars, so that to the night watchmen the sticks and cigars appear to be burning all night yet are returned whole at dawn."
+    },
+    {
+      "id": "ballgame-against-the-lords",
+      "label": "The Ballgame Against the Lords of Xibalba",
+      "type": "event",
+      "chapter": "Part2_Ch09",
+      "description": "The lords challenge the boys to play ball and try to kill them by hurling the ball at Hunahpú's ring while gripping a flint knife. The boys refuse the trap, insist on using their own ball, drive it through the Xibalban ring, and so defeat the lords in the very game that once destroyed their father."
+    },
+    {
+      "id": "flower-task",
+      "label": "The Task of the Four Gourds of Flowers",
+      "type": "event",
+      "chapter": "Part2_Ch09",
+      "description": "Offended by their defeat at ball, the lords order the boys to bring four gourds of red, white, and yellow chiptlín and carinimac flowers at dawn, cut from the guarded gardens of Hun-Camé and Vucub-Camé as an impossible task meant to overcome them."
+    },
+    {
+      "id": "house-of-knives",
+      "label": "The House of Knives (Chayim-há)",
+      "type": "place",
+      "chapter": "Part2_Ch09",
+      "description": "The second place of torture in Xibalba, filled with moving flint knives meant to cut intruders to pieces. The boys pacify the knives by promising them the flesh of all animals, and pass the night unharmed. Named earlier within the houses-of-punishment collective, it receives its own node here as the boys first enter it."
+    },
+    {
+      "id": "cutting-ants",
+      "label": "The Cutting Ants (Zompopos)",
+      "type": "creature",
+      "chapter": "Part2_Ch09",
+      "description": "The leaf-cutter ants the boys summon from within the House of Knives. While the garden guards shout uselessly overhead, the ants raid the lords' own flower gardens, filling the four gourds by dawn and even gnawing the guards' tails and wings unnoticed."
+    },
+    {
+      "id": "flower-guards",
+      "label": "The Flower Guards (Ixpurpuvec and Puhuyú)",
+      "type": "creature",
+      "chapter": "Part2_Ch09",
+      "description": "Two whippoorwill-like watchmen named Ixpurpuvec and Puhuyú set to guard the gardens of Hun-Camé and Vucub-Camé. They cry their names all night but fail to notice the ants robbing the flowers, and are punished by the lords who tear at their mouths."
+    },
+    {
+      "id": "owls-cleft-mouth-origin",
+      "label": "The Origin of the Owl's Cleft Mouth",
+      "type": "theme",
+      "chapter": "Part2_Ch09",
+      "description": "An aetiological note: because the flower guards let the gardens be robbed, the lords tore at their mouths in punishment, and from that time the mouth of the owl is divided, cleft as it is today. A characteristic Popol Vuh origin-of-a-feature aside woven into the narrative."
+    }
+  ],
+  "edges": [
+    {
+      "source": "hero-twins",
+      "target": "first-test-of-xibalba",
+      "relation": "defeats",
+      "description": "The boys overcome the opening House of Gloom trial, returning the pine sticks and cigars whole at dawn against the lords' expectation that this would begin their downfall.",
+      "directed": true,
+      "weight": 4,
+      "evidence": "This was the first test of Xibalba... But the pine sticks had not been burned and looked the same."
+    },
+    {
+      "source": "first-test-of-xibalba",
+      "target": "house-of-gloom",
+      "relation": "located in",
+      "description": "The torch-and-cigar trial takes place inside the House of Gloom, the first house of punishment, which the boys enter immediately upon arrival.",
+      "directed": true,
+      "weight": 3
+    },
+    {
+      "source": "first-test-of-xibalba",
+      "target": "torch-and-cigar-trial",
+      "relation": "is instance of",
+      "description": "This chapter's opening test is the twins' enactment of the same torch-and-cigar trial established earlier; it is the specific run of that named trial as faced by the sons.",
+      "directed": true,
+      "weight": 3
+    },
+    {
+      "source": "macaw-feather-firefly-trick",
+      "target": "first-test-of-xibalba",
+      "relation": "leads to",
+      "description": "The substitution of macaw feathers for torchlight and fireflies for cigar-fire is the means by which the boys pass the first test, making the sticks appear to burn all night.",
+      "directed": true,
+      "weight": 4,
+      "evidence": "they put a red-colored thing in place of them... feathers from the tail of the macaw... they attached fireflies to their end."
+    },
+    {
+      "source": "hero-twins",
+      "target": "macaw-feather-firefly-trick",
+      "relation": "deceives",
+      "description": "The boys trick the night watchmen of Xibalba with the feather-and-firefly illusion so the lords believe the torches are burning down.",
+      "directed": true,
+      "weight": 3,
+      "evidence": "which to the night watches looked like lighted pine sticks."
+    },
+    {
+      "source": "first-test-of-xibalba",
+      "target": "torch-and-cigar-trial",
+      "relation": "inverts",
+      "description": "Where Hun-Hunahpú and Vucub-Hunahpú failed the torch-and-cigar trial and were sacrificed, the sons survive the same test by cunning, structurally reversing the fathers' defeat.",
+      "directed": true,
+      "weight": 5
+    },
+    {
+      "source": "first-test-of-xibalba",
+      "target": "sacrifice-of-the-fathers",
+      "relation": "inverts",
+      "description": "The fathers' inability to return whole torches led directly to their sacrifice; the sons' survival of the identical trial reverses that outcome and begins to avenge them.",
+      "directed": true,
+      "weight": 4
+    },
+    {
+      "source": "hun-came",
+      "target": "ballgame-against-the-lords",
+      "relation": "opposes",
+      "description": "Hun-Camé and Vucub-Camé challenge the boys to play ball, intending the match to kill them, and direct the flint-knife trap against Hunahpú.",
+      "directed": true,
+      "weight": 3
+    },
+    {
+      "source": "vucub-came",
+      "target": "ballgame-against-the-lords",
+      "relation": "opposes",
+      "description": "Vucub-Camé joins Hun-Camé in summoning the boys to the ball-court as a deadly trap rather than fair play.",
+      "directed": true,
+      "weight": 2
+    },
+    {
+      "source": "ballgame-against-the-lords",
+      "target": "ballgame",
+      "relation": "is instance of",
+      "description": "The match in the ball-court is a specific playing of the ballgame, the deadly Xibalban game inherited from the fathers' era.",
+      "directed": true,
+      "weight": 3
+    },
+    {
+      "source": "ballgame-against-the-lords",
+      "target": "ball-court",
+      "relation": "located in",
+      "description": "The game is played on the floor of the ball-court, where the lords hoped the boys would die immediately.",
+      "directed": true,
+      "weight": 2
+    },
+    {
+      "source": "hero-twins",
+      "target": "ballgame-against-the-lords",
+      "relation": "defeats",
+      "description": "The boys refuse the flint-knife trap, force the use of their own ball, and drive it through the Xibalban ring, so that it is the lords who are defeated in the game.",
+      "directed": true,
+      "weight": 4,
+      "evidence": "it was the Lords of Xibalba who were defeated by the boys... they drove their ball through [the ring of Xibalba], and with this the game ended."
+    },
+    {
+      "source": "ballgame-against-the-lords",
+      "target": "sacrifice-of-the-fathers",
+      "relation": "inverts",
+      "description": "The same ballgame that drew Hun-Hunahpú and Vucub-Hunahpú to their sacrifice now becomes the arena of the sons' victory, reversing the fathers' fate.",
+      "directed": true,
+      "weight": 4
+    },
+    {
+      "source": "hun-came",
+      "target": "flower-task",
+      "relation": "seeks",
+      "description": "Stung by their defeat at ball, the lords devise the flower task, demanding four gourds of guarded garden flowers by dawn as a fresh attempt to overcome the boys.",
+      "directed": true,
+      "weight": 3,
+      "evidence": "What shall we do in order to overcome them?... bring us... four gourds of flowers."
+    },
+    {
+      "source": "hero-twins",
+      "target": "house-of-knives",
+      "relation": "defeats",
+      "description": "Entering the second torture house, the boys pacify the moving flint knives by promising them the flesh of all animals, so the knives fall still and the boys pass the night unharmed.",
+      "directed": true,
+      "weight": 4,
+      "evidence": "Yours shall be the flesh of all the animals... all the knives were quiet."
+    },
+    {
+      "source": "house-of-knives",
+      "target": "houses-of-punishment",
+      "relation": "part of",
+      "description": "The House of Knives (Chayim-há) is one of the named houses of punishment of Xibalba, here entered as the second place of torture.",
+      "directed": true,
+      "weight": 3
+    },
+    {
+      "source": "house-of-knives",
+      "target": "xibalba",
+      "relation": "located in",
+      "description": "The House of Knives is situated within the underworld realm of Xibalba.",
+      "directed": true,
+      "weight": 2
+    },
+    {
+      "source": "hero-twins",
+      "target": "cutting-ants",
+      "relation": "seeks",
+      "description": "From inside the House of Knives the boys summon the cutting ants and zompopos to gather the flowers they cannot openly cut.",
+      "directed": true,
+      "weight": 3,
+      "evidence": "Come, Cutting Ants, come, zompopos... go and bring all the kinds of flowers."
+    },
+    {
+      "source": "cutting-ants",
+      "target": "flower-task",
+      "relation": "leads to",
+      "description": "The ants raid the lords' own gardens overnight and fill the four gourds with flowers by dawn, accomplishing the impossible task for the boys.",
+      "directed": true,
+      "weight": 3,
+      "evidence": "all the ants went to bring the flowers from the gardens of Hun-Camé and Vucub-Camé."
+    },
+    {
+      "source": "cutting-ants",
+      "target": "flower-guards",
+      "relation": "deceives",
+      "description": "The ants rob the guarded gardens unseen, even gnawing the guards' tails and wings while the watchmen cry uselessly and notice nothing.",
+      "directed": true,
+      "weight": 2,
+      "evidence": "they did not notice the ants who were robbing them... they did not feel the teeth which were cutting their tails and their wings."
+    },
+    {
+      "source": "flower-guards",
+      "target": "flower-task",
+      "relation": "opposes",
+      "description": "Ixpurpuvec and Puhuyú are posted to guard the gardens so the boys cannot cut the flowers, but they fail to stop the ants.",
+      "directed": true,
+      "weight": 2
+    },
+    {
+      "source": "hun-came",
+      "target": "flower-guards",
+      "relation": "destroys",
+      "description": "Furious that the flowers were stolen, the lords tore at the mouths of the guards as punishment for letting their charge be taken.",
+      "directed": true,
+      "weight": 2,
+      "evidence": "the [lords] tore at their mouths as a punishment."
+    },
+    {
+      "source": "flower-guards",
+      "target": "owls-cleft-mouth-origin",
+      "relation": "leads to",
+      "description": "Because the guards' mouths were torn in punishment, the owl's mouth has been cleft ever since, an origin-of-a-feature aside.",
+      "directed": true,
+      "weight": 2,
+      "evidence": "From that time the mouth of the owl is divided, cleft as it is today."
+    },
+    {
+      "source": "hero-twins",
+      "target": "flower-task",
+      "relation": "defeats",
+      "description": "By delivering the four gourds brimming with dew-fresh flowers, the boys overcome the lords' second contrivance and bring them to pale, livid dismay.",
+      "directed": true,
+      "weight": 4,
+      "evidence": "in this way the Lords of Xibalba were overcome... the Lords of Xibalba paled and their faces became livid."
+    },
+    {
+      "source": "hero-twins",
+      "target": "hun-came",
+      "relation": "defeats",
+      "description": "Across torch trial, ballgame, and flower task the boys repeatedly best Hun-Camé and Vucub-Camé, marking the beginning of their deeds against Xibalba's chief lords.",
+      "directed": true,
+      "weight": 5,
+      "evidence": "Thus were Hun-Camé and Vucub-Camé defeated by Hunahpú and Xbalanqué. And this was the beginning of their deeds."
+    },
+    {
+      "source": "first-test-of-xibalba",
+      "target": "sacrifice-and-rebirth-theme",
+      "relation": "exemplifies",
+      "description": "The sons surviving the trials that destroyed their fathers enacts the cycle of sacrifice and rebirth carried across generations, the central theme of the Xibalba episode.",
+      "directed": true,
+      "weight": 3
+    },
+    {
+      "source": "hero-twins",
+      "target": "vengeance-across-generations-theme",
+      "relation": "exemplifies",
+      "description": "The boys' victories over the lords who killed their father are concrete enactments of vengeance flowing across generations, the through-line of Part Two.",
+      "directed": true,
+      "weight": 3
+    }
+  ]
+}

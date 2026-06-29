@@ -1,0 +1,175 @@
+{
+  "chapter": "Part1_Ch08",
+  "chapter_file": "chapters/Part1_Ch08.txt",
+  "title": "The Defeat of Zipacná: Crushed by the Mountain over the False Crab",
+  "summary": "Their hearts full of rancor because Zipacná had killed the four hundred young men, Hunahpú and Xbalanqué set a trap for him. They fashion a lifelike artificial crab from an ec-plant leaf, pahac, and a stone shell, and hide it at the bottom of a cave under a great mountain called Meaguán. Knowing Zipacná feeds only on fish and crabs, they lure the starving giant to the ravine with talk of an irresistible crab; when he crawls into the cave to seize it, the hill slides down and crushes his chest, and he is changed into stone. So the second of the arrogant ones, the elder son of Vucub-Caquix, is vanquished, avenging the four hundred boys and leaving only Cabracán still to be brought down.",
+  "nodes": [
+    {
+      "id": "false-crab",
+      "label": "The False Crab (the Boys' Hoax)",
+      "type": "object",
+      "chapter": "Part1_Ch08",
+      "description": "An artificial crab the Hero Twins build to deceive Zipacná: its body shaped from a leaf of the ec plant, its claws of pahac, and its shell a stone. Planted at the bottom of a cave as 'the boys' hoax,' it is the irresistible bait that lures the hungry giant to his death."
+    },
+    {
+      "id": "mount-meaguan",
+      "label": "Mount Meaguán",
+      "type": "place",
+      "chapter": "Part1_Ch08",
+      "description": "The large mountain at whose foot lies the cave where the Twins hide the false crab. When Zipacná crawls in to seize the crab, the great hill of Meaguán slides down and crushes his chest, so it is the place where he is vanquished and turned to stone."
+    },
+    {
+      "id": "defeat-of-zipacna",
+      "label": "The Defeat and Death of Zipacná",
+      "type": "event",
+      "chapter": "Part1_Ch08",
+      "description": "The episode in which Hunahpú and Xbalanqué destroy Zipacná: lured by the false crab into the cave under Mount Meaguán, the giant is crushed by the falling hill and changed into stone. It fulfills the Twins' resolve to destroy the family of Vucub-Caquix and avenges the four hundred boys Zipacná had killed."
+    }
+  ],
+  "edges": [
+    {
+      "source": "hero-twins",
+      "target": "defeat-of-zipacna",
+      "relation": "leads to",
+      "description": "Hunahpú and Xbalanqué devise and carry out the whole scheme — building the false crab, hiding it under Mount Meaguán, and luring Zipacná in — that brings about his defeat and death.",
+      "directed": true,
+      "weight": 5,
+      "evidence": "Now we shall tell how Zipacná was defeated by the two boys, Hunahpú and Xbalanqué"
+    },
+    {
+      "source": "hero-twins",
+      "target": "false-crab",
+      "relation": "creates",
+      "description": "The Twins quickly fashion a lifelike artificial crab from an ec-plant leaf, pahac claws, and a stone shell as the bait for their trap.",
+      "directed": true,
+      "weight": 4,
+      "evidence": "Hunahpú and Xbalanqué quickly made a figure to look like a very large crab ... the claws, they made of pahac, and for the shell ... they used a stone"
+    },
+    {
+      "source": "false-crab",
+      "target": "mount-meaguan",
+      "relation": "located in",
+      "description": "The Twins place the false crab at the bottom of a cave at the foot of the great mountain Meaguán, setting the stage for Zipacná's destruction.",
+      "directed": true,
+      "weight": 3,
+      "evidence": "Then they put the crab at the bottom of a cave at the foot of a large mountain called Meaguán"
+    },
+    {
+      "source": "hero-twins",
+      "target": "zipacna",
+      "relation": "deceives",
+      "description": "The Twins play on Zipacná's hunger, telling him of a huge crab in the ravine they were 'afraid' to catch, and feigning reluctance until his meekness draws him to crawl into the cave after the hoax.",
+      "directed": true,
+      "weight": 5,
+      "evidence": "Over there in the bottom of the ravine there is a crab, a really large crab ... there also in the bottom of the ravine was the boys' hoax"
+    },
+    {
+      "source": "false-crab",
+      "target": "zipacna",
+      "relation": "deceives",
+      "description": "Mistaking the stone-and-leaf decoy for a real crab worth crawling into the cave to seize, the starving Zipacná is fooled by the hoax into the position where the mountain can crush him.",
+      "directed": true,
+      "weight": 4,
+      "evidence": "there, stretched on his back, was the crab, showing his red shell ... 'I should like to have it in my mouth already!'"
+    },
+    {
+      "source": "mount-meaguan",
+      "target": "zipacna",
+      "relation": "destroys",
+      "description": "As Zipacná crawls into the cave after the crab, the great hill of Meaguán slides and falls slowly onto his chest, crushing and ending him.",
+      "directed": true,
+      "weight": 5,
+      "evidence": "the great hill slid and fell slowly down on his chest. Zipacná never returned and he was changed into stone"
+    },
+    {
+      "source": "zipacna",
+      "target": "defeat-of-zipacna",
+      "relation": "transforms into",
+      "description": "Crushed beneath Mount Meaguán, Zipacná is turned to stone — the mountain-maker himself becoming part of a mountain in his death.",
+      "directed": true,
+      "weight": 3,
+      "evidence": "Zipacná never returned and he was changed into stone"
+    },
+    {
+      "source": "hero-twins",
+      "target": "zipacna",
+      "relation": "defeats",
+      "description": "The Hero Twins overcome Zipacná, the second of the arrogant ones, not by force but by cunning, vanquishing the elder son of Vucub-Caquix 'only by a miracle.'",
+      "directed": true,
+      "weight": 5,
+      "evidence": "In this way Zipacná was defeated by the two boys, Hunahpú and Xbalanqué ... Only by a miracle was he vanquished, the second of the arrogant ones"
+    },
+    {
+      "source": "defeat-of-zipacna",
+      "target": "four-hundred-boys",
+      "relation": "avenges",
+      "description": "The Twins act expressly out of rancor at the four hundred young men whom Zipacná had killed, so his death is the vengeance taken for the slaughtered boys.",
+      "directed": true,
+      "weight": 5,
+      "evidence": "The boys' hearts were full of rancor because the four hundred young men had been killed by Zipacná"
+    },
+    {
+      "source": "defeat-of-zipacna",
+      "target": "zipacna-feigns-death",
+      "relation": "pays off in",
+      "description": "Zipacná's killing of the four hundred boys by collapsing their house upon them (Part1_Ch07) is now repaid in kind: he himself is buried and crushed under a falling mountain, a fitting retributive reversal.",
+      "directed": true,
+      "weight": 4,
+      "evidence": "the four hundred young men had been killed by Zipacná ... the great hill slid and fell slowly down on his chest"
+    },
+    {
+      "source": "defeat-of-zipacna",
+      "target": "cosmic-retribution-theme",
+      "relation": "exemplifies",
+      "description": "Zipacná, who crushed the four hundred under their own house, is himself crushed under a mountain — enacting the corpus's theme that violence rebounds fatally upon the aggressor.",
+      "directed": true,
+      "weight": 4,
+      "evidence": "the four hundred young men had been killed by Zipacná ... he was changed into stone"
+    },
+    {
+      "source": "defeat-of-zipacna",
+      "target": "pride-and-vainglory-theme",
+      "relation": "exemplifies",
+      "description": "Zipacná the boastful mountain-maker is named 'the second of the arrogant ones' as he is brought low, enacting the theme that vainglorious self-exaltation is doomed to be humbled.",
+      "directed": true,
+      "weight": 4,
+      "evidence": "Only by a miracle was he vanquished, the second of the arrogant ones"
+    },
+    {
+      "source": "defeat-of-zipacna",
+      "target": "decision-to-destroy-vucub-caquix",
+      "relation": "pays off in",
+      "description": "The death of Zipacná carries out the Twins' resolve in Part1_Ch05 to bring about 'the deaths of Vucub-Caquix and his sons'; with the father and now the elder son destroyed, only Cabracán remains.",
+      "directed": true,
+      "weight": 5,
+      "evidence": "he was the elder son of Vucub-Caquix ... One was left, whose history we shall tell now"
+    },
+    {
+      "source": "defeat-of-zipacna",
+      "target": "defeat-of-vucub-caquix",
+      "relation": "parallels",
+      "description": "The toppling of Zipacná by cunning mirrors the earlier toppling of his father Vucub-Caquix: in both, the Hero Twins humble an arrogant being not by strength but by a baited deception.",
+      "directed": false,
+      "weight": 3,
+      "evidence": "In this way Zipacná was defeated by the two boys ... the second of the arrogant ones"
+    },
+    {
+      "source": "defeat-of-zipacna",
+      "target": "cabracan",
+      "relation": "prefigures",
+      "description": "The chapter closes by pointing ahead to the last of the proud sons: with Zipacná dead, 'one was left' — Cabracán — whose own downfall the Twins will accomplish next.",
+      "directed": true,
+      "weight": 3,
+      "evidence": "One was left, whose history we shall tell now"
+    },
+    {
+      "source": "zipacna",
+      "target": "false-crab",
+      "relation": "seeks",
+      "description": "Driven by hunger because he feeds only on fish and crabs, Zipacná eagerly pursues the false crab into the cave, his appetite the lever the Twins use to destroy him.",
+      "directed": true,
+      "weight": 3,
+      "evidence": "Fish and crabs ... I have not eaten since day before yesterday, and I am dying of hunger ... 'I should like to have it in my mouth already!'"
+    }
+  ]
+}

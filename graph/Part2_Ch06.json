@@ -1,0 +1,257 @@
+{
+  "chapter": "Part2_Ch06",
+  "chapter_file": "chapters/Part2_Ch06.txt",
+  "title": "The Cornfield, the Animals, and the Rat's Revelation of the Ballgame Gear",
+  "summary": "To honor their grandmother and mother, Hunahpú and Xbalanqué set out to clear a cornfield, but their magical tools work alone while they hunt with blowguns, and overnight the animals raise the felled forest back up. Lying in wait, the Twins catch only the rat, who in exchange for his life reveals that the ballgame gear of their dead father Hun-Hunahpú still hangs hidden in the house. By tricking their grandmother with a leaking water jar, the Twins recover the ring, gloves, and ball — the inheritance that will draw them down into Xibalba to avenge their father.",
+  "nodes": [
+    {
+      "id": "twins-cornfield",
+      "label": "The Cornfield of Hunahpú and Xbalanqué (the Milpa)",
+      "type": "place",
+      "chapter": "Part2_Ch06",
+      "description": "The milpa the Hero Twins set out to clear to be well thought of by their grandmother and mother, taking the place of their brothers. Their enchanted pick and ax work the ground alone while they hunt; the cleared field is undone each night by the animals."
+    },
+    {
+      "id": "clearing-of-the-milpa",
+      "label": "The Magical Clearing of the Cornfield",
+      "type": "event",
+      "chapter": "Part2_Ch06",
+      "description": "The Twins' axes, picks, and hoes fell the trees and dig the soil by themselves with a single stroke, while the boys idle away shooting blowguns. They smear themselves with earth and wood splinters to deceive their grandmother into thinking they had labored."
+    },
+    {
+      "id": "animals-restore-forest",
+      "label": "The Animals Restore the Forest Overnight",
+      "type": "event",
+      "chapter": "Part2_Ch06",
+      "description": "Each night the assembled animals — puma, jaguar, deer, rabbit, coyote and others — gather and command 'Rise up, trees! Rise up, vines!', undoing the Twins' clearing. When the Twins ambush them, the deer and rabbit escape leaving their tails behind, an etiology for their short tails."
+    },
+    {
+      "id": "xmucur-dove",
+      "label": "Xmucur (the Dove Lookout)",
+      "type": "creature",
+      "chapter": "Part2_Ch06",
+      "description": "A dove the Twins teach and post at the top of a tree to sing when their grandmother approaches with food, so they can grab the pick and ax and feign laboring. A comic accomplice in the Twins' deception."
+    },
+    {
+      "id": "the-rat",
+      "label": "The Rat",
+      "type": "creature",
+      "chapter": "Part2_Ch06",
+      "description": "The one animal the Twins manage to seize; in pleading for his life he reveals that their father's ballgame gear hangs hidden in the house. As reward they grant the rat his food of corn, chili, beans, pataxte, and cacao, and his singed tail is an etiology for the rat's hairless tail."
+    },
+    {
+      "id": "xan-mosquito",
+      "label": "The Xan (Mosquito)",
+      "type": "creature",
+      "chapter": "Part2_Ch06",
+      "description": "A mosquito-like insect the Twins send to puncture their grandmother's water jar, so she leaves the house and the rat can cut down the hanging ballgame gear unseen. An instrument of the Twins' trickery."
+    },
+    {
+      "id": "ballgame-gear",
+      "label": "The Hidden Ballgame Gear (Ring, Gloves, and Ball)",
+      "type": "object",
+      "chapter": "Part2_Ch06",
+      "description": "The rubber ball, ring, leather gloves, and pads of the dead father Hun-Hunahpú, hidden by the grandmother in the rafters because the game cost her sons their lives. The Twins' recovery of this inheritance reawakens the ballgame and sets their course toward Xibalba."
+    },
+    {
+      "id": "recovery-of-ballgame-gear",
+      "label": "The Recovery of the Father's Ballgame Gear",
+      "type": "event",
+      "chapter": "Part2_Ch06",
+      "description": "Guided by the rat and using the leaking water jar to send their grandmother and mother away, the Twins have the rat cut the cord so the gear falls; they seize it and hide it on the road to the ball-court. 'And in this way the ball was found.'"
+    },
+    {
+      "id": "ball-court",
+      "label": "The Ball-Court",
+      "type": "place",
+      "chapter": "Part2_Ch06",
+      "description": "The playing court for the ballgame, on the road to which the Twins hide their recovered gear. It will become the arena whose noise rouses the lords of Xibalba and draws the Twins to their descent."
+    }
+  ],
+  "edges": [
+    {
+      "source": "hero-twins",
+      "target": "twins-cornfield",
+      "relation": "creates",
+      "description": "Hunahpú and Xbalanqué set out to plant a cornfield to be well thought of by their grandmother and mother, taking the place of their dead brothers.",
+      "directed": true,
+      "weight": 3,
+      "evidence": "The first thing they made was the cornfield."
+    },
+    {
+      "source": "clearing-of-the-milpa",
+      "target": "twins-cornfield",
+      "relation": "part of",
+      "description": "The magical felling of the trees and digging of the soil is the labor of preparing the Twins' cornfield.",
+      "directed": true,
+      "weight": 2
+    },
+    {
+      "source": "hero-twins",
+      "target": "clearing-of-the-milpa",
+      "relation": "deceives",
+      "description": "The Twins let their enchanted tools do the work alone while they hunt, then smear themselves with earth and wood to fool their grandmother into thinking they had toiled.",
+      "directed": true,
+      "weight": 3,
+      "evidence": "they had not really done the work of tilling the soil, and without deserving it they were given their midday meal"
+    },
+    {
+      "source": "hero-twins",
+      "target": "xmucur-dove",
+      "relation": "deceives",
+      "description": "The Twins teach the dove Xmucur to sing as a lookout signaling the grandmother's approach, enlisting it in their charade of laboring.",
+      "directed": true,
+      "weight": 2,
+      "evidence": "Watch for our grandmother to come with our food, and as soon as she comes, begin at once to sing"
+    },
+    {
+      "source": "animals-restore-forest",
+      "target": "clearing-of-the-milpa",
+      "relation": "inverts",
+      "description": "Each night the animals reverse the Twins' clearing, raising the felled trees and vines so the field is found whole again — undoing the day's work.",
+      "directed": true,
+      "weight": 4,
+      "evidence": "they found that all the trees and vines were standing again"
+    },
+    {
+      "source": "animals",
+      "target": "animals-restore-forest",
+      "relation": "part of",
+      "description": "The puma, jaguar, deer, rabbit, coyote and the rest of the animals are the agents who gather at midnight to command the forest to rise again.",
+      "directed": true,
+      "weight": 3,
+      "evidence": "Rise up, trees! Rise up, vines!"
+    },
+    {
+      "source": "hero-twins",
+      "target": "animals-restore-forest",
+      "relation": "opposes",
+      "description": "Furious that their field is undone, the Twins lie in wait to seize the animals, catching only tails of the deer and rabbit and finally the rat.",
+      "directed": true,
+      "weight": 3,
+      "evidence": "All the animals passed before Hunahpú and Xbalanqué, who were furious because they could not catch them."
+    },
+    {
+      "source": "hero-twins",
+      "target": "the-rat",
+      "relation": "defeats",
+      "description": "Of all the animals only the rat is caught; the Twins squeeze and singe him until he bargains for his life with a secret.",
+      "directed": true,
+      "weight": 3,
+      "evidence": "another animal came hopping along, and this one which was the rat, [which] they seized instantly"
+    },
+    {
+      "source": "the-rat",
+      "target": "ballgame-gear",
+      "relation": "leads to",
+      "description": "In exchange for his life and food, the rat reveals that the father's ballgame gear is hidden in the rafters of the house, setting the Twins on the path to recover it.",
+      "directed": true,
+      "weight": 4,
+      "evidence": "the gear with which they played ball, has remained and is hanging from the roof of the house"
+    },
+    {
+      "source": "ballgame-gear",
+      "target": "ballgame",
+      "relation": "part of",
+      "description": "The ring, gloves, ball, and pads are the equipment of the ball game introduced earlier as the pastime of the Twins' father and uncle.",
+      "directed": true,
+      "weight": 3
+    },
+    {
+      "source": "ballgame-gear",
+      "target": "hun-hunahpu",
+      "relation": "part of",
+      "description": "The hidden gear is the inheritance of the father Hun-Hunahpú (and Vucub-Hunahpú), kept by the grandmother because the game cost her sons their lives.",
+      "directed": true,
+      "weight": 3,
+      "evidence": "the property of your parents Hun-Hunahpú and Vucub-Hunahpú... those who died in Xibalba"
+    },
+    {
+      "source": "xmucane",
+      "target": "ballgame-gear",
+      "relation": "opposes",
+      "description": "The grandmother Xmucané hides the gear and refuses to show it to the Twins, fearing the game that already killed their father and uncle.",
+      "directed": true,
+      "weight": 3,
+      "evidence": "your grandmother does not want to show them to you for it was on account of these things that your parents died"
+    },
+    {
+      "source": "hero-twins",
+      "target": "xan-mosquito",
+      "relation": "deceives",
+      "description": "The Twins dispatch the xan to pierce their grandmother's water jar, a ruse to send her from the house so the rat can free the gear.",
+      "directed": true,
+      "weight": 2,
+      "evidence": "they sent to the river a certain xan... to puncture the side of their grandmother's water jar"
+    },
+    {
+      "source": "hero-twins",
+      "target": "xmucane",
+      "relation": "deceives",
+      "description": "The Twins feign thirst and use the leaking water jar to draw their grandmother and mother away from the house so the gear can be cut down unseen.",
+      "directed": true,
+      "weight": 3,
+      "evidence": "this was only to deceive their grandmother and their mother"
+    },
+    {
+      "source": "the-rat",
+      "target": "recovery-of-ballgame-gear",
+      "relation": "part of",
+      "description": "While the grandmother is away, the rat cuts the cord holding the gear so it falls, completing the recovery the Twins engineered.",
+      "directed": true,
+      "weight": 3,
+      "evidence": "the rat went to cut [the cord which held] the ball and it fell from the garret of the house"
+    },
+    {
+      "source": "hero-twins",
+      "target": "recovery-of-ballgame-gear",
+      "relation": "seeks",
+      "description": "Overjoyed at news of the rubber ball, the Twins orchestrate the whole trick to obtain their father's gear, then hide it on the road to the ball-court.",
+      "directed": true,
+      "weight": 4,
+      "evidence": "they were very happy when they heard about the rubber ball"
+    },
+    {
+      "source": "recovery-of-ballgame-gear",
+      "target": "ballgame-gear",
+      "relation": "leads to",
+      "description": "The orchestrated trick ends with the gear falling and being seized; the chapter closes 'And in this way the ball was found.'",
+      "directed": true,
+      "weight": 3,
+      "evidence": "And in this way the ball was found."
+    },
+    {
+      "source": "recovery-of-ballgame-gear",
+      "target": "ball-court",
+      "relation": "leads to",
+      "description": "The Twins hide the recovered gear on the road leading to the ball-court, pointing the action toward the playing of the game.",
+      "directed": true,
+      "weight": 2,
+      "evidence": "ran quickly to hide them on the road which led to the ball-court"
+    },
+    {
+      "source": "recovery-of-ballgame-gear",
+      "target": "summons-to-xibalba",
+      "relation": "prefigures",
+      "description": "Recovering the father's gear revives the ballgame whose noise once provoked Xibalba; it foreshadows a new summons that will draw the Twins down to avenge their father.",
+      "directed": true,
+      "weight": 4
+    },
+    {
+      "source": "hero-twins",
+      "target": "vengeance-across-generations-theme",
+      "relation": "exemplifies",
+      "description": "By reclaiming the inheritance their grandmother hid to protect them, the sons take up the very game that killed their fathers, enacting the cross-generational vengeance the corpus builds toward.",
+      "directed": true,
+      "weight": 4
+    },
+    {
+      "source": "clearing-of-the-milpa",
+      "target": "maize-harvest-miracle",
+      "relation": "parallels",
+      "description": "The Twins' enchanted, self-working cornfield labor echoes the earlier miracle of the corn net at the grandmother's house — both show the maize-related work of the family accomplished by magical means.",
+      "directed": false,
+      "weight": 2
+    }
+  ]
+}

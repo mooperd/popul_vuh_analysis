@@ -1,0 +1,110 @@
+{
+  "chapter": "Part1_Ch04",
+  "chapter_file": "chapters/Part1_Ch04.txt",
+  "title": "Vucub-Caquix, the False Sun, in the Age Before Dawn",
+  "summary": "In the cloudy twilight before the true sun has risen, a vainglorious being named Vucub-Caquix (Seven Macaw) proclaims himself to be the sun, the moon, and the light for all mankind, boasting of his silver eyes, jewel-bright teeth, and gleaming throne. But he is not really the sun — he is only proud of his feathers and riches, and can see no farther than the horizon. The chapter places his false self-exaltation in the same era as the flood that destroyed the wooden men, and announces the coming story of how he was overthrown and how true humankind was at last made.",
+  "nodes": [
+    {
+      "id": "vucub-caquix",
+      "label": "Vucub-Caquix (Seven Macaw)",
+      "type": "creature",
+      "chapter": "Part1_Ch04",
+      "description": "A proud, vainglorious bird-being who, in the twilight age before the true sun has risen, exalts himself as the sun, the moon, and the light of all mankind. He boasts of silver eyes, jewel-bright teeth, and a silver throne, but is not really the sun — only vain of his feathers and riches, able to see no farther than the horizon. He is the chief antagonist whose overthrow the chapter foretells."
+    },
+    {
+      "id": "twilight-before-dawn",
+      "label": "The Twilight Before the Sun",
+      "type": "place",
+      "chapter": "Part1_Ch04",
+      "description": "The cloudy, dim era after the flood in which sky and earth exist but the faces of the sun and moon are still covered and it has not yet dawned. This sunless twilight is the setting that allows a false light like Vucub-Caquix to pass himself off as the sun."
+    },
+    {
+      "id": "false-light-theme",
+      "label": "The False Sun / Counterfeit Light",
+      "type": "theme",
+      "chapter": "Part1_Ch04",
+      "description": "The motif of a being who usurps the place of the true sun and light through pride and display rather than reality. Vucub-Caquix claims to be the sun and moon while the genuine dawn is still withheld, embodying counterfeit radiance that must be exposed and cast down before real light can come."
+    },
+    {
+      "id": "pride-and-vainglory-theme",
+      "label": "Pride and Vainglory",
+      "type": "theme",
+      "chapter": "Part1_Ch04",
+      "description": "The recurring idea that self-exaltation and arrogant boasting set a being against the order the gods intend, and so doom it to be humbled. Vucub-Caquix's only ambition is to magnify and dominate, making his pride the very flaw that marks him for overthrow."
+    }
+  ],
+  "edges": [
+    {
+      "source": "vucub-caquix",
+      "target": "twilight-before-dawn",
+      "relation": "located in",
+      "description": "Vucub-Caquix exists and exalts himself in the cloudy twilight when the sun and moon are still hidden and the world has not yet dawned.",
+      "directed": true,
+      "weight": 4,
+      "evidence": "It was cloudy and twilight then on the face of the earth. There was no sun yet. Nevertheless, there was a being called Vucub-Caquix"
+    },
+    {
+      "source": "vucub-caquix",
+      "target": "false-light-theme",
+      "relation": "exemplifies",
+      "description": "By proclaiming himself the sun, the moon, and the light for all mankind while the true sun has not risen, Vucub-Caquix is the concrete enactment of the counterfeit-light theme.",
+      "directed": true,
+      "weight": 5,
+      "evidence": "So, then, I am the sun, I am the moon, for all mankind. So shall it be, because I can see very far."
+    },
+    {
+      "source": "vucub-caquix",
+      "target": "pride-and-vainglory-theme",
+      "relation": "exemplifies",
+      "description": "Vucub-Caquix's boasting of his splendor, silver eyes, and jewel teeth, and his ambition only to exalt and dominate, make him the embodiment of arrogant vainglory.",
+      "directed": true,
+      "weight": 5,
+      "evidence": "His only ambition was to exalt himself and to dominate ... he was only vainglorious of his feathers and his riches"
+    },
+    {
+      "source": "false-light-theme",
+      "target": "pride-and-vainglory-theme",
+      "relation": "parallels",
+      "description": "The counterfeit-light motif and the pride motif are twinned in Vucub-Caquix: his false claim to be the sun is itself an act of vainglory, so the two themes reinforce one another.",
+      "directed": false,
+      "weight": 3,
+      "evidence": "Therefore, Vucub-Caquix became as vain as though he were the sun and the moon, because the light of the sun and the moon had not yet shown itself"
+    },
+    {
+      "source": "false-light-theme",
+      "target": "dawn-and-light-theme",
+      "relation": "inverts",
+      "description": "Vucub-Caquix's counterfeit sunlight is a structural reversal of the true dawn the gods long to bring: where the deities decree real light to come out of darkness, he supplies a false light that must be removed for the genuine dawn to arrive.",
+      "directed": true,
+      "weight": 4,
+      "evidence": "The face of the sun had not yet appeared, nor that of the moon, nor the stars, and it had not dawned ... I am the sun, the light, the moon"
+    },
+    {
+      "source": "twilight-before-dawn",
+      "target": "the-flood",
+      "relation": "parallels",
+      "description": "The chapter situates Vucub-Caquix's twilight age in the very era of the flood that destroyed the wooden men, linking the sunless interval to that catastrophe in the corpus's timeline.",
+      "directed": true,
+      "weight": 3,
+      "evidence": "And all this happened when the flood came because of the wooden-people."
+    },
+    {
+      "source": "vucub-caquix",
+      "target": "men-of-wood",
+      "relation": "parallels",
+      "description": "Vucub-Caquix himself points to the drowned wooden people as 'clear examples,' and like that failed generation he is a flawed, self-deceived being destined to be cast down — a parallel failure of the pre-human world.",
+      "directed": false,
+      "weight": 3,
+      "evidence": "Truly, they are clear examples of those people who were drowned, and their nature is that of supernatural beings."
+    },
+    {
+      "source": "vucub-caquix",
+      "target": "humanity-as-goal-of-creation",
+      "relation": "prefigures",
+      "description": "The chapter closes by announcing both how Vucub-Caquix was overthrown and how man was made, binding his downfall to the still-unfulfilled goal of creating true humankind that drives Part I.",
+      "directed": true,
+      "weight": 4,
+      "evidence": "Now we shall tell how Vucub-Caquix was overthrown and died, and how man was made by the Creator and the Maker."
+    }
+  ]
+}

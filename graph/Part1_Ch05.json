@@ -1,0 +1,246 @@
+{
+  "chapter": "Part1_Ch05",
+  "chapter_file": "chapters/Part1_Ch05.txt",
+  "title": "The Hero Twins Resolve to Destroy Vucub-Caquix and His Proud Sons",
+  "summary": "Two divine youths, Hunahpú and Xbalanqué, the Hero Twins, witness the harm done by the arrogant Vucub-Caquix and resolve to bring about his defeat, planning to shoot him with their blowgun and end his vainglory so that men will learn not to grow proud of power and riches. The chapter also introduces Vucub-Caquix's family — his wife Chimalmat and their two sons, Zipacná, who boasts of having made the earth and raised the mountains, and Cabracán, who shakes the sky and makes the mountains tremble — each echoing their father's false claim to greatness while true humankind does not yet exist. Seeing the sons follow their father's prideful example, the Twins decide on the deaths of Vucub-Caquix and his sons.",
+  "nodes": [
+    {
+      "id": "hunahpu",
+      "label": "Hunahpú",
+      "type": "hero",
+      "chapter": "Part1_Ch05",
+      "description": "One of the two divine youths called the Hero Twins, introduced here with his twin Xbalanqué as the agent who will overthrow the arrogant Vucub-Caquix. 'They were really gods.' He is a distinct figure from the earlier diviner deity Hunahpú-Utiú/Hunahpú-Vuch, and not to be confused with the mountain that shares his name in this chapter."
+    },
+    {
+      "id": "xbalanque",
+      "label": "Xbalanqué",
+      "type": "hero",
+      "chapter": "Part1_Ch05",
+      "description": "The second of the two divine youths, the Hero Twins, who together with Hunahpú resolve to defeat Vucub-Caquix and his sons. With his twin he embodies the corrective force that humbles vainglory before true humankind exists."
+    },
+    {
+      "id": "hero-twins",
+      "label": "The Hero Twins",
+      "type": "hero",
+      "chapter": "Part1_Ch05",
+      "description": "The paired protagonists Hunahpú and Xbalanqué taken together as a single heroic unit — 'two youths' who 'were really gods.' Their joint resolve to destroy the arrogant Vucub-Caquix and his sons launches the central heroic arc of Part I."
+    },
+    {
+      "id": "blowgun",
+      "label": "The Blowgun",
+      "type": "object",
+      "chapter": "Part1_Ch05",
+      "description": "The weapon the Hero Twins put to their shoulders, planning to shoot Vucub-Caquix while he eats and so sicken him and end his pride and riches. The blowgun is the symbolic instrument by which the Twins will humble false greatness."
+    },
+    {
+      "id": "zipacna",
+      "label": "Zipacná",
+      "type": "creature",
+      "chapter": "Part1_Ch05",
+      "description": "The first son of Vucub-Caquix and Chimalmat, a giant who plays ball with the great mountains and claims to have created the earth: 'I am he who made the earth!' He boasts of raising mountains (Chigag, Hunahpú, Pecul, Yaxcanul, Macamob, Huliznab) in a single night, following his father's prideful example."
+    },
+    {
+      "id": "cabracan",
+      "label": "Cabracán",
+      "type": "creature",
+      "chapter": "Part1_Ch05",
+      "description": "The second son of Vucub-Caquix and Chimalmat, the earthquake-maker who moves the mountains and makes them tremble, boasting 'I am he who shook the sky and made the earth tremble!' Like his brother Zipacná he mirrors his father's vainglorious self-exaltation."
+    },
+    {
+      "id": "chimalmat",
+      "label": "Chimalmat",
+      "type": "character",
+      "chapter": "Part1_Ch05",
+      "description": "The wife of Vucub-Caquix and mother of the two sons Zipacná and Cabracán. She links the proud false-sun Vucub-Caquix to the next generation of boastful giants whom the Hero Twins will also bring down."
+    },
+    {
+      "id": "decision-to-destroy-vucub-caquix",
+      "label": "The Twins' Decision to Destroy Vucub-Caquix and His Sons",
+      "type": "event",
+      "chapter": "Part1_Ch05",
+      "description": "Seeing the harm and arrogance of Vucub-Caquix and the matching pride of his sons, the Hero Twins resolve upon their deaths and destruction. This decision sets in motion the heroic campaign against false greatness that occupies the chapters to come."
+    }
+  ],
+  "edges": [
+    {
+      "source": "hunahpu",
+      "target": "xbalanque",
+      "relation": "is sibling of",
+      "description": "Hunahpú and Xbalanqué are the twin youths who act as one — the Hero Twins — modeled as a symmetric sibling pairing.",
+      "directed": false,
+      "weight": 4,
+      "evidence": "two youths, the first of whom was called Hunahpú and the second, Xbalanqué"
+    },
+    {
+      "source": "hunahpu",
+      "target": "hero-twins",
+      "relation": "part of",
+      "description": "Hunahpú is one half of the paired heroic unit, the Hero Twins, who together resolve to overthrow Vucub-Caquix.",
+      "directed": true,
+      "weight": 4,
+      "evidence": "two youths ... They were really gods"
+    },
+    {
+      "source": "xbalanque",
+      "target": "hero-twins",
+      "relation": "part of",
+      "description": "Xbalanqué is the second half of the paired heroic unit, the Hero Twins.",
+      "directed": true,
+      "weight": 4,
+      "evidence": "the second, Xbalanqué. They were really gods"
+    },
+    {
+      "source": "hero-twins",
+      "target": "blowgun",
+      "relation": "seeks",
+      "description": "The Twins take up their blowguns as the chosen means to strike Vucub-Caquix while he eats and so end his riches and pride.",
+      "directed": true,
+      "weight": 3,
+      "evidence": "we shall try to shoot him with our blowgun when he is eating ... each one putting his blowgun to his shoulder"
+    },
+    {
+      "source": "hero-twins",
+      "target": "decision-to-destroy-vucub-caquix",
+      "relation": "leads to",
+      "description": "The Twins, judging Vucub-Caquix's arrogance evil and seeing his sons imitate it, resolve upon the deaths and destruction of the whole prideful family.",
+      "directed": true,
+      "weight": 5,
+      "evidence": "the deaths of Vucub-Caquix and his sons and their destruction was decided upon by the youths"
+    },
+    {
+      "source": "decision-to-destroy-vucub-caquix",
+      "target": "vucub-caquix",
+      "relation": "opposes",
+      "description": "The Twins set themselves against Vucub-Caquix, resolving to shoot, sicken, and destroy him because of the harm his arrogance does while man does not yet live on earth.",
+      "directed": true,
+      "weight": 5,
+      "evidence": "When they saw the harm which the arrogant one had done ... It is not good that it be so, when man does not yet live here on earth"
+    },
+    {
+      "source": "hero-twins",
+      "target": "vucub-caquix",
+      "relation": "opposes",
+      "description": "The Hero Twins become the antagonists of Vucub-Caquix, vowing to end his false claim to be the sun and to humble his vainglory.",
+      "directed": true,
+      "weight": 5,
+      "evidence": "THIS IS THE BEGINNING OF THE DEFEAT and the ruin of the glory of Vucub-Caquix brought about by two youths"
+    },
+    {
+      "source": "vucub-caquix",
+      "target": "zipacna",
+      "relation": "is parent of",
+      "description": "Zipacná is the first son of Vucub-Caquix, born of his wife Chimalmat; the giant who claims to have made the earth.",
+      "directed": true,
+      "weight": 4,
+      "evidence": "Vucub-Caquix had two sons: the first was called Zipacná"
+    },
+    {
+      "source": "vucub-caquix",
+      "target": "cabracan",
+      "relation": "is parent of",
+      "description": "Cabracán is the second son of Vucub-Caquix, the earthquake-maker who shakes the mountains.",
+      "directed": true,
+      "weight": 4,
+      "evidence": "the second was Cabracán; and the mother of the two was called Chimalmat"
+    },
+    {
+      "source": "chimalmat",
+      "target": "zipacna",
+      "relation": "is parent of",
+      "description": "Chimalmat, wife of Vucub-Caquix, is the mother of Zipacná.",
+      "directed": true,
+      "weight": 3,
+      "evidence": "the mother of the two was called Chimalmat, the wife of Vucub-Caquix"
+    },
+    {
+      "source": "chimalmat",
+      "target": "cabracan",
+      "relation": "is parent of",
+      "description": "Chimalmat is also the mother of Cabracán, the second son.",
+      "directed": true,
+      "weight": 3,
+      "evidence": "the mother of the two was called Chimalmat, the wife of Vucub-Caquix"
+    },
+    {
+      "source": "zipacna",
+      "target": "cabracan",
+      "relation": "is sibling of",
+      "description": "Zipacná and Cabracán are the two boastful sons of Vucub-Caquix and Chimalmat, a brother-pair who each echo their father's pride.",
+      "directed": false,
+      "weight": 3,
+      "evidence": "Vucub-Caquix had two sons: the first was called Zipacná, the second was Cabracán"
+    },
+    {
+      "source": "zipacna",
+      "target": "pride-and-vainglory-theme",
+      "relation": "exemplifies",
+      "description": "Zipacná's boast that he made the earth and raised the mountains in a single night enacts the theme of arrogant self-exaltation that marks him, like his father, for downfall.",
+      "directed": true,
+      "weight": 4,
+      "evidence": "I am he who made the earth! said Zipacná ... the sons of Vucub-Caquix followed the example of their father's assumed greatness"
+    },
+    {
+      "source": "cabracan",
+      "target": "pride-and-vainglory-theme",
+      "relation": "exemplifies",
+      "description": "Cabracán's boast that he shook the sky and made the earth tremble is a further enactment of vainglorious pride, mirroring his father and brother.",
+      "directed": true,
+      "weight": 4,
+      "evidence": "I am he who shook the sky and made the earth tremble! said Cabracán"
+    },
+    {
+      "source": "zipacna",
+      "target": "false-light-theme",
+      "relation": "parallels",
+      "description": "Zipacná's false claim to have created the earth parallels his father Vucub-Caquix's false claim to be the sun — both are counterfeit usurpations of powers that belong to the true creators.",
+      "directed": false,
+      "weight": 3,
+      "evidence": "Listen! I am the sun! said Vucub-Caquix. I am he who made the earth! said Zipacná"
+    },
+    {
+      "source": "cabracan",
+      "target": "vucub-caquix",
+      "relation": "parallels",
+      "description": "Cabracán's self-exalting boast mirrors his father's, as the sons consciously follow Vucub-Caquix's assumed greatness.",
+      "directed": false,
+      "weight": 3,
+      "evidence": "In this way the sons of Vucub-Caquix followed the example of their father's assumed greatness"
+    },
+    {
+      "source": "decision-to-destroy-vucub-caquix",
+      "target": "vucub-caquix",
+      "relation": "pays off in",
+      "description": "The overthrow of Vucub-Caquix announced at the close of Part1_Ch04 begins to be fulfilled here: the Hero Twins are revealed as the agents who will accomplish his promised defeat.",
+      "directed": true,
+      "weight": 5,
+      "evidence": "Now we shall tell how Vucub-Caquix was overthrown and died ... THIS IS THE BEGINNING OF THE DEFEAT and the ruin of the glory of Vucub-Caquix"
+    },
+    {
+      "source": "hero-twins",
+      "target": "humanity-as-goal-of-creation",
+      "relation": "prefigures",
+      "description": "The Twins act expressly because 'man does not yet live here on earth,' clearing away false greatness before true humankind can be made; their campaign prefigures and prepares the still-unfulfilled goal of creating humans.",
+      "directed": true,
+      "weight": 4,
+      "evidence": "It is not good that it be so, when man does not yet live here on earth ... Neither our first mother nor our first father had yet been created"
+    },
+    {
+      "source": "decision-to-destroy-vucub-caquix",
+      "target": "pride-and-vainglory-theme",
+      "relation": "exemplifies",
+      "description": "The Twins frame their campaign as a moral lesson — that men must not become vain because of power and riches — making their decision a direct enactment of the theme that pride is doomed to be humbled.",
+      "directed": true,
+      "weight": 4,
+      "evidence": "this shall be the lot of all men, for they must not become vain, because of power and riches"
+    },
+    {
+      "source": "hero-twins",
+      "target": "heart-of-heaven",
+      "relation": "exemplifies",
+      "description": "The Twins resolve to act 'in the presence of the Heart of Heaven,' aligning their opposition to Vucub-Caquix with the divine order that the Heart of Heaven upholds.",
+      "directed": true,
+      "weight": 2,
+      "evidence": "the harm which the arrogant one had done, and wished to do, in the presence of the Heart of Heaven"
+    }
+  ]
+}

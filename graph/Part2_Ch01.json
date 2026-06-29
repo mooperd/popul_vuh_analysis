@@ -1,0 +1,475 @@
+{
+  "chapter": "Part2_Ch01",
+  "chapter_file": "chapters/Part2_Ch01.txt",
+  "title": "The Father Hun-Hunahpú and the Summons to Xibalba",
+  "summary": "Stepping back a generation, the narrative introduces Hun-Hunahpú and his brother Vucub-Hunahpú, sons of the grandparents Xpiyacoc and Xmucané and the future father of the Hero Twins. Hun-Hunahpú fathers two gifted artisan sons, Hunbatz and Hunchouén, by his wife Xbaquiyalo. The brothers' constant ball-playing on the road to Xibalba angers Hun-Camé and Vucub-Camé, the supreme lords of the underworld, who—aided by their council of disease-dealing lords—plot to summon and destroy them, coveting their playing gear. This sets in motion the descent into Xibalba that drives all of Part II.",
+  "nodes": [
+    {
+      "id": "hun-hunahpu",
+      "label": "Hun-Hunahpú",
+      "type": "hero",
+      "chapter": "Part2_Ch01",
+      "description": "Son of Xpiyacoc and Xmucané and FATHER of the Hero Twins Hunahpú and Xbalanqué (a distinct, earlier-generation character from his son Hunahpú). With his brother Vucub-Hunahpú he plays ball ceaselessly, fathers Hunbatz and Hunchouén, and is summoned to Xibalba where he will be killed."
+    },
+    {
+      "id": "vucub-hunahpu",
+      "label": "Vucub-Hunahpú",
+      "type": "hero",
+      "chapter": "Part2_Ch01",
+      "description": "Brother of Hun-Hunahpú and son of Xpiyacoc and Xmucané. He is single and childless, and accompanies his brother as ball-playing partner; together they are summoned to and will perish in Xibalba."
+    },
+    {
+      "id": "hunbatz",
+      "label": "Hunbatz",
+      "type": "character",
+      "chapter": "Part2_Ch01",
+      "description": "Elder son of Hun-Hunahpú and Xbaquiyalo, twin brother of Hunchouén. A wise soothsayer and master of all the arts—flautist, singer, blowgun-shooter, painter, sculptor, jeweler, silversmith—he will later be overcome by his half-brothers the Hero Twins."
+    },
+    {
+      "id": "hunchouen",
+      "label": "Hunchouén",
+      "type": "character",
+      "chapter": "Part2_Ch01",
+      "description": "Younger son of Hun-Hunahpú and Xbaquiyalo, twin brother of Hunbatz. Equally a wise soothsayer and master artisan; like his brother he will be overcome by Hunahpú and Xbalanqué later in Part II."
+    },
+    {
+      "id": "xbaquiyalo",
+      "label": "Xbaquiyalo",
+      "type": "character",
+      "chapter": "Part2_Ch01",
+      "description": "Wife of Hun-Hunahpú and mother of the artisan brothers Hunbatz and Hunchouén. She dies while the family is still on earth, before the descent into Xibalba."
+    },
+    {
+      "id": "voc",
+      "label": "Voc",
+      "type": "character",
+      "chapter": "Part2_Ch01",
+      "description": "The messenger of Huracán (Chipi-Caculhá and Raxa-Caculhá) who watches the ball-players. Stationed between earth and Xibalba, he can ascend to heaven in an instant, serving as a link between the divine, earthly, and underworld realms."
+    },
+    {
+      "id": "xibalba",
+      "label": "Xibalba",
+      "type": "place",
+      "chapter": "Part2_Ch01",
+      "description": "The underworld realm of the dead, ruled by the lords Hun-Camé and Vucub-Camé and their council of disease-dealing lords. It lies along the road the ball-players take, and becomes the arena of trials central to all of Part II."
+    },
+    {
+      "id": "hun-came",
+      "label": "Hun-Camé",
+      "type": "character",
+      "chapter": "Part2_Ch01",
+      "description": "One of the two supreme judges and lords of Xibalba, paired with Vucub-Camé. Angered by the ball-players' noise above their heads, he convenes the council that summons Hun-Hunahpú and Vucub-Hunahpú to their deaths."
+    },
+    {
+      "id": "vucub-came",
+      "label": "Vucub-Camé",
+      "type": "character",
+      "chapter": "Part2_Ch01",
+      "description": "The second of the two supreme judges and lords of Xibalba, paired with Hun-Camé. Together they assign the other Xibalban lords their duties and plot the destruction of Hun-Hunahpú and Vucub-Hunahpú."
+    },
+    {
+      "id": "xiquiripat",
+      "label": "Xiquiripat",
+      "type": "character",
+      "chapter": "Part2_Ch01",
+      "description": "A lord of Xibalba paired with Cuchumaquic; their work was to cause the shedding of men's blood. One of the council of disease-dealing underworld lords."
+    },
+    {
+      "id": "cuchumaquic",
+      "label": "Cuchumaquic",
+      "type": "character",
+      "chapter": "Part2_Ch01",
+      "description": "A lord of Xibalba paired with Xiquiripat; together they caused the shedding of men's blood. Later notable as the father of Xquic, the maiden who bears the Hero Twins."
+    },
+    {
+      "id": "ahalpuh",
+      "label": "Ahalpuh",
+      "type": "character",
+      "chapter": "Part2_Ch01",
+      "description": "A lord of Xibalba paired with Ahalganá; their work was to make men swell and make pus gush from their legs and stain their faces yellow (the affliction called Chuganal)."
+    },
+    {
+      "id": "ahalgana",
+      "label": "Ahalganá",
+      "type": "character",
+      "chapter": "Part2_Ch01",
+      "description": "A lord of Xibalba paired with Ahalpuh; together they inflicted swelling, pus, and jaundice (Chuganal) upon men. One of the disease-dealing council."
+    },
+    {
+      "id": "chamiabac",
+      "label": "Chamiabac",
+      "type": "character",
+      "chapter": "Part2_Ch01",
+      "description": "A constable of Xibalba whose staff was of bone, paired with Chamiaholom; their work was to waste men away until they were nothing but skin and bone."
+    },
+    {
+      "id": "chamiaholom",
+      "label": "Chamiaholom",
+      "type": "character",
+      "chapter": "Part2_Ch01",
+      "description": "A constable of Xibalba whose staff was of bone, paired with Chamiabac; together they emaciated men to skin and bone until they died."
+    },
+    {
+      "id": "ahalmez",
+      "label": "Ahalmez",
+      "type": "character",
+      "chapter": "Part2_Ch01",
+      "description": "A lord of Xibalba paired with Ahaltocob; their work was to bring sudden disaster upon men, leaving them wounded and dead near their homes."
+    },
+    {
+      "id": "ahaltocob",
+      "label": "Ahaltocob",
+      "type": "character",
+      "chapter": "Part2_Ch01",
+      "description": "A lord of Xibalba paired with Ahalmez; together they brought disaster and violent death upon men as they traveled or arrived home."
+    },
+    {
+      "id": "xic",
+      "label": "Xic",
+      "type": "character",
+      "chapter": "Part2_Ch01",
+      "description": "A lord of Xibalba paired with Patán; their work was to cause 'sudden death' on the road, squeezing men's throats and chests so they died vomiting blood."
+    },
+    {
+      "id": "patan",
+      "label": "Patán",
+      "type": "character",
+      "chapter": "Part2_Ch01",
+      "description": "A lord of Xibalba paired with Xic; together they caused sudden death on the road by making blood rush to men's mouths and throats until they died."
+    },
+    {
+      "id": "ballgame",
+      "label": "The Ball Game",
+      "type": "object",
+      "chapter": "Part2_Ch01",
+      "description": "The ritual ball game played ceaselessly by Hun-Hunahpú and Vucub-Hunahpú, with its gear of leather pads, rings, gloves, crown, and masks. The noise it makes provokes the lords of Xibalba, and the gear they covet becomes the pretext for the fatal summons; the game recurs as a central motif throughout Part II."
+    },
+    {
+      "id": "summons-to-xibalba",
+      "label": "The Summons to Xibalba",
+      "type": "event",
+      "chapter": "Part2_Ch01",
+      "description": "Angered by the ball-players' noise and coveting their playing gear, the lords of Xibalba hold council and resolve to call Hun-Hunahpú and Vucub-Hunahpú down to the underworld to overpower them, initiating the descent that drives Part II."
+    },
+    {
+      "id": "vengeance-across-generations-theme",
+      "label": "Vengeance Across Generations",
+      "type": "theme",
+      "chapter": "Part2_Ch01",
+      "description": "The narrative motif in which the death of the fathers (Hun-Hunahpú and Vucub-Hunahpú) in Xibalba seeds the vengeance later carried out by their sons, the Hero Twins—wrongdoing in one generation paid off by the next."
+    }
+  ],
+  "edges": [
+    {
+      "source": "hun-hunahpu",
+      "target": "xpiyacoc",
+      "relation": "is parent of",
+      "description": "Hun-Hunahpú was born of the grandparents Xpiyacoc and Xmucané; here the edge records that Xpiyacoc is his father.",
+      "directed": true,
+      "evidence": "Their parents were Xpiyacoc and Xmucané.",
+      "weight": 3
+    },
+    {
+      "source": "xmucane",
+      "target": "hun-hunahpu",
+      "relation": "is parent of",
+      "description": "Xmucané is the mother of Hun-Hunahpú, making her the grandmother of the future Hero Twins.",
+      "directed": true,
+      "evidence": "During the night Hun-Hunahpú and Vucub-Hunahpú were born of Xpiyacoc and Xmucané.",
+      "weight": 3
+    },
+    {
+      "source": "xpiyacoc",
+      "target": "vucub-hunahpu",
+      "relation": "is parent of",
+      "description": "Xpiyacoc is the father of Vucub-Hunahpú as well, brother of Hun-Hunahpú.",
+      "directed": true,
+      "weight": 2
+    },
+    {
+      "source": "xmucane",
+      "target": "vucub-hunahpu",
+      "relation": "is parent of",
+      "description": "Xmucané is the mother of Vucub-Hunahpú.",
+      "directed": true,
+      "weight": 2
+    },
+    {
+      "source": "hun-hunahpu",
+      "target": "vucub-hunahpu",
+      "relation": "is sibling of",
+      "description": "Hun-Hunahpú and Vucub-Hunahpú are brothers and inseparable ball-playing partners.",
+      "directed": false,
+      "weight": 4
+    },
+    {
+      "source": "hun-hunahpu",
+      "target": "hunahpu",
+      "relation": "is parent of",
+      "description": "Hun-Hunahpú (the father) is explicitly named as the father of the Hero Twin Hunahpú (the son). This edge anchors the generational distinction between the new node hun-hunahpu and the prior node hunahpu.",
+      "directed": true,
+      "evidence": "the name of the father of Hunahpú and Xbalanqué",
+      "weight": 4
+    },
+    {
+      "source": "hun-hunahpu",
+      "target": "xbalanque",
+      "relation": "is parent of",
+      "description": "Hun-Hunahpú is named as the father of the Hero Twin Xbalanqué as well, linking the new father-generation node to the prior son node.",
+      "directed": true,
+      "evidence": "the name of the father of Hunahpú and Xbalanqué",
+      "weight": 4
+    },
+    {
+      "source": "hun-hunahpu",
+      "target": "hunbatz",
+      "relation": "is parent of",
+      "description": "Hun-Hunahpú begot two sons by Xbaquiyalo; Hunbatz is the first.",
+      "directed": true,
+      "evidence": "Hun-Hunahpú had begotten two sons; the first was called Hunbatz",
+      "weight": 3
+    },
+    {
+      "source": "hun-hunahpu",
+      "target": "hunchouen",
+      "relation": "is parent of",
+      "description": "Hunchouén is the second son begotten by Hun-Hunahpú with Xbaquiyalo.",
+      "directed": true,
+      "evidence": "the second Hunchouén",
+      "weight": 3
+    },
+    {
+      "source": "xbaquiyalo",
+      "target": "hunbatz",
+      "relation": "is parent of",
+      "description": "Xbaquiyalo, wife of Hun-Hunahpú, is the mother of Hunbatz.",
+      "directed": true,
+      "evidence": "The mother of the two sons was called Xbaquiyalo.",
+      "weight": 2
+    },
+    {
+      "source": "xbaquiyalo",
+      "target": "hunchouen",
+      "relation": "is parent of",
+      "description": "Xbaquiyalo is also the mother of Hunchouén.",
+      "directed": true,
+      "weight": 2
+    },
+    {
+      "source": "hunbatz",
+      "target": "hunchouen",
+      "relation": "is sibling of",
+      "description": "Hunbatz and Hunchouén are the two brother sons of Hun-Hunahpú, jointly the master artisans.",
+      "directed": false,
+      "weight": 3
+    },
+    {
+      "source": "hun-hunahpu",
+      "target": "ballgame",
+      "relation": "seeks",
+      "description": "Hun-Hunahpú and Vucub-Hunahpú do nothing all day but play dice and ball; their devotion to the game drives the plot.",
+      "directed": true,
+      "evidence": "Hun-Hunahpú and Vucub-Hunahpú did nothing but play dice and ball A day long",
+      "weight": 4
+    },
+    {
+      "source": "voc",
+      "target": "heart-of-heaven",
+      "relation": "part of",
+      "description": "Voc is the messenger of Huracán (Heart of Heaven) and his manifestations Chipi-Caculhá and Raxa-Caculhá, serving the heavenly powers introduced in Part I.",
+      "directed": true,
+      "evidence": "Voc, the messenger of Huracán, of Chipi-Caculhá, of Raxa-Caculhá",
+      "weight": 2
+    },
+    {
+      "source": "voc",
+      "target": "ballgame",
+      "relation": "seeks",
+      "description": "Voc comes to watch the brothers' ball-playing, moving between earth, Xibalba, and heaven as an observing messenger.",
+      "directed": true,
+      "evidence": "came there to watch them",
+      "weight": 2
+    },
+    {
+      "source": "hun-came",
+      "target": "vucub-came",
+      "relation": "is sibling of",
+      "description": "Hun-Camé and Vucub-Camé are the paired supreme judges of Xibalba who rule and act in tandem.",
+      "directed": false,
+      "weight": 3
+    },
+    {
+      "source": "hun-came",
+      "target": "xibalba",
+      "relation": "located in",
+      "description": "Hun-Camé is one of the supreme lords ruling within Xibalba.",
+      "directed": true,
+      "weight": 3
+    },
+    {
+      "source": "vucub-came",
+      "target": "xibalba",
+      "relation": "located in",
+      "description": "Vucub-Camé is one of the supreme lords ruling within Xibalba.",
+      "directed": true,
+      "weight": 3
+    },
+    {
+      "source": "xiquiripat",
+      "target": "xibalba",
+      "relation": "located in",
+      "description": "Xiquiripat is one of the disease-dealing lords subordinate to the supreme judges of Xibalba.",
+      "directed": true,
+      "weight": 1
+    },
+    {
+      "source": "cuchumaquic",
+      "target": "xibalba",
+      "relation": "located in",
+      "description": "Cuchumaquic is a lord of Xibalba; with Xiquiripat he caused the shedding of men's blood.",
+      "directed": true,
+      "weight": 1
+    },
+    {
+      "source": "ahalpuh",
+      "target": "xibalba",
+      "relation": "located in",
+      "description": "Ahalpuh is a disease-dealing lord of Xibalba.",
+      "directed": true,
+      "weight": 1
+    },
+    {
+      "source": "ahalgana",
+      "target": "xibalba",
+      "relation": "located in",
+      "description": "Ahalganá is a disease-dealing lord of Xibalba.",
+      "directed": true,
+      "weight": 1
+    },
+    {
+      "source": "chamiabac",
+      "target": "xibalba",
+      "relation": "located in",
+      "description": "Chamiabac is a bone-staffed constable of Xibalba.",
+      "directed": true,
+      "weight": 1
+    },
+    {
+      "source": "chamiaholom",
+      "target": "xibalba",
+      "relation": "located in",
+      "description": "Chamiaholom is a bone-staffed constable of Xibalba.",
+      "directed": true,
+      "weight": 1
+    },
+    {
+      "source": "ahalmez",
+      "target": "xibalba",
+      "relation": "located in",
+      "description": "Ahalmez is a lord of Xibalba who brings sudden disaster upon men.",
+      "directed": true,
+      "weight": 1
+    },
+    {
+      "source": "ahaltocob",
+      "target": "xibalba",
+      "relation": "located in",
+      "description": "Ahaltocob is a lord of Xibalba who brings sudden disaster upon men.",
+      "directed": true,
+      "weight": 1
+    },
+    {
+      "source": "xic",
+      "target": "xibalba",
+      "relation": "located in",
+      "description": "Xic is a lord of Xibalba who causes sudden death on the road.",
+      "directed": true,
+      "weight": 1
+    },
+    {
+      "source": "patan",
+      "target": "xibalba",
+      "relation": "located in",
+      "description": "Patán is a lord of Xibalba who causes sudden death on the road.",
+      "directed": true,
+      "weight": 1
+    },
+    {
+      "source": "summons-to-xibalba",
+      "target": "hun-hunahpu",
+      "relation": "seeks",
+      "description": "The council of Xibalba resolves to call Hun-Hunahpú down to the underworld to overpower him, the inciting event of Part II.",
+      "directed": true,
+      "evidence": "Go and call them! Let them come here to play ball. Here we will overpower them!",
+      "weight": 5
+    },
+    {
+      "source": "summons-to-xibalba",
+      "target": "vucub-hunahpu",
+      "relation": "seeks",
+      "description": "The summons targets Vucub-Hunahpú alongside his brother, drawing both to Xibalba.",
+      "directed": true,
+      "weight": 4
+    },
+    {
+      "source": "hun-came",
+      "target": "summons-to-xibalba",
+      "relation": "leads to",
+      "description": "Hun-Camé and the council of Xibalba conceive and issue the summons after being angered by the ball-players' noise.",
+      "directed": true,
+      "evidence": "having gathered in council, they discussed how to torment and wound Hun-Hunahpú and Vucub-Hunahpú",
+      "weight": 4
+    },
+    {
+      "source": "ballgame",
+      "target": "summons-to-xibalba",
+      "relation": "leads to",
+      "description": "The noise and coveted gear of the ball game provoke the lords of Xibalba into summoning the brothers.",
+      "directed": true,
+      "evidence": "What the Lords of Xibalba coveted were the playing implements of Hun-Hunahpú and Vucub-Hunahpú",
+      "weight": 3
+    },
+    {
+      "source": "hun-came",
+      "target": "ballgame",
+      "relation": "seeks",
+      "description": "The lords of Xibalba covet the brothers' playing gear—leather pads, rings, gloves, crown, and masks—a motive behind the summons.",
+      "directed": true,
+      "evidence": "their leather pads and rings and gloves and crown and masks which were the playing gear",
+      "weight": 2
+    },
+    {
+      "source": "summons-to-xibalba",
+      "target": "vengeance-across-generations-theme",
+      "relation": "exemplifies",
+      "description": "The fatal summoning of the fathers sets up the cross-generational vengeance the Hero Twins will later exact, a concrete enactment of the theme.",
+      "directed": true,
+      "weight": 3
+    },
+    {
+      "source": "hun-hunahpu",
+      "target": "hunahpu",
+      "relation": "prefigures",
+      "description": "The father Hun-Hunahpú's ball-playing and doomed descent into Xibalba foreshadows his son Hunahpú, who will return to Xibalba and triumph where the father fell—an arc paid off later in Part II.",
+      "directed": true,
+      "weight": 4
+    },
+    {
+      "source": "hunbatz",
+      "target": "hunahpu",
+      "relation": "prefigures",
+      "description": "Hunbatz and Hunchouén, the elder artisan half-brothers, are flagged here as those who will later be overcome by Hunahpú and Xbalanqué, foreshadowing that future conflict.",
+      "directed": true,
+      "evidence": "how Hunbatz and Hunchouén were overcome by Hunahpú and Xbalanqué",
+      "weight": 3
+    },
+    {
+      "source": "vengeance-across-generations-theme",
+      "target": "cosmic-retribution-theme",
+      "relation": "parallels",
+      "description": "Vengeance flowing from the fathers' deaths to the sons mirrors the earlier theme of retribution and the revolt of the abused established in Part I.",
+      "directed": false,
+      "weight": 2
+    }
+  ]
+}

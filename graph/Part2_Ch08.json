@@ -1,0 +1,208 @@
+{
+  "chapter": "Part2_Ch08",
+  "chapter_file": "chapters/Part2_Ch08.txt",
+  "title": "The Twins Descend to Xibalba and Survive the First Snares",
+  "summary": "Hunahpú and Xbalanqué descend the road to Xibalba, safely crossing the rivers of corruption and of blood on their blowguns and reaching the crossroads of four colored roads. Forewarned, they send an insect (a hair of Hunahpú's leg, called Xan) to sting the seated lords one by one, who betray their own names aloud; the Twins thus arrive already knowing every lord's name and refuse to be fooled. They greet the wooden effigies as mere wood, name each true lord without error, decline the burning bench, and enter the House of Gloom unbeaten. At every snare that destroyed their father Hun-Hunahpú, the sons are not overcome.",
+  "nodes": [
+    {
+      "id": "river-of-blood-and-corruption",
+      "label": "The River of Corruption and the River of Blood",
+      "type": "place",
+      "chapter": "Part2_Ch08",
+      "description": "Two rivers on the road into Xibalba—one of corruption (Quicxic) and one of blood—set as a trap where the people of Xibalba expected the Twins to be destroyed. The Twins cross them without touching the water by riding over on their blowguns, the first snare of the descent that they pass."
+    },
+    {
+      "id": "xan-name-trick",
+      "label": "The Xan and the Stealing of the Lords' Names",
+      "type": "event",
+      "chapter": "Part2_Ch08",
+      "description": "At the crossroads the Twins send an insect called Xan—actually a hair plucked from Hunahpú's leg—down the black road to sting each seated lord in turn. As each is stung he cries out and the others address him by name, so the whole roster of Xibalba is spoken aloud; the Twins overhear and arrive already knowing every name. A reconnaissance trick that inverts the wooden-men deception that fooled their father."
+    },
+    {
+      "id": "quicxic",
+      "label": "Quicxic",
+      "type": "character",
+      "chapter": "Part2_Ch08",
+      "description": "A lord of Xibalba named in the roll of those stung by the Xan and greeted by the Twins. One of the council of underworld lords seated to receive the visitors."
+    },
+    {
+      "id": "quicre",
+      "label": "Quicré",
+      "type": "character",
+      "chapter": "Part2_Ch08",
+      "description": "A lord of Xibalba named in the council roll, who questions the stung lord beside him. One of the seated underworld lords the Twins correctly name."
+    },
+    {
+      "id": "quicrixcac",
+      "label": "Quicrixcac",
+      "type": "character",
+      "chapter": "Part2_Ch08",
+      "description": "A lord of Xibalba, the last named in the roll the Twins overhear and then recite. One of the council of seated underworld lords."
+    }
+  ],
+  "edges": [
+    {
+      "source": "hero-twins",
+      "target": "road-to-xibalba",
+      "relation": "located in",
+      "description": "Each carrying his blowgun, the Twins go down the road into Xibalba, descending the steps and passing the streams and ravines their father traveled.",
+      "directed": true,
+      "weight": 3,
+      "evidence": "Then they went, each one carrying his blowgun, and went down in the direction of Xibalba."
+    },
+    {
+      "source": "river-of-blood-and-corruption",
+      "target": "road-to-xibalba",
+      "relation": "part of",
+      "description": "The river of corruption and the river of blood are hazards along the descending road to Xibalba where the people of Xibalba expected the visitors to perish.",
+      "directed": true,
+      "weight": 2,
+      "evidence": "They also passed over a river of corruption, and over a river of blood, where they would be destroyed, so the people of Xibalba thought."
+    },
+    {
+      "source": "hero-twins",
+      "target": "river-of-blood-and-corruption",
+      "relation": "defeats",
+      "description": "The Twins cross the rivers of corruption and blood without touching the water, riding over on their blowguns, foiling the trap meant to destroy them.",
+      "directed": true,
+      "weight": 3,
+      "evidence": "they did not touch it with their feet, instead they crossed it on their blowguns."
+    },
+    {
+      "source": "blowgun",
+      "target": "river-of-blood-and-corruption",
+      "relation": "defeats",
+      "description": "The blowgun—the Twins' signature weapon from Part I—doubles here as a bridge that carries them safely over the deadly rivers.",
+      "directed": true,
+      "weight": 2
+    },
+    {
+      "source": "hero-twins",
+      "target": "four-roads-crossroads",
+      "relation": "located in",
+      "description": "The Twins reach the same crossroads of four colored roads—black, white, red, and green—where their father was deceived, but here they know exactly which roads lead where.",
+      "directed": true,
+      "weight": 3,
+      "evidence": "came to a crossway of four roads. They knew very well which were the roads to Xibalba."
+    },
+    {
+      "source": "hero-twins",
+      "target": "xan-name-trick",
+      "relation": "creates",
+      "description": "At the crossroads the Twins devise and send the Xan—a hair of Hunahpú's leg—to sting the lords and make them reveal their names.",
+      "directed": true,
+      "weight": 4,
+      "evidence": "they sent an animal called Xan... It was really not a mosquito which stung them which went for Hunahpú and Xbalanqué to hear the names of all of them."
+    },
+    {
+      "source": "xan-name-trick",
+      "target": "hun-came",
+      "relation": "deceives",
+      "description": "The stinging Xan makes the seated lords cry out and name one another, so Hun-Camé and the whole council unwittingly betray their identities to the listening Twins.",
+      "directed": true,
+      "weight": 3,
+      "evidence": "All told their names when Hunahpú puffed out a hair of his leg, which was what had stung them."
+    },
+    {
+      "source": "xan-name-trick",
+      "target": "wooden-men-deception",
+      "relation": "inverts",
+      "description": "Where the wooden effigies once tricked the father into greeting wood as lords, the Twins' name-stealing trick reverses the snare: now the lords are the ones unwittingly exposed, and the sons cannot be fooled.",
+      "directed": true,
+      "weight": 4
+    },
+    {
+      "source": "quicxic",
+      "target": "xibalba",
+      "relation": "located in",
+      "description": "Quicxic is one of the seated lords of the council of Xibalba.",
+      "directed": true,
+      "weight": 1
+    },
+    {
+      "source": "quicre",
+      "target": "xibalba",
+      "relation": "located in",
+      "description": "Quicré is one of the seated lords of the council of Xibalba.",
+      "directed": true,
+      "weight": 1
+    },
+    {
+      "source": "quicrixcac",
+      "target": "xibalba",
+      "relation": "located in",
+      "description": "Quicrixcac is one of the seated lords of the council of Xibalba.",
+      "directed": true,
+      "weight": 1
+    },
+    {
+      "source": "hero-twins",
+      "target": "wooden-men-deception",
+      "relation": "defeats",
+      "description": "Told to greet the seated figure, the Twins answer that it is no lord but only wood, refusing the trick that fooled their father into greeting the effigies aloud.",
+      "directed": true,
+      "weight": 4,
+      "evidence": "That is not a lord, it is nothing more than a wooden figure, they said, and went on."
+    },
+    {
+      "source": "hero-twins",
+      "target": "hun-came",
+      "relation": "deceives",
+      "description": "Armed with the stolen names, the Twins greet every true lord by name without missing one—precisely the recognition the lords had hoped to keep hidden, turning the lords' own snare against them.",
+      "directed": true,
+      "weight": 3,
+      "evidence": "they spoke the name of all, without missing the name of a single one of them. But what the lords wished was that they should not discover their names."
+    },
+    {
+      "source": "hero-twins",
+      "target": "hot-stone-bench",
+      "relation": "defeats",
+      "description": "Offered the seat of honor, the Twins recognize it as only a hot stone and refuse to sit, so the lords could not overcome them where the same burning bench had scorched their father.",
+      "directed": true,
+      "weight": 4,
+      "evidence": "That is not a seat for us; it is only a hot stone... and they could not overcome them."
+    },
+    {
+      "source": "hero-twins",
+      "target": "house-of-gloom",
+      "relation": "located in",
+      "description": "Sent on to the House of Gloom, the first house of punishment, the Twins enter and are not overcome—setting up the trial their father failed there.",
+      "directed": true,
+      "weight": 4,
+      "evidence": "they went on and entered the House of Gloom. And neither there were they overcome."
+    },
+    {
+      "source": "hero-twins",
+      "target": "hun-hunahpu",
+      "relation": "parallels",
+      "description": "The Twins retrace their father's exact descent—rivers, crossroads, wooden men, hot bench, House of Gloom—but pass unbeaten at each snare that destroyed him, the structural payoff of the two-generation pattern.",
+      "directed": true,
+      "weight": 4
+    },
+    {
+      "source": "hero-twins",
+      "target": "sacrifice-of-the-fathers",
+      "relation": "avenges",
+      "description": "By surviving the very trials that led to the fathers' sacrifice, the Twins advance the vengeance for Hun-Hunahpú and Vucub-Hunahpú's deaths in Xibalba.",
+      "directed": true,
+      "weight": 4
+    },
+    {
+      "source": "xan-name-trick",
+      "target": "wooden-men-deception",
+      "relation": "parallels",
+      "description": "Both episodes turn on whether the visitors can tell living lords from wood and know their names; the father failed the recognition test, while the Twins master it through the Xan's reconnaissance.",
+      "directed": false,
+      "weight": 3
+    },
+    {
+      "source": "four-roads-crossroads",
+      "target": "hero-twins",
+      "relation": "opposes",
+      "description": "The crossroads that deceived the father with its lying black road cannot mislead the Twins, who know all four roads—the snare is neutralized rather than fooling them.",
+      "directed": true,
+      "weight": 2,
+      "evidence": "They knew very well which were the roads to Xibalba; the black road, the white road, the red road, and the green road."
+    }
+  ]
+}

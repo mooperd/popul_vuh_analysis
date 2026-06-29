@@ -1,0 +1,189 @@
+{
+  "chapter": "Part1_Ch09",
+  "chapter_file": "chapters/Part1_Ch09.txt",
+  "title": "The Defeat of Cabracán, the Mountain-Shaker",
+  "summary": "Commanded by Huracán (Heart of Heaven), the Hero Twins set out to destroy Cabracán, the boastful son of Vucub-Caquix who topples mountains. Posing as humble blowgun-hunters, they lure him eastward toward a great mountain and feed him a bird rubbed with white earth, which saps his strength. They then bind him and bury him in the earth, completing the destruction of Vucub-Caquix's proud family and closing Part I's cycle of punishing false greatness before the Twins' own birth is told.",
+  "nodes": [
+    {
+      "id": "earth-rubbed-bird",
+      "label": "The Earth-Rubbed Bird",
+      "type": "object",
+      "chapter": "Part1_Ch09",
+      "description": "A roasted bird the Twins rub with white chalk-earth and feed to Cabracán. Its odor whets his appetite, but the earth on it drains his strength so he can no longer move mountains; the magic object that works his ruin, sympathetically 'bringing him down to the earth' as it is itself covered with earth."
+    },
+    {
+      "id": "place-where-sun-rises",
+      "label": "The East (Where the Sun Rises)",
+      "type": "place",
+      "chapter": "Part1_Ch09",
+      "description": "The eastern horizon, site of a great illusory mountain, toward which the Twins lure Cabracán at Huracán's command. The direction of dawn becomes the place of the prideful one's downfall."
+    },
+    {
+      "id": "defeat-of-cabracan",
+      "label": "The Defeat and Burial of Cabracán",
+      "type": "event",
+      "chapter": "Part1_Ch09",
+      "description": "The episode in which the Hero Twins lure, weaken with the earth-rubbed bird, bind, and bury Cabracán in the earth. It completes the destruction of Vucub-Caquix and his two sons and ends Part I's arc of humbling false greatness."
+    }
+  ],
+  "edges": [
+    {
+      "source": "cabracan",
+      "target": "pride-and-vainglory-theme",
+      "relation": "exemplifies",
+      "description": "Cabracán boasts that he demolishes and levels the mountains forever, an arrogant exaltation of his own power that marks him for destruction.",
+      "directed": true,
+      "weight": 4,
+      "evidence": "\"I demolish the mountains,\" he said; \"I am leveling them to the ground forever.\""
+    },
+    {
+      "source": "heart-of-heaven",
+      "target": "defeat-of-cabracan",
+      "relation": "leads to",
+      "description": "Huracán, Heart of Heaven, commands the Twins to bring Cabracán down because it is not right that he exalts his glory and grandeur on earth, setting the whole episode in motion.",
+      "directed": true,
+      "weight": 5,
+      "evidence": "\"Let the second son of Vucub-Caquix also be defeated. This is our will... Lure him to where the sun rises,\" said Huracán."
+    },
+    {
+      "source": "caculha-huracan",
+      "target": "hero-twins",
+      "relation": "leads to",
+      "description": "Huracán together with Chipi-Caculhá and Raxa-Caculhá speaks the command to the Twins; they accept it as the will of Heart of Heaven, the peace.",
+      "directed": true,
+      "weight": 3,
+      "evidence": "\"Do you not exist, you who are the peace, you, Heart of Heaven?\" said the boys as they listened to the command of Huracán."
+    },
+    {
+      "source": "hero-twins",
+      "target": "defeat-of-cabracan",
+      "relation": "leads to",
+      "description": "Hunahpú and Xbalanqué carry out the divine command, executing the scheme that lures, weakens, binds, and buries Cabracán.",
+      "directed": true,
+      "weight": 5,
+      "evidence": "\"In this way Cabracán was overcome by Hunahpú and Xbalanqué.\""
+    },
+    {
+      "source": "hero-twins",
+      "target": "cabracan",
+      "relation": "deceives",
+      "description": "The Twins pose as nameless poor blowgun-hunters and invent a great far-off mountain to lure Cabracán eastward and trap him.",
+      "directed": true,
+      "weight": 4,
+      "evidence": "\"We have no names... we are nothing more than shooters of blowguns and hunters with bird-traps on the mountains.\""
+    },
+    {
+      "source": "hero-twins",
+      "target": "blowgun",
+      "relation": "seeks",
+      "description": "The Twins use their blowguns to fell birds with mere puffs of air, awing Cabracán and supplying the bird that becomes his ruin.",
+      "directed": true,
+      "weight": 2,
+      "evidence": "they felled the birds only with the puff of air when they shot them, which surprised Cabracán very much."
+    },
+    {
+      "source": "hero-twins",
+      "target": "earth-rubbed-bird",
+      "relation": "creates",
+      "description": "The Twins roast a bird and rub it with white chalk-earth, fashioning the trap-food that will sap Cabracán's strength.",
+      "directed": true,
+      "weight": 4,
+      "evidence": "they rubbed one of the birds with chalk, covering it with a white earth soil."
+    },
+    {
+      "source": "earth-rubbed-bird",
+      "target": "cabracan",
+      "relation": "deceives",
+      "description": "Tempted by its savory smell, Cabracán eats the earth-rubbed bird; the earth on it weakens his legs and hands so he can no longer move the mountains.",
+      "directed": true,
+      "weight": 5,
+      "evidence": "Cabracán's legs and hands were weakening... because of the earth with which the bird he had eaten was rubbed."
+    },
+    {
+      "source": "hero-twins",
+      "target": "place-where-sun-rises",
+      "relation": "seeks",
+      "description": "The Twins march Cabracán east toward an illusory great mountain at the place where the sun rises, the bait that draws him to his end.",
+      "directed": true,
+      "weight": 2,
+      "evidence": "\"Over there it is, where the sun rises,\" said Hunahpú and Xbalanqué."
+    },
+    {
+      "source": "hero-twins",
+      "target": "cabracan",
+      "relation": "defeats",
+      "description": "The Twins bind Cabracán's hands, neck, and feet, throw him down, and bury him in the earth, overcoming the last of Vucub-Caquix's proud family.",
+      "directed": true,
+      "weight": 5,
+      "evidence": "Then the boys tied him... Then they threw him to the ground and there they buried him."
+    },
+    {
+      "source": "cabracan",
+      "target": "defeat-of-cabracan",
+      "relation": "transforms into",
+      "description": "Cabracán's arrogant career of shaking mountains ends as he is reduced to a buried captive, his story resolving into the episode of his defeat.",
+      "directed": true,
+      "weight": 3
+    },
+    {
+      "source": "defeat-of-cabracan",
+      "target": "decision-to-destroy-vucub-caquix",
+      "relation": "pays off in",
+      "description": "Burying Cabracán fulfills the Twins' earlier resolve to destroy Vucub-Caquix together with both his sons.",
+      "directed": true,
+      "weight": 5,
+      "evidence": "having first told of the destruction of Vucub-Caquix and that of Zipacná and of Cabracán."
+    },
+    {
+      "source": "defeat-of-cabracan",
+      "target": "vucub-caquix",
+      "relation": "pays off in",
+      "description": "With the second son destroyed, the punishment of Vucub-Caquix's whole prideful lineage is now complete.",
+      "directed": true,
+      "weight": 4,
+      "evidence": "\"Let the second son of Vucub-Caquix also be defeated.\""
+    },
+    {
+      "source": "defeat-of-cabracan",
+      "target": "defeat-of-zipacna",
+      "relation": "parallels",
+      "description": "Like Zipacná's defeat, Cabracán's follows the same pattern: the humble-seeming Twins use a deceptive lure and a fatal trick to overthrow a boastful mountain-being.",
+      "directed": false,
+      "weight": 4
+    },
+    {
+      "source": "defeat-of-cabracan",
+      "target": "defeat-of-vucub-caquix",
+      "relation": "parallels",
+      "description": "Cabracán's downfall mirrors his father's: in each case appetite and pride are turned against the proud one to bring him low.",
+      "directed": false,
+      "weight": 3
+    },
+    {
+      "source": "defeat-of-cabracan",
+      "target": "pride-and-vainglory-theme",
+      "relation": "exemplifies",
+      "description": "The episode enacts the recurring theme that false self-exalted greatness must be humbled, here by burying the mountain-shaker in the very earth he boasted of leveling.",
+      "directed": true,
+      "weight": 4
+    },
+    {
+      "source": "defeat-of-cabracan",
+      "target": "dawn-and-light-theme",
+      "relation": "prefigures",
+      "description": "The Twins speak of the coming wisdom of created man 'when it dawns, when there is light'; clearing away the false, prideful beings prepares the world for the true dawn and the making of humankind.",
+      "directed": true,
+      "weight": 3,
+      "evidence": "\"Great shall be the wisdom of a created being... when it dawns, when there is light,\" said the boys."
+    },
+    {
+      "source": "defeat-of-cabracan",
+      "target": "humanity-as-goal-of-creation",
+      "relation": "prefigures",
+      "description": "By ending the cycle of false greatness, the Twins' victory clears the stage for the births and the eventual creation of true humankind, the goal toward which the narrative now turns.",
+      "directed": true,
+      "weight": 3,
+      "evidence": "\"Now we shall tell of the birth of Hunahpú and Xbalanqué...\""
+    }
+  ]
+}

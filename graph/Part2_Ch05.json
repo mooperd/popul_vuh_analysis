@@ -1,0 +1,283 @@
+{
+  "chapter": "Part2_Ch05",
+  "chapter_file": "chapters/Part2_Ch05.txt",
+  "title": "The Birth of the Hero Twins and the Transformation of Hunbatz and Hunchouén",
+  "summary": "Xquic gives birth in the wood to the Hero Twins Hunahpú and Xbalanqué, who are despised, starved, and cast out by their grandmother Xmucané and their envious elder half-brothers Hunbatz and Hunchouén. Enduring the abuse silently, the Twins lure the elder brothers up the Canté tree and, by trickery and magic, transform them into monkeys, fulfilling the earlier prefiguration of men turning into monkeys and demonstrating the theme that pride and abuse lead to disgrace. The despised younger sons thus supplant the gifted elder ones, who survive only as patrons invoked by musicians and artists.",
+  "nodes": [
+    {
+      "id": "ant-hill-and-thistles",
+      "label": "The Ant-Hill and the Thistles",
+      "type": "place",
+      "chapter": "Part2_Ch05",
+      "description": "The places where the newborn Twins are cast out to die at the urging of their grandmother and elder brothers, yet where they sleep peacefully and survive. They mark the Twins' rejection and miraculous endurance from birth."
+    },
+    {
+      "id": "cante-tree",
+      "label": "The Canté Tree",
+      "type": "object",
+      "chapter": "Part2_Ch05",
+      "description": "The tree, full of uncountable singing birds, that the Twins climb with their elder brothers on the pretext of fetching fallen game. It magically swells and grows tall, trapping Hunbatz and Hunchouén and serving as the instrument of their transformation."
+    },
+    {
+      "id": "transformation-of-hunbatz-hunchouen",
+      "label": "The Transformation of Hunbatz and Hunchouén into Monkeys",
+      "type": "event",
+      "chapter": "Part2_Ch05",
+      "description": "The Twins trick their elder half-brothers into loosening their breechclouts atop the Canté tree, whereupon the ends become tails and the brothers turn into monkeys and flee into the forest. Xmucané's uncontrollable laughter at their antics, repeated through four flute-and-song trials, makes the change permanent."
+    },
+    {
+      "id": "hunahpu-qoy-song",
+      "label": "The Song of Hunahpú-Qoy (Hunahpú the Monkey)",
+      "type": "object",
+      "chapter": "Part2_Ch05",
+      "description": "The flute-and-drum song the Twins play to summon the transformed brothers back from the forest in four attempts. It later becomes the air invoked by musicians, singers, painters, and craftsmen who honor Hunbatz and Hunchouén as patrons."
+    },
+    {
+      "id": "pride-and-disgrace-theme",
+      "label": "Abuse, Envy, and Disgrace",
+      "type": "theme",
+      "chapter": "Part2_Ch05",
+      "description": "The recurring moral that those who, from envy and arrogance, abuse the humble are themselves brought low; the gifted elder brothers lose their human form precisely because they abused their innocent younger brothers."
+    }
+  ],
+  "edges": [
+    {
+      "source": "xquic",
+      "target": "birth-of-hero-twins",
+      "relation": "leads to",
+      "description": "When her day arrives Xquic gives birth in the wood to the Twins, realizing the birth foretold in the previous chapter.",
+      "directed": true,
+      "weight": 5,
+      "evidence": "the girl named Xquic gave birth ... the two boys called Hunahpú and Xbalanqué were born"
+    },
+    {
+      "source": "birth-of-hero-twins",
+      "target": "hunahpu",
+      "relation": "leads to",
+      "description": "The long-anticipated birth brings the elder Hero Twin Hunahpú (the SON, son of Hun-Hunahpú) into the world.",
+      "directed": true,
+      "weight": 4,
+      "evidence": "the two boys called Hunahpú and Xbalanqué were born"
+    },
+    {
+      "source": "birth-of-hero-twins",
+      "target": "xbalanque",
+      "relation": "leads to",
+      "description": "The same birth brings the younger Hero Twin Xbalanqué into the world.",
+      "directed": true,
+      "weight": 4,
+      "evidence": "the two boys called Hunahpú and Xbalanqué were born"
+    },
+    {
+      "source": "xquic",
+      "target": "hunahpu",
+      "relation": "is parent of",
+      "description": "Xquic is the mother of the Hero Twin Hunahpú, having conceived by the spittle of Hun-Hunahpú's skull.",
+      "directed": true,
+      "weight": 4
+    },
+    {
+      "source": "xquic",
+      "target": "xbalanque",
+      "relation": "is parent of",
+      "description": "Xquic is the mother of the Hero Twin Xbalanqué.",
+      "directed": true,
+      "weight": 4
+    },
+    {
+      "source": "hun-hunahpu",
+      "target": "hunahpu",
+      "relation": "is parent of",
+      "description": "Hun-Hunahpú (the FATHER, slain in Xibalba) is the father of the Hero Twin Hunahpú; the chapter notes the Twins are the successors of the parents who died in Xibalba.",
+      "directed": true,
+      "weight": 4,
+      "evidence": "they were the successors of their parents, those who went to Xibalba and died there"
+    },
+    {
+      "source": "hunahpu",
+      "target": "xbalanque",
+      "relation": "is sibling of",
+      "description": "Hunahpú and Xbalanqué are the twin brothers who act as one throughout the chapter.",
+      "directed": false,
+      "weight": 3
+    },
+    {
+      "source": "hunbatz",
+      "target": "hunahpu",
+      "relation": "is sibling of",
+      "description": "Hunbatz and Hunchouén are the elder half-brothers (sons of Hun-Hunahpú by Xbaquiyalo) of the Hero Twins; the chapter explicitly frames Hunahpú and Xbalanqué as their younger brothers.",
+      "directed": false,
+      "weight": 3,
+      "evidence": "they would not recognize them ... to receive their younger brothers in the house"
+    },
+    {
+      "source": "hunbatz",
+      "target": "hunahpu",
+      "relation": "opposes",
+      "description": "Out of hatred and envy the elder brothers refuse to house, feed, or recognize the Twins and wish them dead, though the Twins had not offended them.",
+      "directed": true,
+      "weight": 5,
+      "evidence": "because of the hatred and envy Hunbatz and Hunchouén felt for them ... they wished this"
+    },
+    {
+      "source": "hunchouen",
+      "target": "xbalanque",
+      "relation": "opposes",
+      "description": "Hunchouén shares in the envy and abuse, eating the Twins' birds and denying them food.",
+      "directed": true,
+      "weight": 4,
+      "evidence": "Hunbatz and Hunchouén ate them without giving anything to either of the two"
+    },
+    {
+      "source": "xmucane",
+      "target": "hunahpu",
+      "relation": "opposes",
+      "description": "The grandmother Xmucané favors the elder brothers, orders the newborns thrown out, withholds food, and rages when they bring no birds; her partiality compounds the Twins' early mistreatment.",
+      "directed": true,
+      "weight": 3,
+      "evidence": "Go throw them out! ... they were not loved by their grandmother"
+    },
+    {
+      "source": "hunahpu",
+      "target": "ant-hill-and-thistles",
+      "relation": "located in",
+      "description": "Cast out to the ant-hill and thistles to die, the infant Twins instead sleep peacefully there, showing their preternatural endurance from birth.",
+      "directed": true,
+      "weight": 2,
+      "evidence": "they went and put them on an ant-hill. There they slept peacefully"
+    },
+    {
+      "source": "hunahpu",
+      "target": "blowgun",
+      "relation": "seeks",
+      "description": "The Twins spend their days shooting their blowguns and hunting birds, the same weapon used against Vucub-Caquix; here it provides the pretext (uncatchable birds) that lures their brothers up the tree.",
+      "directed": true,
+      "weight": 2,
+      "evidence": "did nothing all day long but shoot their blowguns"
+    },
+    {
+      "source": "hunahpu",
+      "target": "transformation-of-hunbatz-hunchouen",
+      "relation": "leads to",
+      "description": "The Twins deliberately plan to change their brothers' nature as punishment for the suffering they caused, then carry it out by deceit and magic.",
+      "directed": true,
+      "weight": 5,
+      "evidence": "We shall only change their nature, their appearance ... for all the suffering that they have caused us"
+    },
+    {
+      "source": "hunahpu",
+      "target": "hunbatz",
+      "relation": "deceives",
+      "description": "The Twins trick the elder brothers into climbing the Canté tree for birds and then into loosening their breechclouts, which become the tails of monkeys.",
+      "directed": true,
+      "weight": 4,
+      "evidence": "Loosen your breechclouts ... instantly these were changed into tails"
+    },
+    {
+      "source": "cante-tree",
+      "target": "transformation-of-hunbatz-hunchouen",
+      "relation": "leads to",
+      "description": "The magically swelling Canté tree traps Hunbatz and Hunchouén at its top, setting up their transformation into monkeys.",
+      "directed": true,
+      "weight": 3,
+      "evidence": "the tree became larger and the trunk swelled ... they could not come down"
+    },
+    {
+      "source": "transformation-of-hunbatz-hunchouen",
+      "target": "hunbatz",
+      "relation": "transforms into",
+      "description": "Hunbatz is changed into a monkey, his breechclout becoming a tail; he flees into the forest making faces and swinging in the branches.",
+      "directed": true,
+      "weight": 5,
+      "evidence": "they took on the appearance of monkeys"
+    },
+    {
+      "source": "transformation-of-hunbatz-hunchouen",
+      "target": "hunchouen",
+      "relation": "transforms into",
+      "description": "Hunchouén is likewise transformed into a monkey and lost to the forest, never regaining his human face after the grandmother's laughter.",
+      "directed": true,
+      "weight": 5,
+      "evidence": "Hunbatz and Hunchouén were overcome by Hunahpú and Xbalanqué ... became animals"
+    },
+    {
+      "source": "hunahpu",
+      "target": "hunbatz",
+      "relation": "defeats",
+      "description": "The Twins overcome and supplant their abusive elder brothers, the despised younger sons triumphing over the gifted elder ones through magic.",
+      "directed": true,
+      "weight": 4,
+      "evidence": "In this way Hunbatz and Hunchouén were overcome by Hunahpú and Xbalanqué"
+    },
+    {
+      "source": "hunahpu-qoy-song",
+      "target": "transformation-of-hunbatz-hunchouen",
+      "relation": "part of",
+      "description": "The Twins play the song of Hunahpú-Qoy to call the monkeys back for four trials; the grandmother's repeated laughter at their faces seals the transformation as permanent.",
+      "directed": true,
+      "weight": 3,
+      "evidence": "playing ... the song, called Hunahpú-Qoy ... she did not see their faces again"
+    },
+    {
+      "source": "xmucane",
+      "target": "transformation-of-hunbatz-hunchouen",
+      "relation": "leads to",
+      "description": "Warned not to laugh, Xmucané cannot control her laughter at the monkeys' antics across all four trials, and her laughter is what makes their loss irreversible.",
+      "directed": true,
+      "weight": 3,
+      "evidence": "the old woman saw their ugly faces, she began to laugh ... she did not see their faces again"
+    },
+    {
+      "source": "hunbatz",
+      "target": "hunahpu-qoy-song",
+      "relation": "part of",
+      "description": "Transformed into monkeys, Hunbatz and Hunchouén survive as the patrons invoked by musicians, singers, painters, and craftsmen through the song that bears their monkey name.",
+      "directed": true,
+      "weight": 2,
+      "evidence": "They were invoked by the musicians and singers ... the painters and craftsmen also invoked them"
+    },
+    {
+      "source": "transformation-of-hunbatz-hunchouen",
+      "target": "pride-and-disgrace-theme",
+      "relation": "exemplifies",
+      "description": "The brothers lose their human form precisely because of arrogance and abuse, a concrete enactment of the moral that envy and pride bring disgrace.",
+      "directed": true,
+      "weight": 4,
+      "evidence": "they were changed into animals ... because they became arrogant and abused their brothers"
+    },
+    {
+      "source": "transformation-of-hunbatz-hunchouen",
+      "target": "monkeys",
+      "relation": "pays off in",
+      "description": "This deliberate transformation of men into monkeys fulfills and re-enacts the earlier turning of the Men of Wood's descendants into monkeys after the flood, now as targeted retribution rather than mass judgment.",
+      "directed": true,
+      "weight": 3,
+      "evidence": "they ... became monkeys"
+    },
+    {
+      "source": "transformation-of-hunbatz-hunchouen",
+      "target": "cosmic-retribution-theme",
+      "relation": "exemplifies",
+      "description": "As with the revolt that punished the abusers of creatures, the abused younger brothers turn their abusers into beasts, enacting the corpus theme of retribution against the abusive.",
+      "directed": true,
+      "weight": 3
+    },
+    {
+      "source": "birth-of-hero-twins",
+      "target": "vengeance-across-generations-theme",
+      "relation": "exemplifies",
+      "description": "The Twins, noted as successors of the parents who died in Xibalba, are born to carry the vengeance owed across generations, advancing the corpus arc set up at the summons to Xibalba.",
+      "directed": true,
+      "weight": 3,
+      "evidence": "they were the successors of their parents, those who went to Xibalba and died there"
+    },
+    {
+      "source": "hunbatz",
+      "target": "hunahpu-vuch",
+      "relation": "parallels",
+      "description": "The elder brothers' monkey patronage of artists echoes the divine grandparents' names Hunahpú-Vuch and Hunahpú-Utiú; the chapter situates Hunbatz and Hunchouén as ancestral patrons of music, painting, and carving.",
+      "directed": false,
+      "weight": 1
+    }
+  ]
+}

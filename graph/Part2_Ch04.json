@@ -1,0 +1,245 @@
+{
+  "chapter": "Part2_Ch04",
+  "chapter_file": "chapters/Part2_Ch04.txt",
+  "title": "Xquic Comes to Xmucané and the Miracle of the Corn",
+  "summary": "The pregnant Xquic arrives at the house of Xmucané, the grandmother of her unborn twins, and claims to be her daughter-in-law by Hun-Hunahpú. Xmucané rejects her as an impostor and sets her an impossible test: to fill a great net with corn from a field that holds only a single stalk. Calling on the corn deities and Chahal, Xquic miraculously fills the net, proving her truth, and the old woman accepts her and prepares to receive the coming Hero Twins.",
+  "nodes": [
+    {
+      "id": "xmucane-house",
+      "label": "The Grandmother's House (Xmucané's Home)",
+      "type": "place",
+      "chapter": "Part2_Ch04",
+      "description": "The home of Xmucané where her grandsons Hunbatz and Hunchouén live and to which the pregnant Xquic comes seeking acceptance. It becomes the household into which the Hero Twins are born and raised."
+    },
+    {
+      "id": "xquic-arrival-at-xmucane",
+      "label": "Xquic's Arrival and Rejection at Xmucané's House",
+      "type": "event",
+      "chapter": "Part2_Ch04",
+      "description": "Xquic comes before Xmucané claiming to be her daughter-in-law and pregnant by Hun-Hunahpú. The grandmother first drives her off as an impostor, insisting her sons are dead, before agreeing to test her claim."
+    },
+    {
+      "id": "cornfield-of-hunbatz-hunchouen",
+      "label": "The Cornfield of Hunbatz and Hunchouén",
+      "type": "place",
+      "chapter": "Part2_Ch04",
+      "description": "The milpa planted by Hunbatz and Hunchouén, to which Xquic is sent to gather corn. It holds only a single stalk bearing one ear, making Xmucané's demand for a full net seemingly impossible."
+    },
+    {
+      "id": "maize-harvest-miracle",
+      "label": "The Miracle of the Corn Net",
+      "type": "event",
+      "chapter": "Part2_Ch04",
+      "description": "Unable to find corn in the one-stalk field, Xquic prays to the corn goddesses and Chahal, plucks only the red silk from the single ear, and arranges it so a great net fills with corn. The miracle, carried home by the animals of the field, proves to Xmucané that Xquic truly belongs to her lineage."
+    },
+    {
+      "id": "chahal",
+      "label": "Chahal",
+      "type": "deity",
+      "chapter": "Part2_Ch04",
+      "description": "The guardian deity of the food of Hunbatz and Hunchouén, invoked by Xquic to provide the corn she must bring back. A protective divinity of the harvest who answers her plea in the miracle of the net."
+    },
+    {
+      "id": "corn-goddesses",
+      "label": "Xtoh, Xcanil, and Xcacau",
+      "type": "deity",
+      "chapter": "Part2_Ch04",
+      "description": "The deities of maize and cacao whom Xquic invokes as 'you who cook the corn.' She calls on them together with Chahal to work the miracle that fills the net with corn."
+    },
+    {
+      "id": "birth-of-hero-twins",
+      "label": "The Coming Birth of Hunahpú and Xbalanqué",
+      "type": "event",
+      "chapter": "Part2_Ch04",
+      "description": "Xquic arrives at Xmucané's house carrying the twins in her belly, on the verge of giving birth to Hunahpú and Xbalanqué. Once proven a true daughter-in-law, she is accepted so that the future soothsayers may be born into the household."
+    }
+  ],
+  "edges": [
+    {
+      "source": "xquic",
+      "target": "xquic-arrival-at-xmucane",
+      "relation": "leads to",
+      "description": "Xquic, fleeing Xibalba and pregnant, comes before Xmucané to declare herself her daughter-in-law, setting the events of the chapter in motion.",
+      "directed": true,
+      "weight": 4,
+      "evidence": "I am your daughter-in-law and your daughter, mother."
+    },
+    {
+      "source": "xquic-arrival-at-xmucane",
+      "target": "xmucane-house",
+      "relation": "located in",
+      "description": "The arrival and the grandmother's rejection take place when Xquic enters Xmucané's house.",
+      "directed": true,
+      "weight": 2
+    },
+    {
+      "source": "hunbatz",
+      "target": "xmucane-house",
+      "relation": "located in",
+      "description": "Hunbatz lives with his grandmother Xmucané in her house, where they are her consolation, playing music, painting, and sculpting.",
+      "directed": true,
+      "weight": 2
+    },
+    {
+      "source": "hunchouen",
+      "target": "xmucane-house",
+      "relation": "located in",
+      "description": "Hunchouén lives with his grandmother Xmucané in her house, where the brothers are her consolation in their arts.",
+      "directed": true,
+      "weight": 2
+    },
+    {
+      "source": "xmucane",
+      "target": "xquic",
+      "relation": "opposes",
+      "description": "Xmucané first rejects Xquic as an impostor whose pregnancy is a disgrace, refusing to accept her as daughter-in-law until her claim is proven.",
+      "directed": true,
+      "weight": 3,
+      "evidence": "Go from here! Get out! the old lady screamed at the girl."
+    },
+    {
+      "source": "xmucane",
+      "target": "maize-harvest-miracle",
+      "relation": "leads to",
+      "description": "Xmucané sets Xquic the seemingly impossible task of filling a great net with corn, which provokes the miracle that tests and proves her.",
+      "directed": true,
+      "weight": 3,
+      "evidence": "Go and gather a large net [full of corn] and return at once."
+    },
+    {
+      "source": "xquic",
+      "target": "cornfield-of-hunbatz-hunchouen",
+      "relation": "seeks",
+      "description": "Xquic goes to the cornfield planted by Hunbatz and Hunchouén in search of the corn she must bring back, but finds only a single stalk.",
+      "directed": true,
+      "weight": 2,
+      "evidence": "she found only one stalk of corn; there were not two or three"
+    },
+    {
+      "source": "cornfield-of-hunbatz-hunchouen",
+      "target": "hunbatz",
+      "relation": "part of",
+      "description": "The cornfield is the milpa that Hunbatz, together with his brother, had planted and whose food Chahal guards.",
+      "directed": true,
+      "weight": 1
+    },
+    {
+      "source": "cornfield-of-hunbatz-hunchouen",
+      "target": "hunchouen",
+      "relation": "part of",
+      "description": "The cornfield is the milpa that Hunchouén, together with his brother, had planted and whose food Chahal guards.",
+      "directed": true,
+      "weight": 1
+    },
+    {
+      "source": "xquic",
+      "target": "chahal",
+      "relation": "seeks",
+      "description": "Faced with an empty field, Xquic prays to Chahal, guardian of the food of Hunbatz and Hunchouén, to provide the corn she must gather.",
+      "directed": true,
+      "weight": 3,
+      "evidence": "Chahal, guardian of the food of Hunbatz and Hunchouén!"
+    },
+    {
+      "source": "xquic",
+      "target": "corn-goddesses",
+      "relation": "seeks",
+      "description": "Xquic invokes the corn-and-cacao deities Xtoh, Xcanil, and Xcacau, 'you who cook the corn,' calling on their power to fill her net.",
+      "directed": true,
+      "weight": 3,
+      "evidence": "Xtoh, Xcanil, Xcacau, you who cook the corn"
+    },
+    {
+      "source": "chahal",
+      "target": "maize-harvest-miracle",
+      "relation": "creates",
+      "description": "In answer to Xquic's prayer, Chahal (with the corn goddesses) brings about the miracle by which a single ear's silk fills a whole net with corn.",
+      "directed": true,
+      "weight": 3
+    },
+    {
+      "source": "corn-goddesses",
+      "target": "maize-harvest-miracle",
+      "relation": "creates",
+      "description": "The corn goddesses Xtoh, Xcanil, and Xcacau answer Xquic's invocation and work the miracle that multiplies the corn into a full net.",
+      "directed": true,
+      "weight": 3
+    },
+    {
+      "source": "maize-harvest-miracle",
+      "target": "cornfield-of-hunbatz-hunchouen",
+      "relation": "located in",
+      "description": "The miracle occurs at the one-stalk milpa, where Xquic pulls the silk from the single ear and the net is filled.",
+      "directed": true,
+      "weight": 2,
+      "evidence": "she seized the beards, the red silk of the ears of corn and pulled them off without picking the ear"
+    },
+    {
+      "source": "maize-harvest-miracle",
+      "target": "xquic",
+      "relation": "leads to",
+      "description": "The miracle proves to Xmucané that Xquic is truly her daughter-in-law, ending the grandmother's rejection and securing her place in the household.",
+      "directed": true,
+      "weight": 4,
+      "evidence": "This is proof enough that you are really my daughter-in-law."
+    },
+    {
+      "source": "xquic",
+      "target": "birth-of-hero-twins",
+      "relation": "leads to",
+      "description": "Xquic carries the unborn Hunahpú and Xbalanqué in her belly, and her acceptance into the house sets the stage for the twins' imminent birth.",
+      "directed": true,
+      "weight": 4,
+      "evidence": "she carried her sons in her belly and it was not long before Hunahpú and Xbalanqué... were to be born"
+    },
+    {
+      "source": "birth-of-hero-twins",
+      "target": "hunahpu",
+      "relation": "leads to",
+      "description": "The coming birth brings Hunahpú, one of the Hero Twins, into the world at his grandmother Xmucané's house.",
+      "directed": true,
+      "weight": 3
+    },
+    {
+      "source": "birth-of-hero-twins",
+      "target": "xbalanque",
+      "relation": "leads to",
+      "description": "The coming birth brings Xbalanqué, one of the Hero Twins, into the world at his grandmother Xmucané's house.",
+      "directed": true,
+      "weight": 3
+    },
+    {
+      "source": "xquic",
+      "target": "hun-hunahpu",
+      "relation": "seeks",
+      "description": "Xquic affirms her bond to the dead Hun-Hunahpú, insisting she belongs to him and that he and his brother will return to show themselves in the children she carries.",
+      "directed": true,
+      "weight": 2,
+      "evidence": "I belong to Hun-Hunahpú... they will return to show themselves clearly"
+    },
+    {
+      "source": "maize-harvest-miracle",
+      "target": "white-corn-teeth",
+      "relation": "parallels",
+      "description": "Like the white corn that replaced Vucub-Caquix's false jewel-teeth, the miraculous net of corn ties the lineage of the Twins to maize, the substance from which true humankind will be made.",
+      "directed": false,
+      "weight": 2
+    },
+    {
+      "source": "maize-harvest-miracle",
+      "target": "creation-theme",
+      "relation": "prefigures",
+      "description": "The supernatural multiplication of maize around the birth of the Hero Twins foreshadows the gods' culminating creation of humankind from maize.",
+      "directed": true,
+      "weight": 3
+    },
+    {
+      "source": "maize-harvest-miracle",
+      "target": "sacrifice-and-rebirth-theme",
+      "relation": "exemplifies",
+      "description": "Life springing abundantly from a single barren stalk enacts the recurring motif in which apparent scarcity and death give way to miraculous new life, the same generative pattern that produced the Twins from Hun-Hunahpú's death.",
+      "directed": true,
+      "weight": 2
+    }
+  ]
+}

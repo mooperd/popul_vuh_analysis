@@ -1,0 +1,363 @@
+{
+  "chapter": "Part2_Ch07",
+  "chapter_file": "chapters/Part2_Ch07.txt",
+  "title": "The Twins Summoned to Xibalba and the Chain of Messengers",
+  "summary": "Hunahpú and Xbalanqué clear and reopen their dead father's ball-court, and the noise of their play once again rouses the lords of Xibalba, who—suspecting the brothers they killed have returned—send messengers to summon the boys to a ballgame within seven days. The grandmother Xmucané, recognizing the same fatal summons that once took her sons, dispatches a louse to warn the Twins; the louse is relayed through a comic chain of swallowings (louse to toad Tamazul to snake Zaquicaz to hawk Vac), etiologizing each animal's food. The Twins shoot the hawk, cure its eye, and unravel the chain to extract the message; they then bid a second farewell to grandmother and mother, planting reeds in the house as living signs of their fate. The chapter reopens the descent-to-Xibalba pattern that destroyed their father, now inverted by the sons' cunning.",
+  "nodes": [
+    {
+      "id": "summons-of-the-twins",
+      "label": "The Summons of the Hero Twins to Xibalba",
+      "type": "event",
+      "chapter": "Part2_Ch07",
+      "description": "Roused by the noise of Hunahpú and Xbalanqué reopening their father's ball-court, the lords of Xibalba—fearing the brothers they killed have come back—command messengers to call the boys down within seven days to play ball. It is the second-generation summons that repeats, and will invert, the summons that doomed their father Hun-Hunahpú."
+    },
+    {
+      "id": "xibalba-ball-messengers",
+      "label": "The Messengers of Xibalba (to the Twins)",
+      "type": "creature",
+      "chapter": "Part2_Ch07",
+      "description": "The messengers Hun-Camé and Vucub-Camé dispatch to summon the Twins; they travel the wide road the boys had made and deliver the seven-day summons to the grandmother Xmucané. They echo the owl messengers who once carried the same summons to the father generation."
+    },
+    {
+      "id": "the-louse",
+      "label": "The Louse (Grandmother's Messenger)",
+      "type": "creature",
+      "chapter": "Part2_Ch07",
+      "description": "A louse that falls into the grieving Xmucané's lap; she charges it to carry her warning to the Twins at the ball-court. It is swallowed (or pretends to be) by the toad and so begins the relay chain, finally delivering the grandmother's message and the lords' demand to the boys."
+    },
+    {
+      "id": "tamazul-toad",
+      "label": "Tamazul (the Toad)",
+      "type": "creature",
+      "chapter": "Part2_Ch07",
+      "description": "A toad sitting on the road who offers to swallow the louse and carry it faster, but only pretends to swallow it, keeping it stuck in his teeth. Swallowed in turn by the snake, he is later exposed by the Twins as a liar and kicked so his haunch-bone gives way—an etiology for the toad's gait and for its becoming the food of snakes."
+    },
+    {
+      "id": "zaquicaz-snake",
+      "label": "Zaquicaz (the Snake)",
+      "type": "creature",
+      "chapter": "Part2_Ch07",
+      "description": "A large snake that swallows the toad Tamazul to carry the message faster, and is itself swallowed by the hawk. 'From then on this was the food of snakes, who still today swallow toads,' an etiology embedded in the messenger relay."
+    },
+    {
+      "id": "vac-hawk",
+      "label": "Vac (the Hawk)",
+      "type": "creature",
+      "chapter": "Part2_Ch07",
+      "description": "A very large hawk that swallows the snake and flies the message to the ball-court, crying 'Vac-có!' The Twins shoot it in the eye with a blowgun pellet and then heal it with the rubber of their ball (Lotzquic); from then on hawks devour snakes in the fields."
+    },
+    {
+      "id": "messenger-relay-chain",
+      "label": "The Chain of Swallowing Messengers",
+      "type": "event",
+      "chapter": "Part2_Ch07",
+      "description": "The comic relay by which the grandmother's warning travels to the Twins: louse swallowed by toad, toad by snake, snake by hawk, each animal claiming it can run faster. Unwound by the Twins in reverse, the chain both delivers the message and explains the food-chain of these animals."
+    },
+    {
+      "id": "lotzquic-cure",
+      "label": "The Curing of the Hawk's Eye (Lotzquic)",
+      "type": "event",
+      "chapter": "Part2_Ch07",
+      "description": "After downing the hawk with a blowgun pellet to the pupil, the Twins heal its eye with a bit of the rubber of their ball, called Lotzquic, instantly restoring its sight in exchange for the message. A small display of the Twins' command over the very ballgame that links them to Xibalba."
+    },
+    {
+      "id": "reed-sign-of-fate",
+      "label": "The Planted Reeds (Sign of the Twins' Fate)",
+      "type": "object",
+      "chapter": "Part2_Ch07",
+      "description": "Before departing, Hunahpú and Xbalanqué each plant a reed in the middle of the house in dry soil: if it withers it means they are dead, if it sprouts again they live. A living oracle of resurrection that will report their fate to grandmother and mother and embodies the sacrifice-and-rebirth pattern."
+    },
+    {
+      "id": "twins-farewell-to-grandmother",
+      "label": "The Twins' Farewell to Grandmother and Mother",
+      "type": "event",
+      "chapter": "Part2_Ch07",
+      "description": "Hearing the summons, the Twins run to take leave of Xmucané and their mother, leaving the planted reeds as the sign of their fate and comforting them not to weep. This parting deliberately echoes the fathers' farewell to Xmucané before their own fatal descent."
+    }
+  ],
+  "edges": [
+    {
+      "source": "hero-twins",
+      "target": "ball-court",
+      "relation": "located in",
+      "description": "The Twins return happily to the ball-court, clearing and reopening the court where their parents had played.",
+      "directed": true,
+      "weight": 3,
+      "evidence": "the boys returned happily to the ball-court to play... cleared the court where their parents had played"
+    },
+    {
+      "source": "hero-twins",
+      "target": "ballgame",
+      "relation": "seeks",
+      "description": "By taking up the ballgame again at their father's court, the Twins resume the very pastime that drew the father generation to Xibalba.",
+      "directed": true,
+      "weight": 3
+    },
+    {
+      "source": "hero-twins",
+      "target": "summons-of-the-twins",
+      "relation": "leads to",
+      "description": "The noise of the Twins playing over Xibalba's head provokes the lords, who fear their dead enemies have returned and resolve to call the boys down.",
+      "directed": true,
+      "weight": 4,
+      "evidence": "Who are they who play again over our heads and disturb us with the noise they make?"
+    },
+    {
+      "source": "hun-came",
+      "target": "summons-of-the-twins",
+      "relation": "creates",
+      "description": "Hun-Camé, Vucub-Camé, and all the lords command the messengers to call the Twins to play ball within seven days.",
+      "directed": true,
+      "weight": 4,
+      "evidence": "Go at once and call them! So said Hun-Camé, Vucub-Camé, and all the lords."
+    },
+    {
+      "source": "vucub-came",
+      "target": "summons-of-the-twins",
+      "relation": "creates",
+      "description": "Vucub-Camé jointly with Hun-Camé issues the command that summons the Twins to Xibalba.",
+      "directed": true,
+      "weight": 3
+    },
+    {
+      "source": "summons-of-the-twins",
+      "target": "summons-to-xibalba",
+      "relation": "parallels",
+      "description": "The Twins' summons repeats the earlier summons that drew their father Hun-Hunahpú down to die; the lords explicitly recall the brothers they killed, framing this as a return engagement.",
+      "directed": true,
+      "weight": 4,
+      "evidence": "Perchance Hun-Hunahpú and Vucub-Hunahpú did not die, those who wished to exalt themselves before us?"
+    },
+    {
+      "source": "xibalba-ball-messengers",
+      "target": "summons-of-the-twins",
+      "relation": "part of",
+      "description": "The messengers' journey up the wide road to deliver the seven-day summons to Xmucané is the execution of the lords' command.",
+      "directed": true,
+      "weight": 3,
+      "evidence": "Tell them to come, without fail, the lords commanded, said the messengers of Xibalba."
+    },
+    {
+      "source": "hun-came",
+      "target": "xibalba-ball-messengers",
+      "relation": "creates",
+      "description": "Hun-Camé and Vucub-Camé dispatch the messengers, giving them the exact command to summon the Twins within seven days.",
+      "directed": true,
+      "weight": 2
+    },
+    {
+      "source": "xibalba-ball-messengers",
+      "target": "xibalba",
+      "relation": "located in",
+      "description": "The messengers belong to Xibalba, sent up from the underworld to carry the lords' summons to earth.",
+      "directed": true,
+      "weight": 2
+    },
+    {
+      "source": "xibalba-ball-messengers",
+      "target": "owl-messengers",
+      "relation": "parallels",
+      "description": "This second corps of Xibalban messengers carries the same fatal summons the owl messengers once delivered to the father generation, by the same kind of road to the same household.",
+      "directed": false,
+      "weight": 3
+    },
+    {
+      "source": "xibalba-ball-messengers",
+      "target": "xmucane",
+      "relation": "leads to",
+      "description": "The messengers deliver the seven-day summons directly to the grandmother Xmucané, who receives it with dread.",
+      "directed": true,
+      "weight": 3,
+      "evidence": "Within seven days they will await them, they said to Xmucané."
+    },
+    {
+      "source": "xmucane",
+      "target": "summons-of-the-twins",
+      "relation": "parallels",
+      "description": "Xmucané recognizes the summons as the very same one that took her sons before, dreading that history is repeating with her grandsons.",
+      "directed": true,
+      "weight": 3,
+      "evidence": "Was it not in this same way that the messengers of Xibalba came before, when they came to take the parents?"
+    },
+    {
+      "source": "xmucane",
+      "target": "the-louse",
+      "relation": "seeks",
+      "description": "Anxious and grieving, the grandmother charges a louse that falls into her lap to carry her warning to the Twins at the ball-court.",
+      "directed": true,
+      "weight": 3,
+      "evidence": "My child, would you like that I sent you away to call my grandchildren from the ball-court?"
+    },
+    {
+      "source": "the-louse",
+      "target": "messenger-relay-chain",
+      "relation": "part of",
+      "description": "The louse is the first link and the true bearer of Xmucané's message in the swallowing relay toward the Twins.",
+      "directed": true,
+      "weight": 3
+    },
+    {
+      "source": "tamazul-toad",
+      "target": "the-louse",
+      "relation": "deceives",
+      "description": "The toad offers to carry the louse faster by swallowing it, but only pretends to swallow it, keeping it stuck in his teeth.",
+      "directed": true,
+      "weight": 3,
+      "evidence": "The louse was stuck to the toad's teeth... only pretended to be swallowed."
+    },
+    {
+      "source": "zaquicaz-snake",
+      "target": "tamazul-toad",
+      "relation": "part of",
+      "description": "The snake swallows the toad to carry the message faster, becoming the next link in the relay; from then on snakes eat toads.",
+      "directed": true,
+      "weight": 2,
+      "evidence": "Zaquicaz swallowed the toad. And from then on this was the food of snakes."
+    },
+    {
+      "source": "vac-hawk",
+      "target": "zaquicaz-snake",
+      "relation": "part of",
+      "description": "The hawk swallows the snake and flies it to the ball-court, the final link in the relay; from then on hawks devour snakes in the fields.",
+      "directed": true,
+      "weight": 2,
+      "evidence": "the hawk instantly swallowed the snake... this has been the food of hawks."
+    },
+    {
+      "source": "messenger-relay-chain",
+      "target": "ball-court",
+      "relation": "leads to",
+      "description": "The chain of swallowings carries the grandmother's warning all the way to the Twins at the ball-court.",
+      "directed": true,
+      "weight": 2
+    },
+    {
+      "source": "hero-twins",
+      "target": "vac-hawk",
+      "relation": "defeats",
+      "description": "When the hawk perches crying on the cornice, the Twins shoot it in the pupil with a blowgun pellet and it spirals to the ground, where they seize it.",
+      "directed": true,
+      "weight": 3,
+      "evidence": "shooting at the hawk, they aimed a pellet at the pupil of the eye and the hawk spiraled to the ground"
+    },
+    {
+      "source": "blowgun",
+      "target": "vac-hawk",
+      "relation": "defeats",
+      "description": "The Twins' blowgun, the same weapon used against Vucub-Caquix, brings down the hawk messenger with a pellet to the eye.",
+      "directed": true,
+      "weight": 2
+    },
+    {
+      "source": "hero-twins",
+      "target": "lotzquic-cure",
+      "relation": "creates",
+      "description": "In exchange for the message, the Twins heal the hawk's wounded eye with rubber from their ball, called Lotzquic, instantly restoring its sight.",
+      "directed": true,
+      "weight": 2,
+      "evidence": "taking a bit of the rubber of the ball... Lotzquic they called it, and instantly the hawk's eye was perfectly healed."
+    },
+    {
+      "source": "hero-twins",
+      "target": "messenger-relay-chain",
+      "relation": "defeats",
+      "description": "The Twins unwind the relay in reverse—forcing the hawk to vomit the snake, the snake the toad—and expose the lying toad, extracting the louse and finally the grandmother's message.",
+      "directed": true,
+      "weight": 3,
+      "evidence": "Speak, then, they said to the hawk. And immediately it vomited a large snake."
+    },
+    {
+      "source": "hero-twins",
+      "target": "tamazul-toad",
+      "relation": "defeats",
+      "description": "Finding the toad cannot vomit the louse, the Twins call him a liar and kick him so his haunch-bone gives way, then pry open his mouth—an etiology for the toad's broken gait.",
+      "directed": true,
+      "weight": 2,
+      "evidence": "You are a liar, they said, kicking him in the rump, and the bone of the haunches gave way."
+    },
+    {
+      "source": "the-louse",
+      "target": "hero-twins",
+      "relation": "leads to",
+      "description": "Freed from the toad's teeth, the louse finally delivers the grandmother's message and the lords' demand that the Twins come within seven days with their playing gear.",
+      "directed": true,
+      "weight": 3,
+      "evidence": "Speak, they said to the louse, and then it gave its message."
+    },
+    {
+      "source": "hero-twins",
+      "target": "twins-farewell-to-grandmother",
+      "relation": "part of",
+      "description": "On learning the truth, the Twins run home only to take leave of Xmucané and their mother before setting out for Xibalba.",
+      "directed": true,
+      "weight": 3,
+      "evidence": "running quickly they arrived at their grandmother's side; they went only to take their leave of her."
+    },
+    {
+      "source": "twins-farewell-to-grandmother",
+      "target": "xmucane",
+      "relation": "leads to",
+      "description": "The Twins comfort the grieving grandmother and mother, telling them not to weep and leaving a sign of their fate.",
+      "directed": true,
+      "weight": 2,
+      "evidence": "do not weep, for here we leave the sign of our fate"
+    },
+    {
+      "source": "hero-twins",
+      "target": "reed-sign-of-fate",
+      "relation": "creates",
+      "description": "Each twin plants a reed in dry soil in the middle of the house as a living oracle: withering means death, sprouting means life.",
+      "directed": true,
+      "weight": 3,
+      "evidence": "each of us shall plant a reed... if it dries, this shall be the sign of our death... if it sprouts again: They are living!"
+    },
+    {
+      "source": "reed-sign-of-fate",
+      "target": "sacrifice-and-rebirth-theme",
+      "relation": "exemplifies",
+      "description": "A reed that dies and sprouts again to report the Twins' fate enacts the corpus-wide pattern of death as a passage into renewed life.",
+      "directed": true,
+      "weight": 3
+    },
+    {
+      "source": "reed-sign-of-fate",
+      "target": "calabash-tree",
+      "relation": "parallels",
+      "description": "The Twins' reed-oracle that fruits the sign of their living echoes the father's severed head that fruited the barren calabash tree—both turn an emblem of death into a token of continued life.",
+      "directed": false,
+      "weight": 3
+    },
+    {
+      "source": "twins-farewell-to-grandmother",
+      "target": "summons-to-xibalba",
+      "relation": "parallels",
+      "description": "The Twins' tearful leave-taking of Xmucané before descending consciously mirrors the fathers' farewell to her before their own fatal departure for Xibalba.",
+      "directed": true,
+      "weight": 3
+    },
+    {
+      "source": "summons-of-the-twins",
+      "target": "road-to-xibalba",
+      "relation": "prefigures",
+      "description": "The seven-day summons sets the Twins on the same descending road to Xibalba that overcame their father, foreshadowing the trials ahead.",
+      "directed": true,
+      "weight": 3
+    },
+    {
+      "source": "summons-of-the-twins",
+      "target": "vengeance-across-generations-theme",
+      "relation": "exemplifies",
+      "description": "The lords summoning the sons because they suspect the dead fathers have returned sets in motion the cross-generational vengeance the corpus builds toward.",
+      "directed": true,
+      "weight": 3
+    },
+    {
+      "source": "hero-twins",
+      "target": "hun-hunahpu",
+      "relation": "avenges",
+      "description": "By accepting the summons and taking up the father's game and road into Xibalba, the Twins begin the journey to avenge Hun-Hunahpú and Vucub-Hunahpú, whom the lords killed in the same way.",
+      "directed": true,
+      "weight": 4
+    }
+  ]
+}

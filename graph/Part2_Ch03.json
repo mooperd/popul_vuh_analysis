@@ -1,0 +1,269 @@
+{
+  "chapter": "Part2_Ch03",
+  "chapter_file": "chapters/Part2_Ch03.txt",
+  "title": "Xquic and the Miraculous Conception of the Hero Twins",
+  "summary": "Xquic, daughter of the Xibalban lord Cuchumaquic, is drawn to the forbidden calabash tree and speaks with the skull of Hun-Hunahpú hidden among its fruit. The skull lets a few drops of spittle fall into her palm, declaring that in his saliva he has bequeathed his descendants, and she at once conceives the Hero Twins Hunahpú and Xbalanqué. When her pregnancy is discovered, Hun-Camé and Vucub-Camé order her sacrificed, but she persuades the owl messengers to spare her; the red sap of the Blood Tree, clotted into the shape of a heart, is substituted for her own, deceiving the lords of Xibalba and freeing her to flee to the surface of the earth.",
+  "nodes": [
+    {
+      "id": "xquic",
+      "label": "Xquic",
+      "type": "hero",
+      "chapter": "Part2_Ch03",
+      "description": "The maiden ('Blood Girl' / 'Blood Moon'), daughter of the Xibalban lord Cuchumaquic. Curious about the forbidden calabash tree, she receives the spittle of Hun-Hunahpú's skull and conceives the Hero Twins Hunahpú and Xbalanqué. Sentenced to death for her pregnancy, she outwits the owl messengers and escapes Xibalba to the surface of the earth, becoming the mother of the Twins."
+    },
+    {
+      "id": "skull-spittle-conception",
+      "label": "The Conception by the Skull's Spittle",
+      "type": "event",
+      "chapter": "Part2_Ch03",
+      "description": "The skull of Hun-Hunahpú in the calabash tree lets drops of spittle fall into Xquic's palm—the spittle vanishing into her—declaring that in his saliva he bequeaths his descendants. By this alone she immediately conceives Hunahpú and Xbalanqué, so that the dead father begets the Hero Twins after his death."
+    },
+    {
+      "id": "blood-tree",
+      "label": "The Blood Tree (Red Tree of Cochineal)",
+      "type": "object",
+      "chapter": "Part2_Ch03",
+      "description": "The red-sap tree whose gushing sap clots into a glistening false heart at Xquic's command. Formerly the 'red tree of cochineal,' it is renamed the Blood Tree because its sap is called Blood. The substitute heart it yields tricks the lords of Xibalba and saves Xquic's life."
+    },
+    {
+      "id": "false-heart-substitution",
+      "label": "The Substitution of the False Heart",
+      "type": "event",
+      "chapter": "Part2_Ch03",
+      "description": "Instead of cutting out Xquic's heart, the owl messengers gather the red sap of the Blood Tree, which clots into a bright heart-shaped ball in the gourd. Presented to Hun-Camé and Vucub-Camé and burned on the coals, its sweet fragrance deceives the lords, so that Xibalba is defeated and tricked by the maiden."
+    }
+  ],
+  "edges": [
+    {
+      "source": "cuchumaquic",
+      "target": "xquic",
+      "relation": "is parent of",
+      "description": "Xquic is the daughter of the Xibalban lord Cuchumaquic, whose name was already listed among the disease-dealing lords in Part2_Ch01.",
+      "directed": true,
+      "evidence": "the daughter of a lord named Cuchumaquic ... that of the maiden was Xquic",
+      "weight": 3
+    },
+    {
+      "source": "xquic",
+      "target": "calabash-tree",
+      "relation": "seeks",
+      "description": "Hearing her father tell of the wonderful fruiting tree, Xquic goes alone to the calabash tree planted in Pucbal-Chah, marveling at and desiring its forbidden fruit.",
+      "directed": true,
+      "evidence": "Why can I not go to see this tree which they tell about? ... Finally she went alone and arrived at the foot of the tree",
+      "weight": 3
+    },
+    {
+      "source": "calabash-tree",
+      "target": "pucbal-chah",
+      "relation": "located in",
+      "description": "The calabash tree bearing Hun-Hunahpú's head stands in the Pucbal-Chah, the place in Xibalba where the fathers were buried.",
+      "directed": true,
+      "evidence": "the tree which was planted in Pucbal-Chah",
+      "weight": 2
+    },
+    {
+      "source": "hun-hunahpu",
+      "target": "skull-spittle-conception",
+      "relation": "leads to",
+      "description": "The skull of Hun-Hunahpú speaks from the tree and lets drops of spittle fall into Xquic's palm, declaring that in his saliva he has given her his descendants—the act that brings about the conception.",
+      "directed": true,
+      "evidence": "In my saliva and spittle I have given you my descendants, said the voice in the tree.",
+      "weight": 5
+    },
+    {
+      "source": "skull-spittle-conception",
+      "target": "xquic",
+      "relation": "leads to",
+      "description": "By virtue of the spittle alone, Xquic immediately conceives the Hero Twins in her belly upon returning home.",
+      "directed": true,
+      "evidence": "having immediately conceived the sons in her belly by virtue of the spittle only",
+      "weight": 4
+    },
+    {
+      "source": "skull-spittle-conception",
+      "target": "hunahpu",
+      "relation": "leads to",
+      "description": "The skull's spittle directly begets the Hero Twin Hunahpú, the son of Hun-Hunahpú conceived in Xquic.",
+      "directed": true,
+      "evidence": "And thus Hunahpú and Xbalanqué were begotten.",
+      "weight": 5
+    },
+    {
+      "source": "skull-spittle-conception",
+      "target": "xbalanque",
+      "relation": "leads to",
+      "description": "The skull's spittle likewise begets the Hero Twin Xbalanqué, conceived together with Hunahpú in Xquic.",
+      "directed": true,
+      "evidence": "And thus Hunahpú and Xbalanqué were begotten.",
+      "weight": 5
+    },
+    {
+      "source": "xquic",
+      "target": "hunahpu",
+      "relation": "is parent of",
+      "description": "Xquic is the mother of the Hero Twin Hunahpú, whom she conceives from the skull's spittle and carries out of Xibalba.",
+      "directed": true,
+      "evidence": "having immediately conceived the sons in her belly by virtue of the spittle only",
+      "weight": 4
+    },
+    {
+      "source": "xquic",
+      "target": "xbalanque",
+      "relation": "is parent of",
+      "description": "Xquic is the mother of the Hero Twin Xbalanqué, conceived together with his brother from the spittle of Hun-Hunahpú's skull.",
+      "directed": true,
+      "evidence": "And thus Hunahpú and Xbalanqué were begotten.",
+      "weight": 4
+    },
+    {
+      "source": "skull-spittle-conception",
+      "target": "heart-of-heaven",
+      "relation": "part of",
+      "description": "The whole act of the skull and the maiden is carried out by the order of Huracán and his manifestations—Heart of Heaven directing events as the supreme sky-power.",
+      "directed": true,
+      "evidence": "all that they did together was by order of Huracán, Chipi-Caculhá, and Raxa-Caculhá",
+      "weight": 2
+    },
+    {
+      "source": "skull-spittle-conception",
+      "target": "chipi-caculha",
+      "relation": "part of",
+      "description": "Chipi-Caculhá, a manifestation of Huracán, is named among the powers by whose order the conception is brought about.",
+      "directed": true,
+      "evidence": "by order of Huracán, Chipi-Caculhá, and Raxa-Caculhá",
+      "weight": 1
+    },
+    {
+      "source": "skull-spittle-conception",
+      "target": "raxa-caculha",
+      "relation": "part of",
+      "description": "Raxa-Caculhá, a manifestation of Huracán, is named among the powers by whose order the conception is brought about.",
+      "directed": true,
+      "evidence": "by order of Huracán, Chipi-Caculhá, and Raxa-Caculhá",
+      "weight": 1
+    },
+    {
+      "source": "cuchumaquic",
+      "target": "hun-came",
+      "relation": "seeks",
+      "description": "Discovering Xquic's pregnancy after six months, Cuchumaquic brings the matter before the supreme lords Hun-Camé and Vucub-Camé in council.",
+      "directed": true,
+      "evidence": "Then the lords, Hun-Camé and Vucub-Camé, held council with Cuchumaquic. 'My daughter is pregnant, Sirs.'",
+      "weight": 2
+    },
+    {
+      "source": "hun-came",
+      "target": "xquic",
+      "relation": "sacrifices",
+      "description": "Hun-Camé and Vucub-Camé command that Xquic be taken far off and sacrificed, her heart brought back in a gourd—the death sentence she will evade.",
+      "directed": true,
+      "evidence": "let her be taken far from here and sacrifice her ... bring me her heart in a gourd",
+      "weight": 3
+    },
+    {
+      "source": "cuchumaquic",
+      "target": "owl-messengers",
+      "relation": "creates",
+      "description": "Cuchumaquic dispatches the four owl messengers (the Ahpop-Achih) to carry Xquic off and sacrifice her, ordering her heart returned in the gourd.",
+      "directed": true,
+      "evidence": "Take her and sacrifice her, Ahpop Achih ... he said to the two owls",
+      "weight": 2
+    },
+    {
+      "source": "xquic",
+      "target": "owl-messengers",
+      "relation": "deceives",
+      "description": "Xquic persuades the owl messengers not to kill her, arguing her child is no disgrace and promising they will be beloved on earth; she wins them over to substitute the tree's sap for her heart.",
+      "directed": true,
+      "evidence": "It cannot be that you will kill me, oh, messengers ... We wish too, that you should not die, said the messengers.",
+      "weight": 4
+    },
+    {
+      "source": "xquic",
+      "target": "blood-tree",
+      "relation": "creates",
+      "description": "At Xquic's command the red tree of cochineal yields gushing sap that clots into a glistening false heart; her act renames it the Blood Tree, its sap thereafter called Blood.",
+      "directed": true,
+      "evidence": "the tree glowed at the work of the maiden ... it has taken the name of Blood Tree because its sap is called Blood",
+      "weight": 3
+    },
+    {
+      "source": "blood-tree",
+      "target": "false-heart-substitution",
+      "relation": "leads to",
+      "description": "The clotted red sap of the Blood Tree, shaped like a heart in the gourd, becomes the counterfeit offered to the lords in place of Xquic's own heart.",
+      "directed": true,
+      "evidence": "The red sap gushing forth from the tree fell in the gourd and with it they made a ball which glistened and took the shape of a heart.",
+      "weight": 3
+    },
+    {
+      "source": "false-heart-substitution",
+      "target": "hun-came",
+      "relation": "deceives",
+      "description": "The owls present the false sap-heart to Hun-Camé and Vucub-Camé, who burn it and savor its sweet fragrance, never knowing Xquic still lives—Xibalba defeated and tricked by the maiden.",
+      "directed": true,
+      "evidence": "In this manner the Lords of Xibalba were defeated. All were tricked by the maiden.",
+      "weight": 4
+    },
+    {
+      "source": "xquic",
+      "target": "owl-messengers",
+      "relation": "is parent of",
+      "description": "Won over and sent up to earth ahead of her, the four owls become Xquic's own servants, transferring their allegiance from Xibalba to the maiden.",
+      "directed": true,
+      "evidence": "flew like a flock of birds from the abyss toward earth and the four became her servants",
+      "weight": 2
+    },
+    {
+      "source": "skull-spittle-conception",
+      "target": "calabash-tree",
+      "relation": "pays off in",
+      "description": "The conception fulfills the calabash tree's promise set up in Part2_Ch02, where Hun-Hunahpú's severed head, fruiting in the tree, awaited the girl who would hear of its wonder.",
+      "directed": true,
+      "evidence": "begotten when I went to marvel at the head of Hun-Hunahpú which was in Pucbal-Chah",
+      "weight": 4
+    },
+    {
+      "source": "skull-spittle-conception",
+      "target": "sacrifice-of-the-fathers",
+      "relation": "pays off in",
+      "description": "The sacrifice and beheading of the fathers in the prior chapter pays off here: from the dead father's skull springs the conception of the avenging Hero Twins, turning his death into new life.",
+      "directed": true,
+      "evidence": "So spoke the head of Hun-Hunahpú turning to the maiden ... I have given you my descendants",
+      "weight": 4
+    },
+    {
+      "source": "skull-spittle-conception",
+      "target": "sacrifice-and-rebirth-theme",
+      "relation": "exemplifies",
+      "description": "Life springing from a fleshless skull's spittle is a vivid enactment of the sacrifice-and-rebirth theme: the father's death generating the sons who will renew the story.",
+      "directed": true,
+      "weight": 3
+    },
+    {
+      "source": "xquic",
+      "target": "hun-came",
+      "relation": "prefigures",
+      "description": "Xquic's vow that she will overcome Hun-Camé and Vucub-Camé and that the real criminals will fall foreshadows the Hero Twins' eventual defeat of the lords of Xibalba.",
+      "directed": true,
+      "evidence": "the real criminals will be at your mercy and I will overcome Hun-Camé and Vucub-Camé",
+      "weight": 3
+    },
+    {
+      "source": "false-heart-substitution",
+      "target": "vengeance-across-generations-theme",
+      "relation": "exemplifies",
+      "description": "By tricking the lords and saving the unborn Twins, the false-heart substitution secures the agents of vengeance, enacting the cross-generational vengeance motif begun with the fathers' deaths.",
+      "directed": true,
+      "weight": 2
+    },
+    {
+      "source": "false-heart-substitution",
+      "target": "wooden-men-deception",
+      "relation": "inverts",
+      "description": "Where Xibalba deceived the visiting fathers with wooden effigies, here a mortal woman deceives the lords with a counterfeit heart—the underworld's own trickery turned back upon it.",
+      "directed": true,
+      "weight": 2
+    }
+  ]
+}

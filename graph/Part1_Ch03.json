@@ -1,0 +1,244 @@
+{
+  "chapter": "Part1_Ch03",
+  "chapter_file": "chapters/Part1_Ch03.txt",
+  "title": "The Flood and the Destruction of the Men of Wood",
+  "summary": "The wooden men of the previous chapter are annihilated: the Heart of Heaven sends a great flood and a rain of resin, and four demonic destroyers gouge out their eyes, behead them, and grind their bones. Then the very creatures and objects the wooden men had abused — their animals, grinding stones, griddles, pots, and even their houses, trees, and caves — rise up in revolt and turn on them, because the wooden men had no minds and never remembered or worshipped their Creator. The few survivors flee and are transformed into the monkeys of the forest, who are said to be the remnant of that failed generation.",
+  "nodes": [
+    {
+      "id": "the-flood",
+      "label": "The Flood of Resin",
+      "type": "event",
+      "chapter": "Part1_Ch03",
+      "description": "The great deluge sent by the Heart of Heaven that falls on the heads of the wooden creatures, accompanied by a heavy resin raining from the sky. It is the divine punishment that begins the annihilation of the third failed creation."
+    },
+    {
+      "id": "revolt-of-creatures-and-objects",
+      "label": "The Revolt of the Creatures and Objects",
+      "type": "event",
+      "chapter": "Part1_Ch03",
+      "description": "The wooden men's own animals, household tools, and dwellings rise up against them — dogs and barnyard birds, grinding stones, griddles, pots, hearthstones, and even houses, trees, and caverns attack and reject them, each avenging the abuse and neglect it had suffered. A reversal in which the abused servants become the agents of destruction."
+    },
+    {
+      "id": "xecotcovach",
+      "label": "Xecotcovach",
+      "type": "creature",
+      "chapter": "Part1_Ch03",
+      "description": "One of the four demonic destroyers sent against the wooden men; he comes and gouges out their eyes. An agent of the divine punishment that dismembers the failed creation."
+    },
+    {
+      "id": "camalotz",
+      "label": "Camalotz",
+      "type": "creature",
+      "chapter": "Part1_Ch03",
+      "description": "One of the four demonic destroyers (his name evoking a death-bat) who comes and cuts off the heads of the wooden men as part of their annihilation."
+    },
+    {
+      "id": "cotzbalam",
+      "label": "Cotzbalam",
+      "type": "creature",
+      "chapter": "Part1_Ch03",
+      "description": "One of the four demonic destroyers who comes and devours the flesh of the wooden men, helping to undo the failed creation."
+    },
+    {
+      "id": "tucumbalam",
+      "label": "Tucumbalam",
+      "type": "creature",
+      "chapter": "Part1_Ch03",
+      "description": "One of the four demonic destroyers who breaks and mangles the bones and nerves of the wooden men, grinding and crumbling their bones in the work of annihilation."
+    },
+    {
+      "id": "woman-of-rushes",
+      "label": "The Woman of Rushes",
+      "type": "creature",
+      "chapter": "Part1_Ch03",
+      "description": "The female counterpart of the men of wood: while the man's flesh was made of tzité, the woman's flesh was fashioned of rushes (reeds) by the Creator and the Maker. Like the wooden man she is mindless and is destroyed in the flood."
+    },
+    {
+      "id": "monkeys",
+      "label": "The Monkeys",
+      "type": "creature",
+      "chapter": "Part1_Ch03",
+      "description": "The monkeys of the forest, said to be the descendants and sole remnant of the men of wood. Because the wooden men's flesh was only wood, the survivors became monkeys — which is why the monkey resembles man and stands as a token of that failed generation."
+    },
+    {
+      "id": "cosmic-retribution-theme",
+      "label": "Retribution and the Revolt of the Abused",
+      "type": "theme",
+      "chapter": "Part1_Ch03",
+      "description": "The recurring idea that a creation which neither thinks of nor worships its makers is justly destroyed, and that mistreated creatures and things turn upon their abusers. The flood, the demons, and the uprising of animals and objects all enact the moral that failing to remember the gods and abusing one's dependents bring ruin."
+    }
+  ],
+  "edges": [
+    {
+      "source": "heart-of-heaven",
+      "target": "the-flood",
+      "relation": "creates",
+      "description": "The flood that destroys the wooden men is brought about by the Heart of Heaven, who sends the deluge and the resin rain down on their heads.",
+      "directed": true,
+      "weight": 5,
+      "evidence": "A flood was brought about by the Heart of Heaven; a great flood was formed which fell on the heads of the wooden creatures"
+    },
+    {
+      "source": "the-flood",
+      "target": "men-of-wood",
+      "relation": "destroys",
+      "description": "The great flood and the heavy resin falling from the sky deluge and kill the men of wood as the first instrument of their annihilation.",
+      "directed": true,
+      "weight": 5,
+      "evidence": "for this reason they were killed, they were deluged. A heavy resin fell from the sky"
+    },
+    {
+      "source": "tzacol-bitol",
+      "target": "woman-of-rushes",
+      "relation": "creates",
+      "description": "The Creator and the Maker fashion the woman's flesh out of rushes, just as the man's flesh was made of tzité — the female counterpart of the wooden generation.",
+      "directed": true,
+      "weight": 3,
+      "evidence": "when woman was fashioned by the Creator and the Maker, her flesh was made of rushes"
+    },
+    {
+      "source": "woman-of-rushes",
+      "target": "men-of-wood",
+      "relation": "is sibling of",
+      "description": "The woman of rushes and the man of tzité are the paired female and male halves of the same failed wooden generation, made together by the Creator and the Maker.",
+      "directed": false,
+      "weight": 2,
+      "evidence": "Of tzité the flesh of man was made, but when woman was fashioned ... her flesh was made of rushes"
+    },
+    {
+      "source": "xecotcovach",
+      "target": "men-of-wood",
+      "relation": "destroys",
+      "description": "Xecotcovach comes against the wooden men and gouges out their eyes, beginning the demonic dismemberment of the failed creation.",
+      "directed": true,
+      "weight": 3,
+      "evidence": "The one called Xecotcovach came and gouged out their eyes"
+    },
+    {
+      "source": "camalotz",
+      "target": "men-of-wood",
+      "relation": "destroys",
+      "description": "Camalotz comes and cuts off the heads of the wooden men in the demonic work of annihilation.",
+      "directed": true,
+      "weight": 3,
+      "evidence": "Camalotz came and cut off their heads"
+    },
+    {
+      "source": "cotzbalam",
+      "target": "men-of-wood",
+      "relation": "destroys",
+      "description": "Cotzbalam comes and devours the flesh of the wooden men as part of their destruction.",
+      "directed": true,
+      "weight": 3,
+      "evidence": "Cotzbalam came and devoured their flesh"
+    },
+    {
+      "source": "tucumbalam",
+      "target": "men-of-wood",
+      "relation": "destroys",
+      "description": "Tucumbalam breaks and mangles the bones and nerves of the wooden men and grinds their bones to crumbs, completing the demonic dismemberment.",
+      "directed": true,
+      "weight": 3,
+      "evidence": "Tucumbalam came, too, and broke and mangled their bones and their nerves, and ground and crumbled their bones"
+    },
+    {
+      "source": "revolt-of-creatures-and-objects",
+      "target": "men-of-wood",
+      "relation": "destroys",
+      "description": "The wooden men's own animals, tools, and dwellings rise up and attack them — dogs, birds, grinding stones, pots, and houses all turn on them and mangle their faces, finishing their ruin.",
+      "directed": true,
+      "weight": 5,
+      "evidence": "all began to speak ... all rose up and struck their faces ... So was the ruin of the men who had been created and formed"
+    },
+    {
+      "source": "animals",
+      "target": "revolt-of-creatures-and-objects",
+      "relation": "part of",
+      "description": "The dogs and barnyard birds — the animals the wooden men ate, neglected, and beat — join the uprising, declaring 'you ate us, and now we shall kill you' as they devour and destroy their masters' faces.",
+      "directed": true,
+      "weight": 4,
+      "evidence": "said their dogs and birds of the barnyard ... Now we shall destroy you ... we shall devour you, said the dogs"
+    },
+    {
+      "source": "men-of-wood",
+      "target": "nourishment-and-worship-theme",
+      "relation": "exemplifies",
+      "description": "The wooden men are punished precisely because they did not think of, speak with, or remember their Creator — failing the gods' core demand to be remembered and worshipped, exactly as the previous chapter foretold.",
+      "directed": true,
+      "weight": 4,
+      "evidence": "did not think, did not speak with their Creator, their Maker ... because they had not thought of their mother, nor their father, the Heart of Heaven"
+    },
+    {
+      "source": "the-flood",
+      "target": "failed-creations-theme",
+      "relation": "exemplifies",
+      "description": "The flood-destruction of the wooden men is the culminating instance of the failed-creations pattern: the third attempt at humankind is wiped out, leaving the gods still in search of true beings.",
+      "directed": true,
+      "weight": 4,
+      "evidence": "Immediately the wooden figures were annihilated, destroyed, broken up, and killed"
+    },
+    {
+      "source": "revolt-of-creatures-and-objects",
+      "target": "cosmic-retribution-theme",
+      "relation": "exemplifies",
+      "description": "The uprising of the abused animals and objects, each avenging its mistreatment, is the concrete enactment of the theme that neglect and cruelty toward one's dependents bring retribution.",
+      "directed": true,
+      "weight": 4,
+      "evidence": "You have done us much harm; you ate us, and now we shall kill you ... We were tormented by you ... Now you shall feel our strength"
+    },
+    {
+      "source": "the-flood",
+      "target": "cosmic-retribution-theme",
+      "relation": "exemplifies",
+      "description": "The flood and resin rain sent as punishment for a creation that did not remember its makers enacts the theme of divine retribution against the unworshipful.",
+      "directed": true,
+      "weight": 3,
+      "evidence": "This was to punish them because they had not thought of their mother, nor their father, the Heart of Heaven"
+    },
+    {
+      "source": "men-of-wood",
+      "target": "monkeys",
+      "relation": "transforms into",
+      "description": "The few surviving wooden men, fleeing and rejected by houses, trees, and caves, become the monkeys of the forest — the remnant of that generation, which is why the monkey resembles man.",
+      "directed": true,
+      "weight": 4,
+      "evidence": "their descendants are the monkeys which now live in the forests; these are all that remain of them because their flesh was made only of wood"
+    },
+    {
+      "source": "monkeys",
+      "target": "failed-creations-theme",
+      "relation": "exemplifies",
+      "description": "The monkeys stand as a living token of the failed wooden generation — 'an example of a generation of men which were created and made but were only wooden figures.'",
+      "directed": true,
+      "weight": 3,
+      "evidence": "the monkey looks like man, and is an example of a generation of men which were created and made but were only wooden figures"
+    },
+    {
+      "source": "revolt-of-creatures-and-objects",
+      "target": "tzite",
+      "relation": "inverts",
+      "description": "The wooden men, made of tzité and approved by the divination of corn and tzité in the prior chapter, are now undone when even inanimate things turn against them — the favorable verdict of the lots is structurally reversed into universal rejection.",
+      "directed": true,
+      "weight": 2,
+      "evidence": "Of tzité the flesh of man was made ... and the caverns repelled them ... So was the ruin of the men who had been created and formed"
+    },
+    {
+      "source": "the-flood",
+      "target": "creation-of-earth",
+      "relation": "inverts",
+      "description": "The flood that returns water over the wooden creation structurally reverses the earlier creation of the earth, when the gods made the water recede so dry land could appear.",
+      "directed": true,
+      "weight": 3,
+      "evidence": "A flood was brought about by the Heart of Heaven; a great flood was formed which fell on the heads of the wooden creatures"
+    },
+    {
+      "source": "the-flood",
+      "target": "men-of-wood",
+      "relation": "avenges",
+      "description": "The flood is sent in retribution for the wooden men's failure to remember and worship the gods; it carries out the gods' vengeance for the neglect of their Creator and Maker.",
+      "directed": true,
+      "weight": 3,
+      "evidence": "This was to punish them because they had not thought of their mother, nor their father, the Heart of Heaven, called Huracán"
+    }
+  ]
+}

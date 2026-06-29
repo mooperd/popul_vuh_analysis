@@ -1,0 +1,234 @@
+{
+  "chapter": "Part1_Ch06",
+  "chapter_file": "chapters/Part1_Ch06.txt",
+  "title": "The Fall of Vucub-Caquix: Shot by the Blowgun and Robbed of His Teeth and Eyes",
+  "summary": "The Hero Twins ambush Vucub-Caquix at his nantze tree and wound his jaw with a blowgun shot, but in the struggle he tears off the arm of the shooter (Hunahpú, written 'Hun-Hunahpú' in this passage) and hangs it over his fire. To recover the arm and finish him, the youths recruit an old healer couple, Zaqui-Nim-Ac and Zaqui-Nima-Tziís, and pose as their grandsons. Pretending to cure Vucub-Caquix's tooth-pain, the disguised party pulls out his jewel-bright teeth and replaces them with grains of white corn, blinds his gleaming eyes, and strips away all the riches in which he took pride, so that he dies along with his wife Chimalmat. The arm is restored, and the Twins fulfill the order of the Heart of Heaven, humbling the false sun through cunning rather than force.",
+  "nodes": [
+    {
+      "id": "nantze-tree",
+      "label": "The Nantze Tree",
+      "type": "object",
+      "chapter": "Part1_Ch06",
+      "description": "Vucub-Caquix's great fruit tree, which he climbs each day to eat. It is the bait and ambush-site where the Hero Twins lie hidden among the leaves to shoot him, making the tree the stage for his downfall."
+    },
+    {
+      "id": "zaqui-nim-ac",
+      "label": "Zaqui-Nim-Ac",
+      "type": "character",
+      "chapter": "Part1_Ch06",
+      "description": "An old white-haired man, a 'miraculous being,' recruited by the Twins to pose as their grandfather and a tooth-healer. With his partner Zaqui-Nima-Tziís he works the deception that pulls Vucub-Caquix's teeth and brings about his death."
+    },
+    {
+      "id": "zaqui-nima-tzis",
+      "label": "Zaqui-Nima-Tziís",
+      "type": "character",
+      "chapter": "Part1_Ch06",
+      "description": "A very old, humble woman, a 'miraculous being,' recruited by the Twins to pose as their grandmother and a healer. With Zaqui-Nim-Ac she pretends to cure Vucub-Caquix and instead robs him of his teeth, eyes, and riches."
+    },
+    {
+      "id": "white-corn-teeth",
+      "label": "The White-Corn Teeth",
+      "type": "object",
+      "chapter": "Part1_Ch06",
+      "description": "Grains of white corn passed off as 'ground bone' and set in place of Vucub-Caquix's pulled jewel-teeth; they shine in his mouth yet rob him of his lordly aspect. The substitution of maize for false splendor quietly foreshadows the maize from which true humankind will later be made."
+    },
+    {
+      "id": "defeat-of-vucub-caquix",
+      "label": "The Death of Vucub-Caquix",
+      "type": "event",
+      "chapter": "Part1_Ch06",
+      "description": "The blowgun ambush and the healers' deception together undo Vucub-Caquix: his teeth are replaced with corn, his eyes pierced, his riches taken, and he dies, his wife Chimalmat perishing with him. It is the fulfillment of the overthrow announced since Part1_Ch04 and decided upon in Part1_Ch05."
+    }
+  ],
+  "edges": [
+    {
+      "source": "hero-twins",
+      "target": "nantze-tree",
+      "relation": "located in",
+      "description": "The Twins lie in ambush hidden among the leaves at the foot of Vucub-Caquix's nantze tree, waiting for him to come to his daily meal.",
+      "directed": true,
+      "weight": 3,
+      "evidence": "they lay in ambush at the foot of the tree, hidden among the leaves"
+    },
+    {
+      "source": "vucub-caquix",
+      "target": "nantze-tree",
+      "relation": "seeks",
+      "description": "Vucub-Caquix eats the fruit of his great nantze tree each day, climbing to its top — the habit that lets the Twins predict and ambush him.",
+      "directed": true,
+      "weight": 2,
+      "evidence": "Vucub-Caquix had a large nantze tree and he ate the fruit of it. Each day he went to the tree and climbed to the top"
+    },
+    {
+      "source": "hunahpu",
+      "target": "blowgun",
+      "relation": "seeks",
+      "description": "Hunahpú (called 'Hun-Hunahpú' in this passage) uses the blowgun the Twins had taken up in the previous chapter, firing the pellet that strikes Vucub-Caquix in the jaw.",
+      "directed": true,
+      "weight": 3,
+      "evidence": "Instantly he was injured by a discharge from Hun-Hunahpú's blowgun which struck him squarely in the jaw"
+    },
+    {
+      "source": "hunahpu",
+      "target": "vucub-caquix",
+      "relation": "defeats",
+      "description": "Hunahpú's blowgun shot strikes Vucub-Caquix in the jaw and brings him crashing down from the treetop, the wound that starts his ruin and torments him with pain.",
+      "directed": true,
+      "weight": 4,
+      "evidence": "he was injured by a discharge from Hun-Hunahpú's blowgun which struck him squarely in the jaw, and screaming, he fell straight to earth from the treetop"
+    },
+    {
+      "source": "vucub-caquix",
+      "target": "hunahpu",
+      "relation": "defeats",
+      "description": "In the struggle Vucub-Caquix seizes the fallen shooter Hunahpú, wrenches off his arm, and carries it home to hang over the fire — a temporary reversal before the Twins prevail.",
+      "directed": true,
+      "weight": 3,
+      "evidence": "Vucub-Caquix seized his arm and wrenching it from him, bent it back to the shoulder ... Vucub-Caquix tore out Hun-Hunahpú's arm"
+    },
+    {
+      "source": "hero-twins",
+      "target": "zaqui-nim-ac",
+      "relation": "seeks",
+      "description": "The youths recruit the old man Zaqui-Nim-Ac to pose as their grandfather and a healer so they can enter Vucub-Caquix's house and recover the arm.",
+      "directed": true,
+      "weight": 3,
+      "evidence": "Hun-Hunahpú and Xbalanqué went to talk with an old man who had snow-white hair ... The old man was called Zaqui-Nim-Ac"
+    },
+    {
+      "source": "hero-twins",
+      "target": "zaqui-nima-tzis",
+      "relation": "seeks",
+      "description": "The youths recruit the old woman Zaqui-Nima-Tziís to pose as their grandmother and a healer in the plan to undo Vucub-Caquix.",
+      "directed": true,
+      "weight": 3,
+      "evidence": "and with an old woman, really very old and humble ... the old woman, Zaqui-Nima-Tziís"
+    },
+    {
+      "source": "zaqui-nim-ac",
+      "target": "zaqui-nima-tzis",
+      "relation": "is sibling of",
+      "description": "Zaqui-Nim-Ac and Zaqui-Nima-Tziís are the paired old healer-couple, the two 'miraculous beings' who act together as one in the deception; modeled as a symmetric pairing like the corpus's other diviner couples.",
+      "directed": false,
+      "weight": 3,
+      "evidence": "The old woman and the old man who did this were miraculous beings"
+    },
+    {
+      "source": "hero-twins",
+      "target": "vucub-caquix",
+      "relation": "deceives",
+      "description": "Posing as orphaned grandsons of wandering tooth-healers, the Twins trick Vucub-Caquix into letting them 'cure' him, then strip away the very ornaments he prizes.",
+      "directed": true,
+      "weight": 5,
+      "evidence": "So Vucub-Caquix shall think we are boys ... at the advice of Hunahpú and Xbalanqué, they took from him all of the things of which he had been so proud"
+    },
+    {
+      "source": "zaqui-nim-ac",
+      "target": "vucub-caquix",
+      "relation": "deceives",
+      "description": "The old man, pretending to heal, helps pull out Vucub-Caquix's jewel-teeth and replace them with corn under the false promise of 'ground bone' replacements.",
+      "directed": true,
+      "weight": 4,
+      "evidence": "We will put others of ground bone in their place. But the ground bone was nothing but grains of white corn"
+    },
+    {
+      "source": "zaqui-nima-tzis",
+      "target": "vucub-caquix",
+      "relation": "deceives",
+      "description": "The old woman, posing as a healer, shares in the deception that pulls the teeth, pierces the eyes, and takes the riches of Vucub-Caquix.",
+      "directed": true,
+      "weight": 4,
+      "evidence": "they pulled Vucub-Caquix's teeth; but in their place they put only grains of white corn ... they cured Vucub-Caquix's eyes, piercing the pupils"
+    },
+    {
+      "source": "white-corn-teeth",
+      "target": "vucub-caquix",
+      "relation": "destroys",
+      "description": "Replacing his shining jewel-teeth with mere grains of white corn collapses Vucub-Caquix's lordly features and false splendor — the swap that strips his pride and ends his power.",
+      "directed": true,
+      "weight": 4,
+      "evidence": "in their place they put only grains of white corn ... Instantly his features sagged and he no longer looked like a lord"
+    },
+    {
+      "source": "defeat-of-vucub-caquix",
+      "target": "vucub-caquix",
+      "relation": "destroys",
+      "description": "The combined wounding, robbing of teeth and eyes, and loss of riches kills Vucub-Caquix and his pride together; he dies and his wife Chimalmat perishes with him.",
+      "directed": true,
+      "weight": 5,
+      "evidence": "Then Vucub-Caquix died ... Chimalmat, the wife of Vucub-Caquix, also perished"
+    },
+    {
+      "source": "defeat-of-vucub-caquix",
+      "target": "chimalmat",
+      "relation": "destroys",
+      "description": "Chimalmat, wife of Vucub-Caquix and mother of his proud sons, dies together with her husband when his power and riches are undone.",
+      "directed": true,
+      "weight": 3,
+      "evidence": "Chimalmat, the wife of Vucub-Caquix, also perished"
+    },
+    {
+      "source": "hero-twins",
+      "target": "defeat-of-vucub-caquix",
+      "relation": "leads to",
+      "description": "Acting through the blowgun ambush and the disguised healers, the Twins bring about the death of Vucub-Caquix and the recovery of the torn-off arm.",
+      "directed": true,
+      "weight": 5,
+      "evidence": "It was only to bring about the death of Vucub-Caquix that they did this, because it seemed wicked to them that he should become so arrogant"
+    },
+    {
+      "source": "defeat-of-vucub-caquix",
+      "target": "decision-to-destroy-vucub-caquix",
+      "relation": "pays off in",
+      "description": "The killing of Vucub-Caquix fulfills the Twins' resolve in Part1_Ch05 to destroy him and his sons, carrying out the decision then made.",
+      "directed": true,
+      "weight": 5,
+      "evidence": "the deaths of Vucub-Caquix and his sons and their destruction was decided upon by the youths"
+    },
+    {
+      "source": "defeat-of-vucub-caquix",
+      "target": "pride-and-vainglory-theme",
+      "relation": "exemplifies",
+      "description": "Vucub-Caquix is brought down precisely because his arrogance seemed wicked; the loss of the teeth, eyes, and riches he was 'so proud' of enacts the theme that vainglory is doomed to be humbled.",
+      "directed": true,
+      "weight": 4,
+      "evidence": "it seemed wicked to them that he should become so arrogant ... they took from him all of the things of which he had been so proud"
+    },
+    {
+      "source": "defeat-of-vucub-caquix",
+      "target": "false-light-theme",
+      "relation": "exemplifies",
+      "description": "By extinguishing the gleaming eyes and jewel-teeth with which the false sun shone, the deception puts out his counterfeit radiance, clearing the false light so the true dawn can later come.",
+      "directed": true,
+      "weight": 4,
+      "evidence": "they cured Vucub-Caquix's eyes, piercing the pupils of his eyes, and they took all his riches"
+    },
+    {
+      "source": "white-corn-teeth",
+      "target": "humanity-as-goal-of-creation",
+      "relation": "prefigures",
+      "description": "The white corn set in Vucub-Caquix's mouth in place of false jewels quietly foreshadows the maize from which the gods will at last successfully make true humankind, the goal toward which Part I drives.",
+      "directed": true,
+      "weight": 3,
+      "evidence": "in their place they put only grains of white corn, and these grains of corn shone in his mouth"
+    },
+    {
+      "source": "defeat-of-vucub-caquix",
+      "target": "heart-of-heaven",
+      "relation": "exemplifies",
+      "description": "In completing Vucub-Caquix's death the Twins act as agents of divine order, expressly carrying out 'the order of the Heart of Heaven.'",
+      "directed": true,
+      "weight": 3,
+      "evidence": "the two youths went on, having in this way carried out the order of the Heart of Heaven"
+    },
+    {
+      "source": "hero-twins",
+      "target": "vucub-caquix",
+      "relation": "defeats",
+      "description": "The Hero Twins overcome Vucub-Caquix not by force but by cunning — luring, disguising, and tricking the false sun into surrendering the source of his power.",
+      "directed": true,
+      "weight": 5,
+      "evidence": "Now we shall tell how the two youths shot their blowguns at Vucub-Caquix and how each one of those, who had become arrogant, was destroyed"
+    }
+  ]
+}

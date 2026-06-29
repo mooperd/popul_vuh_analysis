@@ -1,0 +1,305 @@
+{
+  "chapter": "Part1_Ch02",
+  "chapter_file": "chapters/Part1_Ch02.txt",
+  "title": "The Animals, the Man of Mud, and the Men of Wood: The First Failed Creations",
+  "summary": "Having made the earth, the gods create the animals to guard the woods, but the beasts can only hiss and screech and cannot speak the gods' names, so they are condemned to be eaten and sacrificed. The gods then try to form a man from mud, but he is soft, mindless, and dissolves in water, so they destroy him. Consulting the diviner grandparents Xpiyacoc and Xmucané, who cast lots with corn and tzité, they carve men out of wood; these wooden figures multiply and look like men but have no souls, minds, or memory of their makers — the third failed attempt to create a being who will nourish, remember, and worship the gods.",
+  "nodes": [
+    {
+      "id": "creation-of-animals",
+      "label": "The Creation of the Animals",
+      "type": "event",
+      "chapter": "Part1_Ch02",
+      "description": "The gods make the wild animals — deer, birds, pumas, jaguars, serpents — as guardians of the woods and assign them their homes. It is the first attempt at making beings to populate and tend the newly created earth."
+    },
+    {
+      "id": "animals",
+      "label": "The Animals (Guardians of the Woods)",
+      "type": "creature",
+      "chapter": "Part1_Ch02",
+      "description": "The wild beasts and birds created to guard the forests and mountains. Commanded to speak the gods' names and worship them, they can only hiss, screech, and cackle, and so are condemned to be killed, eaten, and sacrificed — the first of the failed creations."
+    },
+    {
+      "id": "man-of-mud",
+      "label": "The Man of Mud",
+      "type": "creature",
+      "chapter": "Part1_Ch02",
+      "description": "The first attempt to form a human being, made of earth and mud. He is soft and limp, melts away in water, cannot move or hold his head up, speaks but has no mind, so the gods destroy him as a failure."
+    },
+    {
+      "id": "men-of-wood",
+      "label": "The Men of Wood",
+      "type": "creature",
+      "chapter": "Part1_Ch02",
+      "description": "Figures carved from wood after the diviners cast their lots; they look, talk, and multiply like men and populate the earth. But they have no souls, minds, blood, or substance and do not remember their Creator, so they too are a failed attempt at humankind. They are 'the first men who existed in great numbers on the face of the earth.'"
+    },
+    {
+      "id": "divination-with-corn-and-tzite",
+      "label": "The Divination with Corn and Tzité",
+      "type": "event",
+      "chapter": "Part1_Ch02",
+      "description": "Xpiyacoc and Xmucané, the diviner grandparents, are asked to cast lots with grains of corn and tzité (red beans) to decide whether man should be carved from wood. Their divination — 'Fate! Creature!' — sanctions the making of the wooden men."
+    },
+    {
+      "id": "tzite",
+      "label": "Corn and Tzité (the Lots)",
+      "type": "object",
+      "chapter": "Part1_Ch02",
+      "description": "The grains of corn and tzité (red coral-tree beans) cast by the diviners to read fate. The instruments of divination through which Xpiyacoc and Xmucané discern the gods' will and approve the carving of the wooden men."
+    },
+    {
+      "id": "hunahpu-vuch",
+      "label": "Hunahpú-Vuch",
+      "type": "deity",
+      "chapter": "Part1_Ch02",
+      "description": "A divine diviner invoked in the council to create man, 'twice-mother,' a grandmother-of-dawn aspect paired with Hunahpú-Utiú. One of the soothsayer titles addressed alongside Xpiyacoc and Xmucané to cast the lots."
+    },
+    {
+      "id": "hunahpu-utiu",
+      "label": "Hunahpú-Utiú",
+      "type": "deity",
+      "chapter": "Part1_Ch02",
+      "description": "A divine diviner invoked in the council to create man, 'twice-father,' paired with Hunahpú-Vuch. Named among the master-craftsman and soothsayer titles (Nim-Ac, Nima-Tziís, master of emeralds, the sculptor and carver) called upon to make and shape humankind."
+    },
+    {
+      "id": "failed-creations-theme",
+      "label": "The Failed Creations",
+      "type": "theme",
+      "chapter": "Part1_Ch02",
+      "description": "The recurring pattern of the gods making beings — animals, mud man, wooden men — that fail to speak, remember, and worship their makers, and are therefore destroyed. The repeated failure drives the search toward the eventual creation of true humans from maize."
+    },
+    {
+      "id": "nourishment-and-worship-theme",
+      "label": "Nourishment and Worship of the Gods",
+      "type": "theme",
+      "chapter": "Part1_Ch02",
+      "description": "The gods' defining demand of their creatures: that they speak the gods' names, invoke, adore, remember, nourish, and sustain them. Each creation is tested against this requirement, and failing it is what condemns the animals, the mud man, and the wooden men."
+    }
+  ],
+  "edges": [
+    {
+      "source": "tzacol-bitol",
+      "target": "creation-of-animals",
+      "relation": "creates",
+      "description": "The Creator and the Maker, with the Forefathers, make the wild animals as guardians of the woods so the forests will not stand in silence.",
+      "directed": true,
+      "weight": 4,
+      "evidence": "Then they made the small wild animals, the guardians of the woods, the spirits of the mountains, the deer, the birds, pumas, jaguars, serpents"
+    },
+    {
+      "source": "creation-of-animals",
+      "target": "animals",
+      "relation": "creates",
+      "description": "The creative act brings the animals into being and assigns them their homes in the fields, ravines, trees, and vines.",
+      "directed": true,
+      "weight": 4,
+      "evidence": "Promptly the deer and the birds were created, immediately they gave homes to the deer and the birds"
+    },
+    {
+      "source": "creation-of-animals",
+      "target": "creation-of-earth",
+      "relation": "pays off in",
+      "description": "Populating the woods with guardian animals follows directly on the making of the earth, mountains, and forests in the previous chapter, filling the land just formed.",
+      "directed": true,
+      "weight": 3,
+      "evidence": "Shall there be only silence and calm under the trees, under the vines? It is well that hereafter there be someone to guard them"
+    },
+    {
+      "source": "animals",
+      "target": "nourishment-and-worship-theme",
+      "relation": "exemplifies",
+      "description": "The animals are commanded to speak the gods' names and adore them, but can only hiss and screech; their inability to worship is the test they fail.",
+      "directed": true,
+      "weight": 4,
+      "evidence": "Speak, then, our names, praise us ... they only hissed and screamed and cackled; they were unable to make words"
+    },
+    {
+      "source": "tzacol-bitol",
+      "target": "animals",
+      "relation": "sacrifices",
+      "description": "Because the animals cannot name or worship them, the Creator and Maker condemn them: their flesh shall be torn to pieces and they shall be killed and eaten.",
+      "directed": true,
+      "weight": 4,
+      "evidence": "For this reason they were sacrificed and the animals which were on earth were condemned to be killed and eaten"
+    },
+    {
+      "source": "animals",
+      "target": "failed-creations-theme",
+      "relation": "is instance of",
+      "description": "The speechless animals, unable to worship and condemned to be eaten, are the first instance of the gods' repeated failed attempts to make a creature that fulfills their purpose.",
+      "directed": true,
+      "weight": 4,
+      "evidence": "they could succeed in nothing, and could do nothing ... another attempt had to be made"
+    },
+    {
+      "source": "tzacol-bitol",
+      "target": "man-of-mud",
+      "relation": "creates",
+      "description": "Turning from the animals, the Creator and Maker form the first man's flesh out of earth and mud in a fresh attempt to make a being who will worship them.",
+      "directed": true,
+      "weight": 4,
+      "evidence": "Then was the creation and the formation. Of earth, of mud, they made [man's] flesh"
+    },
+    {
+      "source": "tzacol-bitol",
+      "target": "man-of-mud",
+      "relation": "destroys",
+      "description": "Seeing that the mud man is soft, mindless, and dissolves in water, the gods break up and destroy their work as a failure.",
+      "directed": true,
+      "weight": 4,
+      "evidence": "Then they broke up and destroyed their work and their creation"
+    },
+    {
+      "source": "man-of-mud",
+      "target": "failed-creations-theme",
+      "relation": "is instance of",
+      "description": "The mud man, who cannot stand, move, or think and melts in water, is the second of the gods' failed attempts to create humankind.",
+      "directed": true,
+      "weight": 4,
+      "evidence": "But they saw that it was not good. It melted away, it was soft ... it could not stand"
+    },
+    {
+      "source": "tzacol-bitol",
+      "target": "divination-with-corn-and-tzite",
+      "relation": "leads to",
+      "description": "After the mud man fails, the Creator and Maker turn to the diviner grandparents and call for a fresh divination to decide how to make man.",
+      "directed": true,
+      "weight": 3,
+      "evidence": "Let us say again to Xpiyacoc, Xmucané ... 'Cast your lot again. Try to create again.'"
+    },
+    {
+      "source": "xpiyacoc",
+      "target": "divination-with-corn-and-tzite",
+      "relation": "part of",
+      "description": "Xpiyacoc, the old man, casts the lots with tzité in the divination that decides whether man should be carved from wood.",
+      "directed": true,
+      "weight": 4,
+      "evidence": "this old man was the one who cast the lots with Tzité, the one called Xpiyacoc"
+    },
+    {
+      "source": "xmucane",
+      "target": "divination-with-corn-and-tzite",
+      "relation": "part of",
+      "description": "Xmucané, the old woman diviner and maker (called Chiracán Xmucané), shares in casting the lots that sanction the making of the wooden men.",
+      "directed": true,
+      "weight": 4,
+      "evidence": "the old woman was the diviner, the maker, called Chiracán Xmucané"
+    },
+    {
+      "source": "divination-with-corn-and-tzite",
+      "target": "tzite",
+      "relation": "creates",
+      "description": "The divination is performed by casting and reading the grains of corn and tzité as the instruments of fate. (Modeled as 'creates' the reading/verdict; the lots are the means of divination.)",
+      "directed": true,
+      "weight": 3,
+      "evidence": "Cast the lot with your grains of corn and tzité ... they cast their lots with the corn and the tzité"
+    },
+    {
+      "source": "hunahpu-vuch",
+      "target": "hunahpu-utiu",
+      "relation": "is sibling of",
+      "description": "Hunahpú-Vuch ('twice-mother') and Hunahpú-Utiú ('twice-father') are the paired diviner deities invoked together as a creator-couple in the council to make man. Modeled as a symmetric pairing like the grandparent diviners.",
+      "directed": false,
+      "weight": 2,
+      "evidence": "Let your nature be known, Hunahpú-Vuch, Hunahpú-Utiú, twice-mother, twice-father"
+    },
+    {
+      "source": "hunahpu-vuch",
+      "target": "divination-with-corn-and-tzite",
+      "relation": "part of",
+      "description": "Hunahpú-Vuch is named among the diviner-craftsman titles called into council to cast the lots and find the means of making man.",
+      "directed": true,
+      "weight": 2,
+      "evidence": "Let your nature be known, Hunahpú-Vuch, Hunahpú-Utiú ... grandmother of the sun, grandmother of dawn"
+    },
+    {
+      "source": "hunahpu-utiu",
+      "target": "divination-with-corn-and-tzite",
+      "relation": "part of",
+      "description": "Hunahpú-Utiú is named among the diviner-craftsman titles invoked to work together and find the means by which man will be made.",
+      "directed": true,
+      "weight": 2,
+      "evidence": "You must work together and find the means so that man, whom we shall make ... will nourish and sustain us"
+    },
+    {
+      "source": "divination-with-corn-and-tzite",
+      "target": "men-of-wood",
+      "relation": "leads to",
+      "description": "The lots come out favorably — 'Your figures of wood shall come out well; they shall speak and talk on earth' — and so the wooden men are made.",
+      "directed": true,
+      "weight": 4,
+      "evidence": "Your figures of wood shall come out well ... And instantly the figures were made of wood"
+    },
+    {
+      "source": "tzacol-bitol",
+      "target": "men-of-wood",
+      "relation": "creates",
+      "description": "Following the favorable divination, the Creator and Maker carve men out of wood; they look like men, talk, multiply, and populate the earth.",
+      "directed": true,
+      "weight": 4,
+      "evidence": "And instantly the figures were made of wood. They looked like men, talked like men, and populated the surface of the earth"
+    },
+    {
+      "source": "men-of-wood",
+      "target": "nourishment-and-worship-theme",
+      "relation": "exemplifies",
+      "description": "Like the animals before them, the wooden men fail the gods' core requirement: they have no minds and do not remember or worship their Creator, so they fall out of favor.",
+      "directed": true,
+      "weight": 4,
+      "evidence": "they did not remember their Creator, their Maker ... They no longer remembered the Heart of Heaven and therefore they fell out of favor"
+    },
+    {
+      "source": "men-of-wood",
+      "target": "failed-creations-theme",
+      "relation": "is instance of",
+      "description": "Soulless, mindless, and bloodless, the wooden men are 'merely a trial, an attempt at man' — the third in the series of failed creations.",
+      "directed": true,
+      "weight": 5,
+      "evidence": "It was merely a trial, an attempt at man ... they had no blood, nor substance, nor moisture, nor flesh"
+    },
+    {
+      "source": "failed-creations-theme",
+      "target": "humanity-as-goal-of-creation",
+      "relation": "exemplifies",
+      "description": "The repeated failures dramatize the goal set in Part1_Ch01 — that creation lacks glory until a true human is made; each failed being renews the gods' quest for one who can remember and worship them.",
+      "directed": true,
+      "weight": 4,
+      "evidence": "another attempt had to be made to create and make men ... Let us make him who shall nourish and sustain us!"
+    },
+    {
+      "source": "nourishment-and-worship-theme",
+      "target": "humanity-as-goal-of-creation",
+      "relation": "exemplifies",
+      "description": "The demand that creatures nourish, invoke, and adore the gods spells out concretely why humankind is the goal of creation: the gods need worshipers who remember them.",
+      "directed": true,
+      "weight": 4,
+      "evidence": "What shall we do to be invoked, in order to be remembered on earth? ... let us try to make obedient, respectful beings who will nourish and sustain us"
+    },
+    {
+      "source": "divination-with-corn-and-tzite",
+      "target": "deliberation-of-the-gods",
+      "relation": "parallels",
+      "description": "The council in which the gods confer with the diviners to plan the making of man mirrors the earlier deliberation of Tepeu and Gucumatz that planned the creation of the world.",
+      "directed": false,
+      "weight": 3,
+      "evidence": "Enter, then, into council, grandmother, grandfather ... make light, make dawn"
+    },
+    {
+      "source": "men-of-wood",
+      "target": "the-word",
+      "relation": "exemplifies",
+      "description": "The wooden men are spoken into being by the diviners' verdict — 'they shall speak and talk on earth' — yet their hollow speech without mind shows creation-by-word producing a being that still fails to truly know its makers.",
+      "directed": true,
+      "weight": 3,
+      "evidence": "they talked like men ... At first they spoke, but their face was without expression"
+    },
+    {
+      "source": "divination-with-corn-and-tzite",
+      "target": "dawn-and-light-theme",
+      "relation": "exemplifies",
+      "description": "The gods urge the diviners to 'make light, make dawn' as they cast the lots, tying the making of man to the recurring longing for dawn that drives the creation.",
+      "directed": true,
+      "weight": 2,
+      "evidence": "make light, make dawn, have us invoked ... Already dawn draws near"
+    }
+  ]
+}
